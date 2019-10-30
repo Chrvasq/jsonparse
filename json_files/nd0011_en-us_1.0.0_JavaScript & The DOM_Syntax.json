@@ -1,0 +1,1665 @@
+{
+  "content_source": null,
+  "id": 194594,
+  "is_public": true,
+  "key": "42383e89-ac6a-491a-b7d0-198851287bbe",
+  "locale": "en-us",
+  "root_owner_id": null,
+  "semantic_type": "Lesson",
+  "title": "Syntax",
+  "updated_at": "2018-12-17T17:27:23.782Z",
+  "version": "1.0.0",
+  "image": {
+    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/October/59ea8fd2_2-8-syntax2x/2-8-syntax2x.jpg",
+    "width": 592,
+    "height": 640
+  },
+  "video": null,
+  "lab": null,
+  "project": null,
+  "summary": "With this major update to the JavaScript language, a number of syntax improvements have been added. In this lesson, you'll learn to improve your JavaScript code with these syntax updates.",
+  "lesson_type": "Classroom",
+  "duration": 120,
+  "display_workspace_project_only": null,
+  "is_project_lesson": false,
+  "career_portal_experience_levels": [],
+  "_concepts_ids": [
+    196653,
+    196655,
+    217351,
+    196686,
+    217366,
+    196688,
+    217370,
+    196689,
+    196730,
+    196733,
+    196703,
+    196738,
+    217400,
+    196704,
+    196705,
+    217393,
+    196707
+  ],
+  "_project_id": null,
+  "concepts": [
+    {
+      "content_source": null,
+      "id": 196653,
+      "is_public": true,
+      "key": "08a224ff-d7f5-4086-ab89-f74d3da09d08",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Harmony, ES6, ES2015...",
+      "updated_at": "2019-10-08T12:30:42.927Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        232928,
+        282725
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 232928,
+          "is_public": true,
+          "key": "84fb6542-2f14-41ce-a76f-9f07d32055eb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Harmony, ES6, ES2015...",
+          "updated_at": "2019-10-08T12:30:41.942Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "43125",
+            "youtube_id": "DDxsC03d_KU",
+            "topher_id": "84c9cf3e-d4a2-11e9-b4e4-dbc0fb90b2bd",
+            "subtitles": [
+              {
+                "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2016/December/583f77b5_01-intro-to-the-course/subtitles/lang_en_vs1.srt",
+                "language_code": "en"
+              }
+            ],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/December/583f77b5_01-intro-to-the-course/01-intro-to-the-course_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/December/583f77b5_01-intro-to-the-course/01-intro-to-the-course_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/December/583f77b5_01-intro-to-the-course/01-intro-to-the-course_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/December/583f77b5_01-intro-to-the-course/01-intro-to-the-course_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/December/583f77b5_01-intro-to-the-course/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 282725,
+          "is_public": true,
+          "key": "2c384e9a-a61f-43ca-a6be-1a3536fbae00",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:42.395Z",
+          "version": "1.0.0",
+          "text": "Welcome to the course on ES6! We're glad you're here! 👋🏼\n\nThis course is all about the new changes brought to the JavaScript programming language. We're expecting that you've worked with JavaScript for a couple of years and have an intermediate level of experience with the language.\n\nIf you're new to the JavaScript language or would like a refresher, check out our [Intro to JavaScript course](https://www.udacity.com/course/intro-to-javascript--ud803). \n\nFollow us!\n\n* [@parkesrjames](https://twitter.com/parkesrjames)\n* [@richardkalehoff](https://twitter.com/richardkalehoff)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196655,
+      "is_public": true,
+      "key": "5192ff97-3950-4db7-bb7b-0020a61d1d87",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Let and Const",
+      "updated_at": "2019-10-08T12:30:48.642Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        196657,
+        196662,
+        196663,
+        197121,
+        197122,
+        257733,
+        196695,
+        196696,
+        196697,
+        217364
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 196657,
+          "is_public": true,
+          "key": "8b077400-8fba-4a76-bb44-6100f58fb81a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:43.400Z",
+          "version": "1.0.0",
+          "text": "There are now two new ways to declare variables in JavaScript: **let** and **const**.\n\nUp until now, the only way to declare a variable in JavaScript was to use the keyword `var`. To understand why `let` and `const` were added, it’s probably best to look at an example of when using `var` can get us into trouble.\n\nTake a look at the following code.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 196662,
+          "is_public": true,
+          "key": "96e51860-673c-48ee-aec8-e454e316137f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Hoisted to the Top",
+          "updated_at": "2019-10-08T12:30:44.429Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "What do you expect to be the output from running `getClothing(false)`?\n\n```js\nfunction getClothing(isCold) {\n  if (isCold) {\n    var freezing = 'Grab a jacket!';\n  } else {\n    var hot = 'It’s a shorts kind of day.';\n    console.log(freezing);\n  }\n}\n```",
+            "correct_feedback": "It actually outputs `undefined`, weird right? Continue reading to learn more about this quirk of JavaScript.",
+            "video_feedback": null,
+            "default_feedback": "Try again.",
+            "answers": [
+              {
+                "id": "a1476810114376",
+                "text": "ReferenceError: freezing is not defined",
+                "is_correct": false,
+                "incorrect_feedback": "Most would assume that running `getClothing(false)` would throw a `ReferenceError` because `freezing` is declared inside the scope of the if statement, but that's not the case."
+              },
+              {
+                "id": "a1476810147102",
+                "text": "Grab a jacket!",
+                "is_correct": false,
+                "incorrect_feedback": "Not quite. Try creating the `getClothing()` function and running it to see the output. It's probably not what you'd expect."
+              },
+              {
+                "id": "a1476810147734",
+                "text": "undefined",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1476810148238",
+                "text": "It's a shorts kind of day.",
+                "is_correct": false,
+                "incorrect_feedback": "Not quite. Try creating the `getClothing()` function and running it to see the output. It's probably not what you'd expect."
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 196663,
+          "is_public": true,
+          "key": "11f8c6bf-dcfb-411d-acf8-4c2ac0aa181d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:45.132Z",
+          "version": "1.0.0",
+          "text": "## Hoisting\n\nHoisting is a result of how JavaScript is interpreted by your browser. Essentially, before any JavaScript code is executed, all variables declared with `var` are \"hoisted\", which means they're raised to the top of the function scope. So at run-time, the `getClothing()` function actually looks more like this…",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 197121,
+          "is_public": true,
+          "key": "24f6e2ab-2cf7-4070-804d-200042b4ab64",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Hoisting Animation",
+          "updated_at": "2019-10-08T12:30:45.801Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "<div style=\"text-align: center; color: #afafaf; font-size: 14px; margin-top: 15px;\">Before the function is executed, all variables are hoisted to the top of the function scope. So what’s our solution?</div>",
+          "resources": null,
+          "video": {
+            "id": "40910",
+            "youtube_id": "znkyiX50Ehk",
+            "topher_id": "85570b4c-d4a2-11e9-a082-6bd6a786ec7b",
+            "subtitles": null,
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/October/5809080c_hoisting-animation-new/hoisting-animation-new_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/October/5809080c_hoisting-animation-new/hoisting-animation-new_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/October/5809080c_hoisting-animation-new/hoisting-animation-new_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/October/5809080c_hoisting-animation-new/hoisting-animation-new_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/October/5809080c_hoisting-animation-new/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 197122,
+          "is_public": true,
+          "key": "8980baa4-1cbc-43a6-9579-185f85e5110f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:46.249Z",
+          "version": "1.0.0",
+          "text": "## let and const\n\nVariables declared with `let` and `const` eliminate this specific issue of hoisting because they’re scoped **to the block**, not to the function. Previously, when you used `var`, variables were either scoped _globally_ or _locally_ to an entire function scope.\n\nIf a variable is declared using `let` or `const` inside a block of code (denoted by curly braces `{ }`), then the variable is stuck in what is known as the **temporal dead zone** until the variable’s declaration is processed. This behavior prevents variables from being accessed only until after they’ve been declared.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 257733,
+          "is_public": true,
+          "key": "29f1f9a0-51a0-420f-90f8-862b5622da9d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Block Scoped",
+          "updated_at": "2019-10-08T12:30:46.604Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "<div style=\"text-align: center; color: #afafaf; font-size: 14px; margin-top: 15px;\">Variables declared with `let` and `const` are only available within the block they're declared.</div>",
+          "resources": null,
+          "video": {
+            "id": "44997",
+            "youtube_id": "tQ02WllxScU",
+            "topher_id": "84d3bbde-d4a2-11e9-a836-2396064dd3fd",
+            "subtitles": null,
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/January/587fb68b_block-scope-animation-new/block-scope-animation-new_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/January/587fb68b_block-scope-animation-new/block-scope-animation-new_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/January/587fb68b_block-scope-animation-new/block-scope-animation-new_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/January/587fb68b_block-scope-animation-new/block-scope-animation-new_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/January/587fb68b_block-scope-animation-new/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 196695,
+          "is_public": true,
+          "key": "64fe4688-746a-4c02-a405-a3823fa4d25e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Temporal Dead Zone",
+          "updated_at": "2019-10-08T12:30:47.051Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "What do you expect to be the output from running `getClothing(false)`?\n\n```js\nfunction getClothing(isCold) {\n  if (isCold) {\n    const freezing = 'Grab a jacket!';\n  } else {\n    const hot = 'It’s a shorts kind of day.';\n    console.log(freezing);\n  }\n}\n```",
+            "correct_feedback": "Because `freezing` is not declared inside the else statement, the function scope, or the global scope, a ReferenceError is thrown.",
+            "video_feedback": null,
+            "default_feedback": "Try again.",
+            "answers": [
+              {
+                "id": "a1476822686695",
+                "text": "ReferenceError: freezing is not defined",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1480375649190",
+                "text": "Grab a jacket!",
+                "is_correct": false,
+                "incorrect_feedback": "Not quite. Try creating the `getClothing()` function and running it to see the output."
+              },
+              {
+                "id": "a1480375649839",
+                "text": "undefined",
+                "is_correct": false,
+                "incorrect_feedback": "`undefined` won't be output this time. Check out the variable declarations for `freezing` and `hot`. What's changed?"
+              },
+              {
+                "id": "a1480375650358",
+                "text": "It's a shorts kind of day.",
+                "is_correct": false,
+                "incorrect_feedback": "Not quite. Try creating the `getClothing()` function and running it to see the output."
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 196696,
+          "is_public": true,
+          "key": "eff67b79-32b7-4059-9307-50070d5d34bd",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:47.416Z",
+          "version": "1.0.0",
+          "text": "## Rules for using let and const\n\n`let` and `const` also have some other interesting properties.\n\n* Variables declared with `let` can be reassigned, but can’t be redeclared in the same scope.\n* Variables declared with `const` must be assigned an initial value, but can’t be redeclared in the same scope, and can’t be reassigned.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 196697,
+          "is_public": true,
+          "key": "3b1fd374-123e-4025-948c-03ca1b81dd8d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Assignment with Let",
+          "updated_at": "2019-10-08T12:30:47.892Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "What do you expect to be output from running the following code?\n\n```js\nlet instructor = 'James';\ninstructor = 'Richard';\nconsole.log(instructor);\n```",
+            "correct_feedback": "This is the correct way to use `let`. Use `let` to declare variables when you plan on changing the value of a variable later in your code.",
+            "video_feedback": null,
+            "default_feedback": "Try again.",
+            "answers": [
+              {
+                "id": "a1476822752527",
+                "text": "James",
+                "is_correct": false,
+                "incorrect_feedback": "When `instructor` is declared, it's first defined as \"James\", but it's immediately changed to \"Richard\""
+              },
+              {
+                "id": "a1476822765910",
+                "text": "Richard",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1476822769046",
+                "text": "undefined",
+                "is_correct": false,
+                "incorrect_feedback": "In the code snippet, `instructor` is first defined as \"James\" and then redefined as \"Richard\"."
+              },
+              {
+                "id": "a1480379378224",
+                "text": "SyntaxError: Identifier 'instructor' has already been declared",
+                "is_correct": false,
+                "incorrect_feedback": "This error would only be thrown if `instructor` was redeclared again."
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 217364,
+          "is_public": true,
+          "key": "e1303197-579e-4118-98e4-fcb1691f3ea2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:48.273Z",
+          "version": "1.0.0",
+          "text": "## Use cases\n\nThe big question is when should you use `let` and `const`? The general rule of thumb is as follows:\n\n* use `let` when you plan to reassign new values to a variable, and\n* use `const` when you don’t plan on reassigning new values to a variable.\n\nSince `const` is the strictest way to declare a variable, we suggest that you always declare variables with `const` because it'll make your code easier to reason about since you know the identifiers won't change throughout the lifetime of your program. If you find that you need to update a variable or change it, then go back and switch it from `const` to `let`.\n\nThat’s pretty straightforward, right? But what about `var`?\n\n## What about var?\n\nIs there any reason to use `var` anymore? _Not really_.\n\nThere are some arguments that can be made for using `var` in situations where you want to globally define variables, but this is often considered bad practice and should be avoided. From now on, we suggest ditching `var` in place of using `let` and `const`.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 217351,
+      "is_public": true,
+      "key": "7c8e752b-d552-4bad-ad3f-0f5f263d5dc9",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Quiz: Using Let and Const (1-1)",
+      "updated_at": "2019-10-08T12:30:52.113Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        217374,
+        217367
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 217374,
+          "is_public": true,
+          "key": "b2f4f888-c8d3-4e67-bc3f-32ddb0d99e79",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:49.032Z",
+          "version": "1.0.0",
+          "text": "## Directions:\n\nReplace the variable declarations using `let` or `const`.\n\n## Your Code:",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 217367,
+          "is_public": true,
+          "key": "0a34f90c-e16e-47b8-854d-8755736f4336",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:30:51.220Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "5739721881944064",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "var logBackup = console.log;\nvar logMessages = [];\nconsole.log = function() {\n    logMessages.push.apply(logMessages, arguments);\n    logBackup.apply(console, arguments);\n};\n",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "// tests to verify the student's code\n;(function() {\n    // require assertion library, javascript parser, querying library, and file system\n    var chai = require('chai');\n    var esprima = require('esprima');\n    var esquery = require('esquery');\n    var fs = require('fs');\n\n    var assert = chai.assert;\n    var tree = '';\n    var content = '';\n\n    // get students' file\n    content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n    // generate abstract systax tree (AST)\n    tree = esprima.parse(content);\n\n    // define selector\n    var bodySelector = esquery.parse('[body]');\n    // query AST with selector\n    var bodyMatch = esquery.match(tree, bodySelector);\n\n    // tests\n    if(bodyMatch[0].body.length !== 0) {\n        describe('Your code', function() {\n            // check if i exists\n            it('should have a variable `i`', function() {\n                assert.isAtLeast(iMatch.length, 1, \"The variable `i` doesn't exist\");\n            });\n            // check if posts exists\n            it('should have a variable `posts`', function() {\n                assert.isDefined(posts, \"The variable `posts` doesn't exist\");\n            });\n            // check if CHARACTER_LIMIT exists\n            it('should have a variable `CHARACTER_LIMIT`', function() {\n                assert.isDefined(CHARACTER_LIMIT, \"The variable `CHARACTER_LIMIT` doesn't exist\");\n            });\n        });\n        // define selectors\n        var characterLimitSelector = esquery.parse('[id.name=\"CHARACTER_LIMIT\"]');\n        var postsSelector = esquery.parse('[id.name=\"posts\"]');\n        var iSelector = esquery.parse('FunctionDeclaration[id.name=\"displayPosts\"] [id.name=\"i\"]');\n        // query AST with selector\n        var characterLimitMatch = esquery.match(tree, characterLimitSelector);\n        var postsMatch = esquery.match(tree, postsSelector);\n        var iMatch = esquery.match(tree, iSelector);\n        if(characterLimitMatch[0] !== null && postsMatch[0] !== null && iMatch[0] !== null) {\n            describe('Your variable `i`', function() {\n                it('should be declared using `let`', function() {\n                    var letISelector = esquery.parse('FunctionDeclaration[id.name=\"displayPosts\"] VariableDeclaration[kind=\"let\"] [id.name=\"i\"]');\n                    var letIMatch = esquery.match(tree, letISelector);\n\n                    assert.isAtLeast(letIMatch.length, 1, \"The variable `i` isn't declared using `let`\");\n                });\n            });\n            describe('Your variable `posts`', function() {\n                it('should be declared using `const`', function() {\n                    var letPostsSelector = esquery.parse('VariableDeclaration[kind=\"const\"] [id.name=\"posts\"]');\n                    var letPostsMatch = esquery.match(tree, letPostsSelector);\n\n                    assert.isAtLeast(letPostsMatch.length, 1, \"The variable `posts` isn't declared using `const`\");\n                });\n            });\n            describe('Your variable `CHARACTER_LIMIT`', function() {\n                it('should be declared using `const`', function() {\n                    var constCharacterLimitSelector = esquery.parse('VariableDeclaration[kind=\"const\"] [id.name=\"CHARACTER_LIMIT\"]');\n                    var constCharacterLimitMatch = esquery.match(tree, constCharacterLimitSelector);\n\n                    assert.isAtLeast(constCharacterLimitMatch.length, 1, \"The variable `CHARACTER_LIMIT` isn't declared using `const`\");\n                });\n            });\n        }\n    } else {\n        describe('Your code', function() {\n            it('should not be empty', function() {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());\n\n\n\n\n\n\n/* *** James Parkes' Code *** */\n// // tests to verify the student's code\n// ;(function() {\n//     // require assertion library, javascript parser, querying library, and file system\n//     var chai = require('chai');\n//     var esprima = require('esprima');\n//     var esquery = require('esquery');\n//     var fs = require('fs');\n\n//     var assert = chai.assert;\n//     var tree = '';\n//     var content = '';\n\n//     // get students' file\n//     content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n//     // generate abstract systax tree (AST)\n//     tree = esprima.parse(content);\n\n//     // define selector\n//     var bodySelector = esquery.parse('[body]');\n//     // query AST with selector\n//     var bodyMatch = esquery.match(tree, bodySelector);\n\n//     // tests\n//     if(bodyMatch[0].body.length !== 0) {\n//         // define selectors\n//         var characterLimitSelector = esquery.parse('[id.name=\"CHARACTER_LIMIT\"]');\n//         var postsSelector = esquery.parse('[id.name=\"posts\"]');\n//         var iSelector = esquery.parse('FunctionDeclaration[id.name=\"displayPosts\"] [id.name=\"i\"]');\n//         // query AST with selector\n//         var characterLimitMatch = esquery.match(tree, characterLimitSelector);\n//         var postsMatch = esquery.match(tree, postsSelector);\n//         var iMatch = esquery.match(tree, iSelector);\n//         describe('Your code', function() {\n//             // check if i exists\n//             it('should have a variable `i`', function() {\n//                 assert.isAtLeast(iMatch.length, 1, \"The variable `i` doesn't exist\");\n//             });\n//             // check if posts exists\n//             it('should have a variable `posts`', function() {\n//                 assert.isDefined(posts, \"The variable `posts` doesn't exist\");\n//             });\n//             // check if CHARACTER_LIMIT exists\n//             it('should have a variable `CHARACTER_LIMIT`', function() {\n//                 assert.isDefined(CHARACTER_LIMIT, \"The variable `CHARACTER_LIMIT` doesn't exist\");\n//             });\n//         });\n//         if(characterLimitMatch[0] !== null && postsMatch[0] !== null && iMatch[0] !== null) {\n//             describe('Your variable `i`', function() {\n//                 var letISelector = esquery.parse('FunctionDeclaration[id.name=\"displayPosts\"] VariableDeclaration[kind=\"let\"] [id.name=\"i\"]');\n//                 var letIMatch = esquery.match(tree, letISelector);\n//                 // check that i was declared using let\n//                 it('should be declared using `let`', function() {\n//                     assert.isAtLeast(letIMatch.length, 1, \"The variable `i` isn't declared using `let`\");\n//                 });\n//             });\n//             describe('Your variable `posts`', function() {\n//                 var letPostsSelector = esquery.parse('VariableDeclaration[kind=\"let\"] [id.name=\"posts\"]');\n//                 var letPostsMatch = esquery.match(tree, letPostsSelector);\n//                 // check that posts was declared using let\n//                 it('should be declared using `let`', function() {\n//                     assert.isAtLeast(letPostsMatch.length, 1, \"The variable `posts` isn't declared using `let`\");\n//                 });\n//             });\n//             describe('Your variable `CHARACTER_LIMIT`', function() {\n//                 var constCharacterLimitSelector = esquery.parse('VariableDeclaration[kind=\"const\"] [id.name=\"CHARACTER_LIMIT\"]');\n//                 var constCharacterLimitMatch = esquery.match(tree, constCharacterLimitSelector);\n//                 // check that CHARACTER_LIMIT was declared using const\n//                 it('should be declared using `const`', function() {\n//                     assert.isAtLeast(constCharacterLimitMatch.length, 1, \"The variable `CHARACTER_LIMIT` isn't declared using `const`\");\n//                 });\n//             });\n//         }\n//     } else {\n//         describe('Your code', function() {\n//             it('should not be empty', function() {\n//                 assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n//             });\n//         });\n//     }\n\n// }());\n",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196686,
+      "is_public": true,
+      "key": "df4360db-645e-428c-a6bd-3650eab1a13d",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Template Literals",
+      "updated_at": "2019-10-08T12:30:57.077Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        196687,
+        217450,
+        217449,
+        197646,
+        197645
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 196687,
+          "is_public": true,
+          "key": "a6c9cea7-84d4-4749-93dc-0b2ad2ed7c8d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:52.486Z",
+          "version": "1.0.0",
+          "text": "Prior to ES6, the old way to concatenate strings together was by using the string concatenation operator ( `+` ).\n\n```js\nconst student = {\n  name: 'Richard Kalehoff',\n  guardian: 'Mr. Kalehoff'\n};\n\nconst teacher = {\n  name: 'Mrs. Wilson',\n  room: 'N231'\n}\n\nlet message = student.name + ' please see ' + teacher.name + ' in ' + teacher.room + ' to pick up your report card.';\n```\n> **Returns:** Richard Kalehoff please see Mrs. Wilson in N231 to pick up your report card.\n\nThis works alright, but it gets more complicated when you need to build multi-line strings.\n\n```js\nlet note = teacher.name + ',\\n\\n' +\n  'Please excuse ' + student.name + '.\\n' +\n  'He is recovering from the flu.\\n\\n' +\n  'Thank you,\\n' +\n  student.guardian;\n```\n> **Returns:**<br>\nMrs. Wilson,\n\n> Please excuse Richard Kalehoff.<br>\nHe is recovering from the flu.\n\n> Thank you,<br>\nMr. Kalehoff\n\nHowever, that’s changed with the introduction of _template literals_ (previously referred to as \"template strings\" in development releases of ES6).\n\n> **NOTE:** As an alternative to using the string concatenation operator ( `+` ), you can use the String's `concat()` method, but both options are rather clunky for simulating true [string interpolation](https://en.wikipedia.org/wiki/String_interpolation).\n\n## Template Literals\n\n**Template literals** are essentially string literals that include embedded expressions.\n\nDenoted with backticks (&#96; &#96;) instead of single quotes ( `''` ) or double quotes ( `\"\"` ), template literals can contain placeholders which are represented using `${expression}`. This makes it _much easier_ to build strings.\n\nHere's the previous examples using template literals.\n\n```js\nlet message = `${student.name} please see ${teacher.name} in ${teacher.room} to pick up your report card.`;\n```\n> **Returns:** Richard Kalehoff please see Mrs. Wilson in N231 to pick up your report card.\n\nBy using template literals, you can drop the quotes along with the string concatenation operator. Also, you can reference the object's properties inside expressions.\n\nHere, you try. Change the `greeting` string below to use a template literal. Also, feel free to swap in your name for the placeholder.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 217450,
+          "is_public": true,
+          "key": "d83210ed-bbdf-46ff-ae01-04ba94b6e61d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:30:54.488Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "5349265062887424",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "var logBackup = console.log;\nvar logMessages = [];\nconsole.log = function() {\n    logMessages.push.apply(logMessages, arguments);\n    logBackup.apply(console, arguments);\n};\n",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "// tests to verify the student's code\n;(function() {\n    // require assertion library, javascript parser, querying library, and file system\n    var chai = require('chai');\n    var esprima = require('esprima');\n    var esquery = require('esquery');\n    var fs = require('fs');\n\n    var assert = chai.assert;\n    var tree = '';\n    var content = '';\n\n    // get students' file\n    content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n    // generate abstract systax tree (AST)\n    tree = esprima.parse(content);\n\n    // define selector\n    var bodySelector = esquery.parse('[body]');\n    // query AST with selector\n    var bodyMatch = esquery.match(tree, bodySelector);\n\n    // tests\n    if(bodyMatch[0].body.length !== 0) {\n        // define selector\n        var myNameSelector = esquery.parse('[id.name=\"myName\"]');\n        var greetingSelector = esquery.parse('[id.name=\"greeting\"]');\n        // query AST with selector\n        var myNameMatch = esquery.match(tree, myNameSelector);\n        var greetingMatch = esquery.match(tree, greetingSelector);\n        describe('Your code', function() {\n            // check if myName exists\n            it('should have a variable `myName`', function() {\n                assert.isDefined(myName, \"The variable `myName` doesn't exist\");\n            });\n            // check if greeting exists\n            it('should have a variable `greeting`', function() {\n                assert.isDefined(greeting, \"The variable `greeting` doesn't exist\");\n            });\n        });\n        if(myNameMatch[0] !== null && greetingMatch[0] !== null) {\n            describe('Your code', function() {\n                // check if greeting has been changed to a template literal\n                it('should have a template literal `greeting`', function() {\n                    assert.deepEqual('TemplateLiteral', greetingMatch[0].init.type, \"The `greeting` string should be changed to a template literal\");\n                });\n            });\n            if(greetingMatch[0].init.type === 'TemplateLiteral') {\n                describe('Your template literal', function() {\n                    if(greetingMatch[0].init.expressions[0] === null) {\n                        // check if greeting template literal contains an expression\n                        it('should contain an expression', function() {\n                            assert.isOk(false, 'Your template literal is missing an expression');\n                        });\n                    } else {\n                        // check if greeting template literal matches original greeting string\n                        it('should match the original `greeting` string', function() {\n                            assert.deepEqual('Hello, my name is myName', greetingMatch[0].init.quasis[0].value.raw + greetingMatch[0].init.expressions[0].name, \"The value of the `greeting` template literal doesn't match the original `greeting` string\");\n                        });\n                    }\n                });\n            }\n        }\n    } else {\n        describe('Your code', function() {\n            it('should not be empty', function() {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        },
+        {
+          "content_source": null,
+          "id": 217449,
+          "is_public": true,
+          "key": "dcdfb86c-cbd2-42c4-a556-4b5fa85c226c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:55.546Z",
+          "version": "1.0.0",
+          "text": "...but what about the multi-line example from before?",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 197646,
+          "is_public": true,
+          "key": "3344b7cc-2431-43f1-a782-a7aa14a328c5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Template Literals",
+          "updated_at": "2019-10-08T12:30:56.127Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "<div style=\"text-align: center; color: #afafaf; font-size: 14px; margin-top: 15px;\">Template literals make multi-line strings easier to read and more concise.</div>",
+          "resources": null,
+          "video": {
+            "id": "41153",
+            "youtube_id": "fTWnGsGlmrM",
+            "topher_id": "84f71a70-d4a2-11e9-a79e-87ca4dd81bb0",
+            "subtitles": null,
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/October/580fb01b_template-literals-animation-new/template-literals-animation-new_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/October/580fb01b_template-literals-animation-new/template-literals-animation-new_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/October/580fb01b_template-literals-animation-new/template-literals-animation-new_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/October/580fb01b_template-literals-animation-new/template-literals-animation-new_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/October/580fb01b_template-literals-animation-new/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 197645,
+          "is_public": true,
+          "key": "c3c8c52b-f970-46b2-8de3-12e70481079d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:56.617Z",
+          "version": "1.0.0",
+          "text": "Here’s where template literals really shine. In the animation above, the quotes and string concatenation operator have been dropped, as well as the newline characters ( `\\n` ). That's because template literals also preserve newlines as part of the string!\n\n> **TIP:** Embedded expressions inside template literals can do more than just reference variables. You can perform operations, call functions and use loops inside embedded expressions!",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 217366,
+      "is_public": true,
+      "key": "d652189e-a8af-4bd9-8fcd-aab3587e4d86",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Quiz: Build an HTML Fragment (1-2)",
+      "updated_at": "2019-10-08T12:31:01.114Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        217375,
+        217368
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 217375,
+          "is_public": true,
+          "key": "c6f840f8-7644-40eb-b273-59448b7229df",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:30:57.532Z",
+          "version": "1.0.0",
+          "text": "## Directions:\n\nModify the `createAnimalTradingCardHTML()` function to use a template literal for `cardHTML`.\n\n## Your Code:",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 217368,
+          "is_public": true,
+          "key": "968596a8-c9ba-48b0-afb2-d951c7750c68",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:30:59.565Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "5118760878997504",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "// before code goes here",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "// tests to verify the student's code\n;(function() {\n    // require assertion library, javascript parser, querying library, and file system\n    var chai = require('chai');\n    var esprima = require('esprima');\n    var esquery = require('esquery');\n    var fs = require('fs');\n\n    var assert = chai.assert;\n    var tree = '';\n    var content = '';\n\n    // get students' file\n    content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n    // generate abstract systax tree (AST)\n    tree = esprima.parse(content);\n\n    // define selector\n    var bodySelector = esquery.parse('[body]');\n    // query AST with selector\n    var bodyMatch = esquery.match(tree, bodySelector);\n\n    // tests\n    if(bodyMatch[0].body.length !== 0) {\n        describe('Your code', function() {\n            it('should have an object `cheetah`', function() {\n                assert.isDefined(cheetah, \"The object `cheetah` doesn't exist\");\n            });\n\n            it('should have a function `createAnimalTradingCardHTML()`', function() {\n                assert.isFunction(createAnimalTradingCardHTML, \"The function `createAnimalTradingCardHTML()` doesn't exist\");\n            });\n        });\n\n        describe('The `createAnimalTradingCardHTML` function', function() {\n            it('should have a variable `cardHTML`', function() {\n                const cardSelector = esquery.parse('[id.name=\"cardHTML\"]');\n                const cardMatch = esquery.match(tree, cardSelector);\n                const cardCount = cardMatch.length;\n\n                assert.isAtLeast(cardCount, 1, \"The variable `cardHTML` doesn't exist\");\n            });\n        });\n\n        describe('The `cardHTML` variable', function() {\n            it('should be a template literal', function() {\n                const cardSelector = esquery.parse('[id.name=\"cardHTML\"]');\n                const cardMatch = esquery.match(tree, cardSelector);\n                const cardType = cardMatch[0] && cardMatch[0].init && cardMatch[0].init.type;\n\n                assert.deepEqual('TemplateLiteral', cardType, 'The `cardHTML` string should be changed to a template literal');\n            });\n\n            it('should contain the correct content');\n        });\n    } else {\n        describe('Your code', function() {\n            it('should not be empty', function() {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());\n\n\n\n\n/* *** James Parkes' Code *** */\n// // tests to verify the student's code\n// ;(function() {\n//     // require assertion library, javascript parser, querying library, and file system\n//     var chai = require('chai');\n//     var esprima = require('esprima');\n//     var esquery = require('esquery');\n//     var fs = require('fs');\n\n//     var assert = chai.assert;\n//     var tree = '';\n//     var content = '';\n\n//     // get students' file\n//     content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n//     // generate abstract systax tree (AST)\n//     tree = esprima.parse(content);\n\n//     // define selector\n//     var bodySelector = esquery.parse('[body]');\n//     // query AST with selector\n//     var bodyMatch = esquery.match(tree, bodySelector);\n\n//     // tests\n//     if(bodyMatch[0].body.length !== 0) {\n//         // define selector\n//         var cheetahSelector = esquery.parse('[id.name=\"cheetah\"]');\n//         var functionSelector = esquery.parse('FunctionDeclaration[id.name=\"createAnimalTradingCardHTML\"]');\n//         // query AST with selector\n//         var cheetahMatch = esquery.match(tree, cheetahSelector);\n//         var functionMatch = esquery.match(tree, functionSelector);\n//         describe('Your code', function() {\n//             // check if cheetah exists\n//             it('should have a object `cheetah`', function() {\n//                 assert.isDefined(cheetah, 'The object `cheetah` doesn\\'t exist');\n//             });\n//             // check if createAnimalTradingCardHTML() exists\n//             it('should have a function `createAnimalTradingCardHTML()`', function() {\n//                 assert.isFunction(createAnimalTradingCardHTML, 'The function `createAnimalTradingCardHTML()` doesn\\'t exist');\n//             });\n//         });\n//         if(cheetahMatch[0] !== null && functionMatch[0] !== null) {\n//             // define selector\n//             var cardSelector = esquery.parse('[id.name=\"cardHTML\"]');\n//             // query AST with selector\n//             var cardMatch = esquery.match(functionMatch[0], cardSelector);\n//             describe('Your function', function() {\n//                 // check if cardHTML exists\n//                 it('should have a variable `cardHTML`', function() {\n//                     assert.equal(cardMatch.length, 1, 'The variable `cardHTML` doesn\\'t exist');\n//                 });\n//             });\n//             if(cardMatch[0] !== null) {\n//                 describe('Your function', function() {\n//                     // check if greeting has been changed to a template literal\n//                     it('should have a template literal `cardHTML`', function() {\n//                         assert.deepEqual('TemplateLiteral', cardMatch[0].init.type, \"The `cardHTML` string should be changed to a template literal\");\n//                     });\n//                 });\n//                 if(cardMatch[0].init.type === 'TemplateLiteral') {\n//                     describe('Your template literal', function() {\n//                         // check if greeting template literal matches original greeting string\n//                         it('should match the original `cardHTML` string', function() {\n//                             assert.equal('<div class=\"card\"><h3 class=\"name\">Cheetah</h3><img src=\"Cheetah.jpg\" alt=\"Cheetah\" class=\"picture\"><div class=\"description\"><p class=\"fact\">Cheetahs have “tear marks” that run from the inside corners of their eyes down to the outside edges of their mouth.</p><ul class=\"details\"><li><span class=\"bold\">Scientific Name</span>: Acinonyx jubatus</li><li><span class=\"bold\">Average Lifespan</span>: 10-12 years</li><li><span class=\"bold\">Average Speed</span>: 68-75 mph</li><li><span class=\"bold\">Diet</span>: carnivore</li></ul><p class=\"brief\">Fastest mammal on land, the cheetah can reach speeds of 60 or perhaps even 70 miles (97 or 113 kilometers) an hour over short distances. It usually chases its prey at only about half that speed, however. After a chase, a cheetah needs half an hour to catch its breath before it can eat.</p></div></div>', createAnimalTradingCardHTML(cheetah).replace(/>[\\t\\s ]*</g,'><'), \"The value of the `cardHTML` template literal doesn't match the original `cardHTML` string\");\n//                         });\n//                     });\n//                 }\n//             }\n//         }\n//     } else {\n//         describe('Your code', function() {\n//             it('should not be empty', function() {\n//                 assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n//             });\n//         });\n//     }\n\n// }());\n",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196688,
+      "is_public": true,
+      "key": "7c7be588-31e9-4c62-9dad-ecf23f943b19",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Destructuring",
+      "updated_at": "2019-10-08T12:31:03.417Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        196690,
+        196693,
+        217378,
+        217379
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 196690,
+          "is_public": true,
+          "key": "94d1089c-435e-4b4e-8cb4-de220cd8551a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:01.474Z",
+          "version": "1.0.0",
+          "text": "In ES6, you can extract data from arrays and objects into distinct variables using _destructuring_.\n\nThis probably sounds like something you’ve done before, for example, look at the two code snippets below that extract data using pre-ES6 techniques:\n\n```js\nconst point = [10, 25, -34];\n\nconst x = point[0];\nconst y = point[1];\nconst z = point[2];\n\nconsole.log(x, y, z);\n```\n> **Prints:** 10 25 -34\n\nThe example above shows extracting values from an array.\n\n```js\nconst gemstone = {\n  type: 'quartz',\n  color: 'rose',\n  carat: 21.29\n};\n\nconst type = gemstone.type;\nconst color = gemstone.color;\nconst carat = gemstone.carat;\n\nconsole.log(type, color, carat);\n```\n> **Prints:** quartz rose 21.29\n\nAnd this example shows extracting values from an object.\n\nBoth are pretty straightforward, however, neither of these examples are actually using destructuring.\n\nSo what exactly is _destructuring_?\n\n## Destructuring\n\n**Destructuring** borrows inspiration from languages like [Perl](https://en.wikipedia.org/wiki/Perl) and [Python](https://en.wikipedia.org/wiki/Python_%28programming_language%29) by allowing you to specify the elements you want to extract from an array or object _on the left side of an assignment_. It sounds a little weird, but you can actually achieve the same result as before, but with much less code; and it's still easy to understand.\n\nLet’s take a look at both examples rewritten using destructuring.\n\n### Destructuring values from an array\n\n```js\nconst point = [10, 25, -34];\n\nconst [x, y, z] = point;\n\nconsole.log(x, y, z);\n```\n> **Prints:** 10 25 -34\n\nIn this example, the brackets `[ ]` represent the array being destructured and `x`, `y`, and `z` represent the variables where you want to store the values from the array. Notice how you don’t have to specify the indexes for where to extract the values from because the indexes are implied.\n\n> **TIP:** You can also ignore values when destructuring arrays. For example, `const [x, , z] = point;` ignores the `y` coordinate and discards it.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 196693,
+          "is_public": true,
+          "key": "27de1699-3be6-4421-bde8-3f7f6bc5bbea",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Array Destructuring",
+          "updated_at": "2019-10-08T12:31:01.856Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "What do you expect to be the value of `second` after running the following code?\n\n```js\nlet positions = ['Gabrielle', 'Jarrod', 'Kate', 'Fernando', 'Mike', 'Walter'];\nlet [first, second, third] = positions;\n```",
+            "correct_feedback": "The variables `first`, `second`, and `third` get populated with the first 3 values in the `positions` array while the remaining values are ignored.",
+            "video_feedback": null,
+            "default_feedback": "When using destructuring for variable assignment, the indexes for where to extract the values from is implied. That means the first element in the `positions` array is stored inside the variable `first` and so on.",
+            "answers": [
+              {
+                "id": "a1476821337291",
+                "text": "Kate",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1484766137661",
+                "text": "Gabrielle",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1484766138270",
+                "text": "Jarrod",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1484766138998",
+                "text": "Walter",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 217378,
+          "is_public": true,
+          "key": "37884397-7de8-4ab6-9645-f07d67f742ed",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:02.314Z",
+          "version": "1.0.0",
+          "text": "### Destructuring values from an object\n\n```js\nconst gemstone = {\n  type: 'quartz',\n  color: 'rose',\n  carat: 21.29\n};\n\nconst {type, color, carat} = gemstone;\n\nconsole.log(type, color, carat);\n```\n> **Prints:** quartz rose 21.29\n\nIn this example, the curly braces `{ }` represent the object being destructured and `type`, `color`, and `carat` represent the variables where you want to store the properties from the object. Notice how you don’t have to specify the property from where to extract the values. Because `gemstone` has a property named `type`, the value is automatically stored in the `type` variable. Similarly, `gemstone` has a `color` property, so the value of `color` automatically gets stored in the `color` variable. And it's the same with `carat`.\n\n> **TIP:** You can also specify the values you want to select when destructuring an object. For example, `let {color} = gemstone;` will only select the `color` property from the `gemstone` object.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 217379,
+          "is_public": true,
+          "key": "feaf1cb3-6f3c-45c4-b262-6f3bd19dc043",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Test",
+          "updated_at": "2019-10-08T12:31:02.865Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "What do you expect to be returned from calling `getArea()`?\n\n```js\nconst circle = {\n  radius: 10,\n  color: 'orange',\n  getArea: function() {\n    return Math.PI * this.radius * this.radius;\n  },\n  getCircumference: function() {\n    return 2 * Math.PI * this.radius;\n  }\n};\n\nlet {radius, getArea, getCircumference} = circle;\n```",
+            "correct_feedback": "Correct! Calling `getArea()` will return `NaN`. When you destructure the object and store the `getArea()` method into the `getArea` variable, it no longer has access to `this` in the `circle` object which results in an area that is `NaN`.",
+            "video_feedback": null,
+            "default_feedback": "It's not what you might think. Look at how the `getArea()` method is defined for the `circle` object. If that method is stored into the variable `getArea()` as a function expression, will it still have access to `this` when called? Or will it cause an error?",
+            "answers": [
+              {
+                "id": "a1480387546709",
+                "text": "314.1592653589793",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1484774013273",
+                "text": "NaN",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1484774013889",
+                "text": "62.83185307179586",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1484774014457",
+                "text": "pie",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 217370,
+      "is_public": true,
+      "key": "e387e1b2-e233-4740-ab60-c231c7926808",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Quiz: Destructuring Arrays (1-3)",
+      "updated_at": "2019-10-08T12:31:06.947Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        217376,
+        217372,
+        909633
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 217376,
+          "is_public": true,
+          "key": "9e22f1c2-3db7-4a4a-85e6-5f160b4bc023",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:03.786Z",
+          "version": "1.0.0",
+          "text": "## Directions:\n\nUse array destructuring to pull out the three **colors** from the array of `things` and store them into the variables `one`, `two`, and `three`.\n\n## Your Code:",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 217372,
+          "is_public": true,
+          "key": "745ec3ae-792e-4538-8a61-5ffc6e10460d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:05.676Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "5833150037098496",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "/* eslint no-unused-vars: \"off\" */\n\nvar logBackup = console.log;\nvar logMessages = [];\n\nconsole.log = function () {\n    logMessages.push.apply(logMessages, arguments);\n    logBackup.apply(console, arguments);\n};\n\nfunction getASTMatches(esquery, tree, selector) {\n    var result = esquery.parse(selector);\n    return esquery.match(tree, result);\n}\n\nfunction bodyElementIsNotEmpty(body) {\n    return body[0].body.length !== 0;\n}\n",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "/* eslint-env es6 */\n/* global getASTMatches, bodyElementIsNotEmpty, things, one, two, three */\n\n(function () {\n    const assert = require('chai').assert;\n    const esprima = require('esprima');\n    const esquery = require('esquery');\n    const content = require('fs').readFileSync(__dirname + '/StudentMain.js', 'utf8');\n\n    const AST = esprima.parse(content);\n    const body = getASTMatches(esquery, AST, '[body]');\n\n    if (bodyElementIsNotEmpty(body)) {\n        describe('Your code', function () {\n            it('should have a variable `things`', function () {\n                assert.isDefined(things, \"The variable `things` doesn't exist\");\n            });\n\n            it('should set variable `one` correctly', function () {\n                assert.isDefined(one, \"The variable `one` doesn't exist\");\n                assert.equal(one, 'red', 'The variable `one` should contain the string `\"red\"`');\n            });\n\n            it('should set variable `two` correctly', function () {\n                assert.isDefined(two, \"The variable `two` doesn't exist\");\n                assert.equal(two, 'green', 'The variable `two` should contain the string `\"green\"`');\n            });\n\n            it('should set variable `three` correctly', function () {\n                assert.isDefined(three, \"The variable `three` doesn't exist\");\n                assert.equal(three, 'blue', 'The variable `three` should contain the string `\"blue\"`');\n            });\n\n            it('should use destructuring', function () {\n                var destructuredArray = getASTMatches(esquery, AST, 'VariableDeclaration ArrayPattern, ExpressionStatement ArrayPattern');\n\n                assert.isAtLeast(destructuredArray.length, 1, \"Your code doesn't seem to be using array destructuring to access the colors\");\n            });\n        });\n    } else {\n        describe('Your code', function () {\n            it('should not be empty', function () {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());\n",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        },
+        {
+          "content_source": null,
+          "id": 909633,
+          "is_public": true,
+          "key": "182a0475-26cb-4a4b-92b0-b2a52922cecc",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:06.528Z",
+          "version": "1.0.0",
+          "text": "<div id=\"spoiler_1\" style=\"display:none\">\n```\nconst [one, , , two, , , , three] = things;\n```\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196689,
+      "is_public": true,
+      "key": "3f34fe2c-c535-4d9d-bceb-89dcd8f50254",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Object Literal Shorthand",
+      "updated_at": "2019-10-08T12:31:09.295Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        196691,
+        197648,
+        257769
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 196691,
+          "is_public": true,
+          "key": "da0a6e70-bb6d-498b-9a9f-0b02aa3a9b94",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:07.550Z",
+          "version": "1.0.0",
+          "text": "A recurring trend in ES6 is to remove unnecessary repetition in your code. By removing unnecessary repetition, your code becomes easier to read and more concise. This trend continues with the introduction of new _shorthand_ ways for initializing objects and adding methods to objects.\n\nLet’s see what those look like.\n\n## Object literal shorthand\n\nYou’ve probably written code where an object is being initialized using the same property names as the variable names being assigned to them.\n\nBut just in case you haven’t, here’s an example.\n\n```js\nlet type = 'quartz';\nlet color = 'rose';\nlet carat = 21.29;\n\nconst gemstone = {\n  type: type,\n  color: color,\n  carat: carat\n};\n\nconsole.log(gemstone);\n```\n> **Prints:** Object {type: \"quartz\", color: \"rose\", carat: 21.29}\n\nDo you see the repetition? Doesn't `type: type`, `color: color`, and `carat:carat` seem redundant?\n\nThe good news is that you can remove those duplicate variables names from object properties _if_ the properties have the same name as the variables being assigned to them.\n\nCheck it out!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 197648,
+          "is_public": true,
+          "key": "7c97416e-495e-4b42-9b54-9fc8588e3047",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Object Literal Shorthand",
+          "updated_at": "2019-10-08T12:31:08.219Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "<div style=\"text-align: center; color: #afafaf; font-size: 14px; margin-top: 15px;\">If object properties have the same name as the variables being assigned to them, then you can drop the duplicate variable names.</div>",
+          "resources": null,
+          "video": {
+            "id": "41154",
+            "youtube_id": "HF0PN1vHsSY",
+            "topher_id": "85636b58-d4a2-11e9-bd85-77a03494a9c1",
+            "subtitles": null,
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/October/580fb0df_object-literal-shorthand-animation-new/object-literal-shorthand-animation-new_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/October/580fb0df_object-literal-shorthand-animation-new/object-literal-shorthand-animation-new_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/October/580fb0df_object-literal-shorthand-animation-new/object-literal-shorthand-animation-new_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/October/580fb0df_object-literal-shorthand-animation-new/object-literal-shorthand-animation-new_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/October/580fb0df_object-literal-shorthand-animation-new/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 257769,
+          "is_public": true,
+          "key": "b0f0a8a1-d65f-472f-9231-6e084a632c19",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:08.603Z",
+          "version": "1.0.0",
+          "text": "Speaking of shorthand, there’s also a shorthand way to add methods to objects.\n\nTo see how that looks, let’s start by adding a `calculateWorth()` method to our `gemstone` object. The `calculateWorth()` method will tell us how much our gemstone costs based on its `type`, `color`, and `carat`.\n\n```js\nlet type = 'quartz';\nlet color = 'rose';\nlet carat = 21.29;\n\nconst gemstone = {\n  type,\n  color,\n  carat,\n  calculateWorth: function() {\n    // will calculate worth of gemstone based on type, color, and carat\n  }\n};\n```\n\nIn this example, an anonymous function is being assigned to the property `calculateWorth`, but is the **function** keyword _really_ needed? In ES6, it’s not!\n\n## Shorthand method names\n\nSince you only need to reference the gemstone’s `calculateWorth` property in order to call the function, having the function keyword is redundant, so it can be dropped.\n\n```js\nlet gemstone = {\n  type,\n  color,\n  carat,\n  calculateWorth() { ... }\n};\n```",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196730,
+      "is_public": true,
+      "key": "01c56ec4-634b-4b23-8a41-2fe44acea013",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Lesson 1 Checkup",
+      "updated_at": "2019-10-08T12:31:10.441Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        218168
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 218168,
+          "is_public": true,
+          "key": "6383e48d-0b8c-4584-b6f7-55d7c4824671",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Lesson 1 Checkup",
+          "updated_at": "2019-10-08T12:31:09.872Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "43218",
+            "youtube_id": "6wcZNHqmGuc",
+            "topher_id": "8518184c-d4a2-11e9-98fb-7fbe211c3306",
+            "subtitles": [
+              {
+                "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2016/December/584223a6_32-checkup/subtitles/lang_en_vs1.srt",
+                "language_code": "en"
+              }
+            ],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/December/584223a6_32-checkup/32-checkup_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/December/584223a6_32-checkup/32-checkup_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/December/584223a6_32-checkup/32-checkup_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/December/584223a6_32-checkup/32-checkup_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/December/584223a6_32-checkup/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196733,
+      "is_public": true,
+      "key": "c48f069c-9de8-4dc4-ab3a-44036400a02d",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Iteration",
+      "updated_at": "2019-10-08T12:31:11.620Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        412436
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 412436,
+          "is_public": true,
+          "key": "230f13b1-4a7a-435d-aa8a-187a8b11b63c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Iteration",
+          "updated_at": "2019-10-08T12:31:11.060Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "65258",
+            "youtube_id": "Xsc9fRxOw5o",
+            "topher_id": "84f4d9ae-d4a2-11e9-ba4e-2b0883484c9b",
+            "subtitles": [
+              {
+                "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/September/59cd6bf8_lesson-1-33-l-iteration/subtitles/lang_en_vs1.srt",
+                "language_code": "en"
+              }
+            ],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/September/59cd6bf8_lesson-1-33-l-iteration/lesson-1-33-l-iteration_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/September/59cd6bf8_lesson-1-33-l-iteration/lesson-1-33-l-iteration_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/September/59cd6bf8_lesson-1-33-l-iteration/lesson-1-33-l-iteration_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/September/59cd6bf8_lesson-1-33-l-iteration/lesson-1-33-l-iteration_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/September/59cd6bf8_lesson-1-33-l-iteration/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196703,
+      "is_public": true,
+      "key": "1b26c80a-00b2-4b3d-a354-c665807e6dda",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Family of For Loops",
+      "updated_at": "2019-10-08T12:31:12.538Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        196737
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 196737,
+          "is_public": true,
+          "key": "c8c6ed8a-429e-45af-a338-0b544c3f4cf3",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:12.130Z",
+          "version": "1.0.0",
+          "text": "The **for...of loop** is the most recent addition to the family of for loops in JavaScript.\n\nIt combines the strengths of its siblings, the **for loop** and the **for...in loop**, to loop over any type of data that is **iterable** (meaning it follows the [iterable protocol](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols) which we'll look at in lesson 3). By default, this includes the data types String, Array, Map, and Set—notably absent from this list is the `Object` data type (i.e. `{}`). Objects are not iterable, by default.\n\nBefore we look at the for...of loop, let’s first take a quick look at the other for loops to see where they have weaknesses.\n\n## The for loop\n\nThe for loop is obviously the most common type of loop there is, so this should be a quick refresher.\n\n```js\nconst digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (let i = 0; i < digits.length; i++) {\n  console.log(digits[i]);\n}\n```\n> **Prints:**<br>\n0<br>\n1<br>\n2<br>\n3<br>\n4<br>\n5<br>\n6<br>\n7<br>\n8<br> \n9\n\nReally the biggest downside of a for loop is having to keep track of **the counter** and **exit condition**.\n\nIn this example, we’re using the variable `i` as a counter to keep track of the loop and to access values in the array. We’re also using `digits.length` to determine the exit condition for the loop. If you just glance at this code, it can sometimes be confusing exactly what’s happening; especially for beginners.\n\nWhile for loops certainly have an advantage when looping through arrays, some data is not structured like an array, so a for loop isn’t always an option.\n\n## The for...in loop\n\nThe for...in loop improves upon the weaknesses of the for loop by eliminating the counting logic and exit condition. \n\n```js\nconst digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (const index in digits) {\n  console.log(digits[index]);\n}\n```\n> **Prints:**<br>\n0<br>\n1<br>\n2<br>\n3<br>\n4<br>\n5<br>\n6<br>\n7<br>\n8<br> \n9\n\nBut, you still have to deal with the issue of using an **index** to access the values of the array, and that stinks; it almost makes it more confusing than before.\n\nAlso, the for...in loop can get you into big trouble when you need to add an extra method to an array (or another object). Because for...in loops loop over all enumerable properties, this means if you add any additional properties to the array's prototype, then those properties will also appear in the loop.\n\n```js\nArray.prototype.decimalfy = function() {\n  for (let i = 0; i < this.length; i++) {\n    this[i] = this[i].toFixed(2);\n  }\n};\n\nconst digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (const index in digits) {\n  console.log(digits[index]);\n}\n```\n> **Prints:**<br>\n0<br>\n1<br>\n2<br>\n3<br>\n4<br>\n5<br>\n6<br>\n7<br>\n8<br> \n9<br>\nfunction() {<br>\n&emsp;for (let i = 0; i < this.length; i++) {<br>\n&emsp;&emsp;this[i] = this[i].toFixed(2);<br>\n&emsp;}<br>\n}\n\nGross! This is why for...in loops are discouraged when looping over arrays.\n\n> **NOTE:** The **forEach loop** is another type of for loop in JavaScript. However, `forEach()` is actually an array method, so it can only be used exclusively with arrays. There is also no way to stop or break a forEach loop. If you need that type of behavior in your loop, you’ll have to use a basic for loop.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196738,
+      "is_public": true,
+      "key": "f1955923-744a-4906-8f64-1ddcb34c6da2",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "For...of Loop",
+      "updated_at": "2019-10-08T12:31:14.158Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        196749,
+        197650,
+        197649
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 196749,
+          "is_public": true,
+          "key": "e45708c8-1f81-4c3c-9dd7-697c84434d3d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:12.924Z",
+          "version": "1.0.0",
+          "text": "Finally, we have the mighty for...of loop.\n\n## For...of loop\n\nThe **for...of loop** is used to loop over any type of data that is _iterable_.\n\nYou write a **for...of** loop almost exactly like you would write a **for...in** loop, except you swap out `in` with `of` and you can drop the **index**.\n\n```js\nconst digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (const digit of digits) {\n  console.log(digit);\n}\n```\n> **Prints:**<br>\n0<br>\n1<br>\n2<br>\n3<br>\n4<br>\n5<br>\n6<br>\n7<br>\n8<br> \n9\n\nThis makes the for...of loop the most concise version of all the for loops.\n\n> **TIP:** It’s good practice to use plural names for objects that are collections of values. That way, when you loop over the collection, you can use the singular version of the name when referencing individual values in the collection. For example, `for (const button of buttons) {...}`.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 197650,
+          "is_public": true,
+          "key": "5cbff402-b02f-460d-8989-1307e4e80e99",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Progression of For Loops in JavaScript",
+          "updated_at": "2019-10-08T12:31:13.258Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "<div style=\"text-align: center; color: #afafaf; font-size: 14px; margin-top: 15px;\">Progression from the for loop to the for...in loop to the for...of loop.</div>",
+          "resources": null,
+          "video": {
+            "id": "41155",
+            "youtube_id": "2GTqDo9bbOM",
+            "topher_id": "85636b9e-d4a2-11e9-bd86-a35301246c3e",
+            "subtitles": null,
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/October/580fb160_for-of-loop-animation-new/for-of-loop-animation-new_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/October/580fb160_for-of-loop-animation-new/for-of-loop-animation-new_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/October/580fb160_for-of-loop-animation-new/for-of-loop-animation-new_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/October/580fb160_for-of-loop-animation-new/for-of-loop-animation-new_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/October/580fb160_for-of-loop-animation-new/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 197649,
+          "is_public": true,
+          "key": "9b85051a-1082-4706-be9a-994a46b433ca",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:13.812Z",
+          "version": "1.0.0",
+          "text": "But wait, there’s more! The for...of loop also has some additional benefits that fix the weaknesses of the for and for...in loops.\n\nYou can stop or break a for...of loop at anytime.\n\n```js\nconst digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (const digit of digits) {\n  if (digit % 2 === 0) {\n    continue;\n  }\n  console.log(digit);\n}\n```\n> **Prints:**<br>\n1<br>\n3<br>\n5<br>\n7<br> \n9\n\nAnd you don’t have to worry about adding new properties to objects. The for...of loop will only loop over the values in the object.\n\n```js\nArray.prototype.decimalfy = function() {\n  for (i = 0; i < this.length; i++) {\n    this[i] = this[i].toFixed(2);\n  }\n};\n\nconst digits = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];\n\nfor (const digit of digits) {\n  console.log(digit);\n}\n```\n> **Prints:**<br>\n0<br>\n1<br>\n2<br>\n3<br>\n4<br>\n5<br>\n6<br>\n7<br>\n8<br> \n9\n\nThis time, the properties were *not* printed out to the console, like we saw on the prior page.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 217400,
+      "is_public": true,
+      "key": "60509a69-3474-45e9-bca5-f3439b6c9cab",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Quiz: Writing a For...of Loop (1-4)",
+      "updated_at": "2019-10-08T12:31:18.175Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        256045,
+        283347,
+        258950,
+        909632
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 256045,
+          "is_public": true,
+          "key": "571317d9-a4a2-4973-a2e3-18ccf4043f29",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:14.577Z",
+          "version": "1.0.0",
+          "text": "## Directions:\n\nWrite a `for...of` loop that:\n\n* loops through each day in the `days` array\n* capitalizes the first letter of the day\n* and prints the day out to the console",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 283347,
+          "is_public": true,
+          "key": "9ac77835-a76f-4a74-ba22-b8d989aae770",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:14.972Z",
+          "version": "1.0.0",
+          "text": "Your code should log the following to the console:\n\n> Sunday<br>\n> Monday<br>\n> Tuesday<br>\n> Wednesday<br>\n>Thursday<br>\n>Friday<br>\n>Saturday \n\n## Your Code:",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 258950,
+          "is_public": true,
+          "key": "d131c711-b8de-4798-ade4-eed84f3e75c8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:16.890Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "4944563459457024",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "var logBackup = console.log;\nvar logMessages = [];\nconsole.log = function() {\n    logMessages.push.apply(logMessages, arguments);\n    logBackup.apply(console, arguments);\n};\n",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "/* global days, logMessages */\n\n;(function () { // eslint-disable-line no-extra-semi\n    var chai = require('chai');\n    var esprima = require('esprima');\n    var esquery = require('esquery');\n    var fs = require('fs');\n\n    var assert = chai.assert;\n    var tree = '';\n    var content = '';\n\n    // get students' file\n    content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n    // generate abstract systax tree (AST)\n    tree = esprima.parse(content);\n\n    // define selector\n    var bodySelector = esquery.parse('[body]');\n    // query AST with selector\n    var bodyMatch = esquery.match(tree, bodySelector);\n\n    // tests\n    if (bodyMatch[0].body.length !== 0) {\n        // define selector\n        var daysSelector = esquery.parse('[id.name=\"days\"]');\n        // query AST with selector\n        var daysMatch = esquery.match(tree, daysSelector);\n        describe('Your code', function () {\n            // check if days exists\n            it('should have a variable `days`', function () {\n                assert.isDefined(days, 'The variable `days` doesn\\'t exist');\n            });\n        });\n        if (daysMatch[0] !== null) {\n            describe('Your variable `days`', function () {\n                it('should be an array', function () {\n                    assert.isArray(days, 'The variable `days` isn\\'t an array');\n                });\n                it('should contain the days of the week', function () {\n                    var length = days.length;\n                    var check = days.includes('sunday') && days.includes('monday') && days.includes('tuesday') && days.includes('wednesday') && days.includes('thursday') && days.includes('friday') && days.includes('saturday') && length === 7;\n                    assert.equal(check, true, 'Your `days` array should only contain the days of the week');\n                });\n            });\n            // define selector\n            var forOfSelector = esquery.parse('ForOfStatement');\n            // query AST with selector\n            var forOfMatch = esquery.match(tree, forOfSelector);\n            if (forOfMatch[0] !== null) {\n                describe('Your for...of loop', function () {\n\n                    it('should loop through the `days` array', function () {\n                        const loopOverDays = forOfMatch[0] && forOfMatch[0].right && forOfMatch[0].right.name;\n\n                        assert.equal(loopOverDays, 'days', \"Your for...of loop doesn't loop through the `days` array\");\n                    });\n\n                    it('should print each day capitalized to the console', function () {\n                        const expectedOutput = 'Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday';\n\n                        assert.equal(logMessages.toString(), expectedOutput, 'Your for...of loop should capitalize each day and print it to the console');\n                    });\n                });\n            } else {\n                describe('Your code', function () {\n                    // check if using a for...of loop\n                    it('should use a for...of loops', function () {\n                        assert.isOk(false, 'Your code is not using a for...of loop');\n                    });\n                });\n            }\n        }\n    } else {\n        describe('Your code', function () {\n            it('should not be empty', function () {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());\n",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        },
+        {
+          "content_source": null,
+          "id": 909632,
+          "is_public": true,
+          "key": "105fd03e-a841-40a0-bf1d-9c45ff4974c2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:17.798Z",
+          "version": "1.0.0",
+          "text": "<div id=\"spoiler_1\" style=\"display:none\">\n```\nfor (const day of days) {\n  var upperDay = day.charAt(0).toUpperCase() + day.slice(1);\n  console.log(upperDay);\n}\n```\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196704,
+      "is_public": true,
+      "key": "398d36e6-3393-4c50-b870-44a4dffb0ac4",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Spread... Operator",
+      "updated_at": "2019-10-08T12:31:22.135Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        197019,
+        283329,
+        197020,
+        909634
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 197019,
+          "is_public": true,
+          "key": "60de06e8-d63e-4a68-8dfd-51ba01f50d69",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:18.665Z",
+          "version": "1.0.0",
+          "text": "Time to switch gears for a moment and check out the spread operator!\n\n## Spread operator\n\nThe **spread operator**, written with three consecutive dots ( `...` ), is new in ES6 and gives you the ability to expand, or _spread_, [iterable objects](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators#Iterators) into multiple elements.\n\nLet’s take a look at a few examples to see how it works.\n\n```js\nconst books = [\"Don Quixote\", \"The Hobbit\", \"Alice in Wonderland\", \"Tale of Two Cities\"];\nconsole.log(...books);\n```\n> **Prints:** Don Quixote The Hobbit Alice in Wonderland Tale of Two Cities\n\n```js\nconst primes = new Set([2, 3, 5, 7, 11, 13, 17, 19, 23, 29]);\nconsole.log(...primes);\n```\n> **Prints:** 2 3 5 7 11 13 17 19 23 29\n\nIf you look at the output from the examples, notice that both the array and set have been expanded into their individual elements. So how is this useful?\n\n> **NOTE:** Sets are a new built-in object in ES6 that we’ll cover in more detail in a future lesson.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 283329,
+          "is_public": true,
+          "key": "3682d4ab-8a31-4eb7-9acd-5fc0f9377217",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:19.032Z",
+          "version": "1.0.0",
+          "text": "### Combining arrays with concat\n\nOne example of when the spread operator can be useful is when combining arrays.\n\nIf you’ve ever needed to combine multiple arrays, prior to the spread operator, you were forced to use the Array’s `concat()` method.\n\n```js\nconst fruits = [\"apples\", \"bananas\", \"pears\"];\nconst vegetables = [\"corn\", \"potatoes\", \"carrots\"];\nconst produce = fruits.concat(vegetables);\nconsole.log(produce);\n```\n> **Prints:** [\"apples\", \"bananas\", \"pears\", \"corn\", \"potatoes\", \"carrots\"]\n\nThis isn’t terrible, but wouldn’t it be nice if there was a shorthand way to write this code?\n\nFor example, something like…\n\n> ### ⚠️ Upcoming `const` Warning ⚠️\n> If you're following along by copy/pasting the code, then you've already declared the `produce` variable with the `const` keyword. The following code will try to redeclare _and_ reassign the variable, so depending on how you're running the code, it might throw an error.\n> \n> Remember that variables declared with  `const` cannot be redeclared or reassigned in the same scope.\n\n```js\nconst produce = [fruits, vegetables];\nconsole.log(produce);\n```\n> **Prints:** [Array[3], Array[3]]\n\nUnfortunately, that doesn’t work.\n\nInstead of combining both arrays, this code actually adds the `fruits` array at the first index and the `vegetables` array at the second index of the `produce` array.\n\nHow about trying the spread operator?",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 197020,
+          "is_public": true,
+          "key": "c837f4dc-f9d8-4395-a91d-50be1383d858",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:21.046Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "5318067334807552",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "var logBackup = console.log;\nvar logMessages = [];\nconsole.log = function() {\n    logMessages.push.apply(logMessages, arguments);\n    logBackup.apply(console, arguments);\n};\n",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "// tests to verify the student's code\n;(function() {\n    // require assertion library, javascript parser, querying library, and file system\n    var chai = require('chai');\n    var esprima = require('esprima');\n    var esquery = require('esquery');\n    var fs = require('fs');\n\n    var assert = chai.assert;\n    var tree = '';\n    var content = '';\n\n    // get students' file\n    content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n    // generate abstract systax tree (AST)\n    tree = esprima.parse(content);\n\n    // define selector\n    var bodySelector = esquery.parse('[body]');\n    // query AST with selector\n    var bodyMatch = esquery.match(tree, bodySelector);\n\n    // tests\n    if(bodyMatch[0].body.length !== 0) {\n        // define selector\n        var fruitsSelector = esquery.parse('[id.name=\"fruits\"]');\n        var vegetablesSelector = esquery.parse('[id.name=\"vegetables\"]');\n        var produceSelector = esquery.parse('[id.name=\"produce\"]');\n        // query AST with selector\n        var fruitsMatch = esquery.match(tree, fruitsSelector);\n        var vegetablesMatch = esquery.match(tree, vegetablesSelector);\n        var produceMatch = esquery.match(tree, produceSelector);\n        describe('Your code', function() {\n            // check if fruits exists\n            it('should have a variable `fruits`', function() {\n                assert.isDefined(fruits, \"The variable `fruits` doesn't exist\");\n            });\n            // check if vegetables exists\n            it('should have a variable `vegetables`', function() {\n                assert.isDefined(vegetables, \"The variable `vegetables` doesn't exist\");\n            });\n            // check if produce exists\n            it('should have a variable `produce`', function() {\n                assert.isDefined(produce, \"The variable `produce` doesn't exist\");\n            });\n        });\n        if(fruitsMatch[0] !== null && vegetablesMatch[0] !== null && produceMatch[0] !== null) {\n            describe('Your variable `produce`', function() {\n                // check if produce is an array\n                it('should be an array', function() {\n                    assert.isArray(produce, 'Your variable `produce` isn\\'t an array');\n                });\n                // check if produce contains values from fruits array\n                it('should contain the values from the `fruits` array', function() {\n                    var check1 = produce.includes(\"apples\");\n                    var check2 = produce.includes(\"bananas\");\n                    var check3 = produce.includes(\"pears\");\n                    assert.equal(check1 && check2 && check3, true, 'Your variable `produce` doesn\\'t contain the values from the `fruits` array');\n                });\n                // check if produce contains values from vegetables array\n                it('should contain the values from the `vegetables` array', function() {\n                    var check1 = produce.includes(\"corn\");\n                    var check2 = produce.includes(\"potatoes\");\n                    var check3 = produce.includes(\"carrots\");\n                    assert.equal(check1 && check2 && check3, true, 'Your variable `produce` doesn\\'t contain the values from the `vegetables` array');\n                });\n            });\n            describe('Your code', function() {\n                // check if produce is initialized using spread operators\n                it('should use spread operator to combine the `fruits` and `vegetables` arrays into the `produce` array', function() {\n                    // define selector\n                    var spreadSelector = esquery.parse('SpreadElement');\n                    // query AST with selector\n                    var spreadMatch = esquery.match(produceMatch[0], spreadSelector);\n                    if(spreadMatch[0] !== null) {\n                        if(spreadMatch.length === 2) {\n                            assert.equal(spreadMatch[0].argument.name, 'fruits', 'Your code doesn\\'t _spread_ the fruits array');\n                            assert.equal(spreadMatch[1].argument.name, 'vegetables', 'Your code doesn\\'t _spread_ the vegetables array');\n                        } else {\n                            assert.isOk(false, 'Your code should use the spread operator twice');\n                        }\n                    } else {\n                        assert.isOk(false, 'Your code doesn\\'t use the spread operator');\n                    }\n                });\n            });\n        }\n    } else {\n        describe('Your code', function() {\n            it('should not be empty', function() {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        },
+        {
+          "content_source": null,
+          "id": 909634,
+          "is_public": true,
+          "key": "2c6b554d-7759-46b3-9434-001a88e119bb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:21.815Z",
+          "version": "1.0.0",
+          "text": "<div id=\"spoiler_1\" style=\"display:none\">\n```\nproduce = [...fruits, ...vegetables]\n\nconsole.log(produce);\n```\n</div>\n<button title=\"Click to show/hide content\" type=\"button\" onclick=\"if(document.getElementById('spoiler_1') .style.display=='none') {document.getElementById('spoiler_1') .style.display=''}else{document.getElementById('spoiler_1') .style.display='none'}\">Show Solution</button>",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196705,
+      "is_public": true,
+      "key": "59aad850-4429-42b8-a9e8-f4a7dded102f",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "...Rest Parameter",
+      "updated_at": "2019-10-08T12:31:23.992Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        197021,
+        301422,
+        259972
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 197021,
+          "is_public": true,
+          "key": "d6d298b9-f83b-41b1-aa46-5a4c6a5dafe5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:22.796Z",
+          "version": "1.0.0",
+          "text": "If you can use the spread operator to _spread_ an array into multiple elements, then certainly there should be a way to bundle multiple elements back into an array, right?\n\nIn fact, there is! It’s called the _rest parameter_, and it’s another new addition in ES6.\n\n## Rest parameter\n\nThe **rest parameter**, also written with three consecutive dots ( `...` ), allows you to represent an indefinite number of elements as an array. This can be helpful in a couple of different situations.\n\nOne situation is when assigning the values of an array to variables. For example,\n\n```js\nconst order = [20.17, 18.67, 1.50, \"cheese\", \"eggs\", \"milk\", \"bread\"];\nconst [total, subtotal, tax, ...items] = order;\nconsole.log(total, subtotal, tax, items);\n```\n> **Prints:** 20.17 18.67 1.5 [\"cheese\", \"eggs\", \"milk\", \"bread\"]\n\nThis code takes the values of the  `order` array and assigns them to individual variables using destructuring (as you saw in the Destructuring section earlier in this lesson). `total`, `subtotal`, and `tax` are assigned the first three values in the array, however, `items` is where you want to pay the most attention.\n\nBy using the rest parameter, `items` is assigned the _rest_ of the values in the array (as an array).",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 301422,
+          "is_public": true,
+          "key": "de0260f8-3acf-4cc8-ab2c-616f2a50efbf",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Spread Operator and Rest Parameter Animation",
+          "updated_at": "2019-10-08T12:31:23.154Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "<div style=\"text-align: center; color: #afafaf; font-size: 14px; margin-top: 15px;\">You can think of the rest parameter like the opposite of the spread operator; if the spread operator is like unboxing all of the contents of a package, then the rest parameter is like taking all the contents and putting them back into the package.</div>",
+          "resources": null,
+          "video": {
+            "id": "54461",
+            "youtube_id": "vRtfwfqnVSs",
+            "topher_id": "84dc8ffc-d4a2-11e9-bfe2-b72d3d39e962",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/April/59012fe4_ud356-l1-spread-rest-animation/ud356-l1-spread-rest-animation_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/April/59012fe4_ud356-l1-spread-rest-animation/ud356-l1-spread-rest-animation_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/April/59012fe4_ud356-l1-spread-rest-animation/ud356-l1-spread-rest-animation_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/April/59012fe4_ud356-l1-spread-rest-animation/ud356-l1-spread-rest-animation_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/April/59012fe4_ud356-l1-spread-rest-animation/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 259972,
+          "is_public": true,
+          "key": "37eaeb3f-194b-4317-9afd-9bcea6a4f671",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:23.598Z",
+          "version": "1.0.0",
+          "text": "## Variadic functions\n\nAnother use case for the rest parameter is when you’re working with variadic functions. **Variadic functions** are functions that take an indefinite number of arguments.\n\nFor example, let’s say we have a function called `sum()` which calculates the sum of an indefinite amount of numbers. How might the `sum()` function be called during execution?\n\n```js\nsum(1, 2);\nsum(10, 36, 7, 84, 90, 110);\nsum(-23, 3000, 575000);\n```\n\nThere’s literally an endless number of ways the `sum()` function could be called. Regardless of the amount of numbers passed to the function, it should always return the total sum of the numbers.\n\n### Using the arguments object\n\nIn previous versions of JavaScript, this type of function would be handled using the [arguments object](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments). The **arguments object** is an array-like object that is available as a local variable inside all functions. It contains a value for each argument being passed to the function starting at 0 for the first argument, 1 for the second argument, and so on.\n\nIf we look at the implementation of our `sum()` function, then you’ll see how the arguments object could be used to handle the variable amount of numbers being passed to it.\n\n```js\nfunction sum() {\n  let total = 0;  \n  for(const argument of arguments) {\n    total += argument;\n  }\n  return total;\n}\n```\n\nNow this works fine, but it does have its issues:\n\n1. If you look at the definition for the `sum()` function, it doesn’t have any parameters.\n  * This is misleading because we know the `sum()` function can handle an indefinite amount of arguments.\n2. It can be hard to understand.\n  * If you’ve never used the arguments object before, then you would most likely look at this code and wonder where the arguments object is even coming from. Did it appear out of thin air? It certainly looks that way.\n\n### Using the rest parameter\n\nFortunately, with the addition of the rest parameter, you can rewrite the `sum()` function to read more clearly.\n\n```js\nfunction sum(...nums) {\n  let total = 0;  \n  for(const num of nums) {\n    total += num;\n  }\n  return total;\n}\n```\n\nThis version of the `sum()` function is both **more concise** and is **easier to read**. Also, notice the `for...in` loop has been replaced with the new [for...of loop](https://classroom.udacity.com/nanodegrees/nd016/parts/11a45d59-bb81-44a9-be76-042c99e5f051/modules/cbf6deb8-d2cc-4757-b3a9-a1c58a4acd82/lessons/42383e89-ac6a-491a-b7d0-198851287bbe/concepts/f1955923-744a-4906-8f64-1ddcb34c6da2#).",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 217393,
+      "is_public": true,
+      "key": "6a6c5deb-2f06-4cd7-afab-222716634f10",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Quiz: Using the Rest Parameter (1-5)",
+      "updated_at": "2019-10-08T12:31:27.421Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        256047,
+        258951
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 256047,
+          "is_public": true,
+          "key": "7de8342b-002c-4a18-93e1-29109c0e045e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:24.351Z",
+          "version": "1.0.0",
+          "text": "## Directions:\n\nUse the rest parameter to create an `average()` function that calculates the average of an _unlimited_ amount of numbers.\n\n> **TIP:** Make sure to test your code with different values. For example,<br><br>\n> `average(2, 6)` should return `4`<br>\n> `average(2, 3, 3, 5, 7, 10)` should return `5`<br>\n> `average(7, 1432, 12, 13, 100)` should return `312.8`<br>\n> `average()` should return `0`\n\n## Your Code:",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 258951,
+          "is_public": true,
+          "key": "a133cf22-53e1-46d5-95f4-3bfd4bd53bf6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "QuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:26.412Z",
+          "version": "1.0.0",
+          "resources": null,
+          "instructor_notes": "",
+          "instruction": null,
+          "question": {
+            "title": "",
+            "semantic_type": "ProgrammingQuestion",
+            "evaluation_id": "5747611345747968",
+            "evaluator": {
+              "model": "ProgramEvaluator",
+              "execution_language": "python",
+              "executor_grading_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'submit'])",
+              "executor_test_code": "import falcon.util as util\n\nutil.run_program(['python', 'falcon.py', '-s', 'js_mocha', '-m', 'test'])",
+              "gae_grading_code": "\"\"\"Provide feedback to student based on evaluation of JavaScript programming quiz.\"\"\"\n\nimport json\n\n# until we check, assume student's submission is incorrect\ngrade_result['correct'] = False\n\n# don't use, but must set to ' ' to avoid error\ngrade_result['comment'] = ' '\n\n# use default markdown?\nuse_default_markdown = True\n\ndef parse_swizzled_output(output):\n    \"\"\"Analyzes the swizzled output for passing/failing criteria and other feedback.\n        \n        Args:\n        output (string): Output generated when running swizzled main.\n        \"\"\"\n    # keep running total of (passed) criteria\n    numberOfCriteria = 0\n    numberOfPasses = 0\n    passed_criteria = []\n    failed_criteria = []\n    feedback = []\n    # split lines by newline\n    lines = output.split('\\n')\n    # go line-by-line and find formatted tags for criteria\n    for line in lines:\n        if line.startswith('<PASS::>'):\n            numberOfCriteria += 1\n            numberOfPasses += 1\n            # strip tag and add criteria to array\n            passed_criteria.append(line[8:])\n        if line.startswith('<FAIL::>'):\n            numberOfCriteria += 1\n            # strip tag and add criteria to array\n            failed_criteria.append(line[8:])\n        if line.startswith('<FEEDBACK::>'):\n            # strip tag and add feedback to array\n            feedback.append(line[12:])\n    # return results\n    return (numberOfCriteria == numberOfPasses, passed_criteria, failed_criteria, feedback)\n\ndef default_markdown_from_criteria(passing_criteria, failing_criteria):\n    \"\"\"Generates default markdown-like string based on passing/failing criteria.\n\n        Args:\n        passing_criteria (list): All passing criteria from quiz\n        failing_criteria (list): All failing criteria from quiz\n        \"\"\"\n    # init markdown-like string\n    markdown = ''\n    # was there more than 1 criteria?\n    if passing_criteria + failing_criteria > 1:\n        # add passing criteria to markdown\n        if len(passing_criteria) >= 1:\n            markdown += '# What Went Well\\n\\n'\n            for criteria in passing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n        # add failing criteria to markdown\n        if len(failing_criteria) >= 1:\n            markdown += '# What Went Wrong\\n\\n'\n            for criteria in failing_criteria:\n                markdown += '<li style=\"list-style-type: none;\">- ' + criteria + '</li>'\n            markdown += '\\n'\n    else:\n        # if only 1 criteria, add it without headers to markdown\n        markdown = passing_criteria[0] if grade_result['correct'] else failing_criteria[0]\n    # return markdown-like string\n    return markdown\n\ndef main():\n    \"\"\"Analyze the output generated by Falcon and set special key/value pairs for feedback.\"\"\"\n    # did the remote execution cause an error?\n    if executor_result['stderr'] == '':\n        # nope! analyze the output (JSON-like string)\n        try:\n            # convert JSON-like string into Python dictionary\n            results = json.loads(executor_result['stdout'])\n            swizzle_out = results['temp/results-out.txt']\n        except Exception as e:\n            # if there was an error during the conversion, display it\n            grade_result['feedback'] = executor_result['stderr']\n        else:\n            # did the execution of swizzled main produce an error?\n            if results['temp/results-err.txt'] == '':\n                # nope! we can safely use the output of swizzled main\n                (submission_correct, passing_criteria, failing_criteria, feedback) = parse_swizzled_output(swizzle_out)\n                # set pass/fail\n                grade_result['correct'] = submission_correct\n                if use_default_markdown == True:\n                    # use default markdown for criteria/feedback\n                    markdown_feedback = default_markdown_from_criteria(passing_criteria, failing_criteria)\n                    total_criteria = len(failing_criteria) + len(passing_criteria)\n                    all_feedback = markdown_feedback + '# Feedback\\n\\n'\n                    if len(failing_criteria) == 0:\n                        all_feedback += 'Your answer passed all our tests! Awesome job!'\n                    elif len(passing_criteria) >= total_criteria / 2:\n                        all_feedback += 'Not everything is correct yet, but you\\'re close!'\n                    else:\n                        all_feedback += 'There\\'s work left to do. Try tackling one problem at a time.'\n                    grade_result['feedback'] = all_feedback\n                    # grade_result['comment'] = results['temp/student-out.txt']\n                else:\n                    # show raw response from REX execution\n                    grade_result['feedback'] = str(results)\n            else:\n                # swizzled main generated some an error, so display it!\n                grade_result['feedback'] = 'An error occurred while testing your code.\\n\\nCheck to ensure these items are true:\\n\\n- clicking **TEST RUN** doesn\\'t produce any issues\\n- you\\'ve followed all instructions\\n- you\\'ve used the correct names\\n\\nIf you make all these checks, but it still doesn\\'t fix the error, then please contact us at *support@udacity.com* and provide a link to the quiz and a copy of your code.\\n\\nNOTE: If you cannot find the instructions, click **RESET QUIZ** to reset the quiz to its original state.'\n    else:\n        # there was an error with overall execution, so display it!\n        grade_result['comment'] = executor_result['stderr']\n\nmain()",
+              "requires_gpu": false,
+              "deadline_seconds": 0,
+              "legacy_template_refs": [
+                {
+                  "key": "5141761099956224",
+                  "ref": "ProgramTemplate"
+                }
+              ],
+              "included_text_files": [
+                {
+                  "text": "var logBackup = console.log;\nvar logMessages = [];\nconsole.log = function() {\n    logMessages.push.apply(logMessages, arguments);\n    logBackup.apply(console, arguments);\n};\n",
+                  "name": "SwizzleBefore.js"
+                },
+                {
+                  "text": "// tests to verify the student's code\n;(function() {\n    // require assertion library, javascript parser, querying library, and file system\n    var chai = require('chai');\n    var esprima = require('esprima');\n    var esquery = require('esquery');\n    var fs = require('fs');\n\n    var assert = chai.assert;\n    var tree = '';\n    var content = '';\n\n    // get students' file\n    content = fs.readFileSync(__dirname + '/StudentMain.js', 'utf8');\n    // generate abstract systax tree (AST)\n    tree = esprima.parse(content);\n\n    // define selector\n    var bodySelector = esquery.parse('[body]');\n    // query AST with selector\n    var bodyMatch = esquery.match(tree, bodySelector);\n\n    // tests\n    if(bodyMatch[0].body.length !== 0) {\n        // define selector\n        var averageSelector = esquery.parse('[id.name=\"average\"]');\n        // query AST with selector\n        var averageMatch = esquery.match(tree, averageSelector);\n        describe('Your code', function() {\n            // check if average exists\n            it('should have a function `average()`', function() {\n                assert.isFunction(average, \"The function `average()` doesn't exist\");\n            });\n        });\n        if(averageMatch[0] !== null) {\n            describe('Your `average()` function', function() {\n                // define selector\n                var restSelector = esquery.parse('RestElement');\n                // query AST with selector\n                var restMatch = esquery.match(averageMatch[0], restSelector);\n                it('should have one parameter', function() {\n                    assert.equal(averageMatch[0].params.length, 1, 'Your `average()` function should only have one parameter');\n                });\n                it('should use the rest parameter', function() {\n                    if(restMatch[0] !== null) {\n                        assert.equal(restMatch.length, 1, 'Your `average()` function doesn\\'t use the rest parameter');\n                    } else {\n                        assert.isOk(false, 'Your `average()` function doesn\\'t use the rest parameter');\n                    }\n                });\n                it('should calculate the average of an indefinite amount of numbers', function() {\n                    var answer1 = average(2, 6);\n                    var check1 = 4 === answer1;\n                    var answer2 = average(2, 3, 3, 5, 7, 10);\n                    var check2 = 5 === answer2;\n                    var answer3 = average(7, 1432, 12, 13, 100);\n                    var check3 = 312.8 === answer3;\n                    var answer4 = average();\n                    var check4 = 0 === answer4;\n                    assert.equal(check1 && check2 && check3 && check4, true, 'Your `average()` function doesn\\'t calculate average correctly');\n                });\n            });\n        }\n    } else {\n        describe('Your code', function() {\n            it('should not be empty', function() {\n                assert.isOk(false, 'Your code is missing, hit the \"Reset Quiz\" button to reset the quiz');\n            });\n        });\n    }\n\n}());",
+                  "name": "SwizzleAfter.js"
+                }
+              ]
+            }
+          },
+          "answer": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 196707,
+      "is_public": true,
+      "key": "bd715feb-2540-4f45-9144-8bd6b708f0cd",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Lesson 1 Summary",
+      "updated_at": "2019-10-08T12:31:28.203Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        232930
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 232930,
+          "is_public": true,
+          "key": "16372722-3bd4-479c-bf55-5ea1ab173dbc",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Lesson 1 Summary",
+          "updated_at": "2019-10-08T12:31:27.778Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "43128",
+            "youtube_id": "EG4B0JEkLzk",
+            "topher_id": "84c9d100-d4a2-11e9-b4ea-0b4f8c4cfcb3",
+            "subtitles": [
+              {
+                "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2016/December/583f77be_55-outro/subtitles/lang_en_vs1.srt",
+                "language_code": "en"
+              }
+            ],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2016/December/583f77be_55-outro/55-outro_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2016/December/583f77be_55-outro/55-outro_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2016/December/583f77be_55-outro/55-outro_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2016/December/583f77be_55-outro/55-outro_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2016/December/583f77be_55-outro/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

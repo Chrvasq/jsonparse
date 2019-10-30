@@ -1,0 +1,984 @@
+{
+  "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+  "id": 909366,
+  "is_public": true,
+  "key": "7ac50193-5960-4653-8ff9-d7afeeed82f3",
+  "locale": "en-us",
+  "root_owner_id": null,
+  "semantic_type": "Lesson",
+  "title": "Creating Responsive Layouts",
+  "updated_at": "2019-10-01T00:12:16.780Z",
+  "version": "1.0.0",
+  "image": {
+    "url": "https://video.udacity-data.com/topher/2017/September/59ce980a_2-2-css-frameworks-responsive-layouts2x/2-2-css-frameworks-responsive-layouts2x.jpg",
+    "width": 592,
+    "height": 640
+  },
+  "video": null,
+  "lab": null,
+  "project": null,
+  "summary": "Start with a basic Grid-based layout for a blog, and learn how to use media queries to build a responsive layout for device types of all sizes! ",
+  "lesson_type": "Classroom",
+  "duration": 90,
+  "display_workspace_project_only": false,
+  "is_project_lesson": false,
+  "career_portal_experience_levels": null,
+  "_concepts_ids": [
+    909360,
+    909357,
+    909358,
+    909359,
+    909361,
+    909362,
+    909364,
+    909363,
+    909365
+  ],
+  "_project_id": null,
+  "concepts": [
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909360,
+      "is_public": true,
+      "key": "ed521639-cba7-44ae-8db3-e0ed8166aa2a",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Building Layouts with Grid",
+      "updated_at": "2019-10-08T12:24:42.831Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909334,
+        909327,
+        909328
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909334,
+          "is_public": true,
+          "key": "c472218b-246b-4e0a-a42b-fa212ccca309",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid Heading",
+          "updated_at": "2019-10-08T12:24:41.048Z",
+          "version": "1.0.0",
+          "text": "# Building Layouts with Grid",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909327,
+          "is_public": true,
+          "key": "ff147c48-4cfb-4463-bf33-9470f42d8c6e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 01 Building Layouts With Grid",
+          "updated_at": "2019-10-08T12:24:41.625Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100537",
+            "youtube_id": "TOmVNaQZgMU",
+            "topher_id": "8535063c-d4a2-11e9-962b-e325d9596f79",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8279_nd001-c01-l05-01-building-layouts-with-grid/nd001-c01-l05-01-building-layouts-with-grid_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8279_nd001-c01-l05-01-building-layouts-with-grid/nd001-c01-l05-01-building-layouts-with-grid_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8279_nd001-c01-l05-01-building-layouts-with-grid/nd001-c01-l05-01-building-layouts-with-grid_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c8279_nd001-c01-l05-01-building-layouts-with-grid/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909328,
+          "is_public": true,
+          "key": "1e6f2528-1ddb-4e2f-af37-42580801f042",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid Recap",
+          "updated_at": "2019-10-08T12:24:42.278Z",
+          "version": "1.0.0",
+          "text": "CSS Grid allows you to create simple, elegant and professional quality webpage designs.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909357,
+      "is_public": true,
+      "key": "76156cc3-6bee-4b87-bfae-2d5a4a45da93",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "A Simple Blog Page",
+      "updated_at": "2019-10-08T12:24:46.215Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909330,
+        909329,
+        909335,
+        909331,
+        909333,
+        909375,
+        909332,
+        909336
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909330,
+          "is_public": true,
+          "key": "e0b35eb9-3aca-42a9-b801-9872adfa6154",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid Example Prep",
+          "updated_at": "2019-10-08T12:24:43.202Z",
+          "version": "1.0.0",
+          "text": "# A Simple Blog Page\n\nIn the following screencast we will build the template for a simple blog webpage that has some dummy links and one real link to a demo page. In the end we will have a layout for a blog homepage and a blog entry itself. Let's dive in!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909329,
+          "is_public": true,
+          "key": "3671a159-ac48-4e0e-847b-8b0583ea8a9f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 02 Building Layouts With Grid Example",
+          "updated_at": "2019-10-08T12:24:43.540Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100538",
+            "youtube_id": "o961IzxE_YY",
+            "topher_id": "85352f68-d4a2-11e9-96a3-f3f4b8d16d98",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c85d6_nd001-c01-l05-02-building-layouts-with-grid-example/nd001-c01-l05-02-building-layouts-with-grid-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c85d6_nd001-c01-l05-02-building-layouts-with-grid-example/nd001-c01-l05-02-building-layouts-with-grid-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c85d6_nd001-c01-l05-02-building-layouts-with-grid-example/nd001-c01-l05-02-building-layouts-with-grid-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c85d6_nd001-c01-l05-02-building-layouts-with-grid-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909335,
+          "is_public": true,
+          "key": "50e4a978-8314-471a-a926-1e7f41f3e022",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid Example Summary",
+          "updated_at": "2019-10-08T12:24:43.942Z",
+          "version": "1.0.0",
+          "text": "CSS Grid can be used to setup multiple displays within a single site. In the previous demo we used to CSS Grid to create a blog home page and an individual page for blog posts. \n\nSeparate pages within a web app can be stored in the same folder and linked to each other using `<a>` tags to create links with the name of the file as the target. For example, in a file `index.html` you could use the following code to link to another file in the same directory named `go.html`:\n\n```html\n<a href=\"go.html\">Go to page</a>\n```",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909331,
+          "is_public": true,
+          "key": "b8d2731f-9957-4f6a-9422-5263500ef429",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Building Layouts with Grid Quiz",
+          "updated_at": "2019-10-08T12:24:44.284Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "You can only use one CSS grid per web project.",
+            "correct_feedback": "Boom! You got it!",
+            "video_feedback": null,
+            "default_feedback": "",
+            "answers": [
+              {
+                "id": "rbk1",
+                "text": "True",
+                "is_correct": false,
+                "incorrect_feedback": "You can use different CSS grids for different page layouts in the same web project (in fact, you can even nest grids inside each other in the same layout!)."
+              },
+              {
+                "id": "rbk2",
+                "text": "False",
+                "is_correct": true,
+                "incorrect_feedback": "Boom! You got it!"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909333,
+          "is_public": true,
+          "key": "42378b71-4e19-4ef7-aeb5-a6cf9a23a92a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid+",
+          "updated_at": "2019-10-08T12:24:44.848Z",
+          "version": "1.0.0",
+          "text": "In the workspace below add a link from the homepage to the individual blog post. Once you have successfully done this, navigate to the blog entry and then customize the style to start to get an idea of what you might want a blog post layout to look like.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 909375,
+          "is_public": true,
+          "key": "ca542301-2dd1-4c74-b685-58fbebe672eb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:24:45.128Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c909357xHTMLLIVE5tu2n9zc",
+          "view_id": "html-live-adzsp",
+          "gpu_capable": false,
+          "name": "responsive-grid",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md",
+                  "/home/workspace/index.html",
+                  "/home/workspace/blog-post.html"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909332,
+          "is_public": true,
+          "key": "8c0b3e17-9f78-4ef4-916a-9199a551ef48",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid Summary",
+          "updated_at": "2019-10-08T12:24:45.397Z",
+          "version": "1.0.0",
+          "text": "In this section we covered linking webpages together, with each page using its own custom CSS Grid layout. But what happens when people actually start using our web blog on different size screens?!?! Up next we'll cover how to get responsive!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909336,
+          "is_public": true,
+          "key": "59a8b58e-f075-48de-8347-857470161347",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Layouts with Grid Recap Further Research",
+          "updated_at": "2019-10-08T12:24:45.808Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\nFor more on Grid Layouts, see the below articles.\n\n- [Creating complex Grid layouts](https://rachelandrew.co.uk/archives/2015/02/04/css-grid-layout-creating-complex-grids/)\n- [Nesting & overlapping of Grid items](https://gridbyexample.com/examples/example21/)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909358,
+      "is_public": true,
+      "key": "2539ba14-be5e-49cd-a074-3b67771adbcd",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Media Queries",
+      "updated_at": "2019-10-08T12:24:47.578Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909339,
+        909343,
+        909338
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909339,
+          "is_public": true,
+          "key": "98842d4e-5538-42b6-800e-753ca5ea399d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries Heading",
+          "updated_at": "2019-10-08T12:24:46.512Z",
+          "version": "1.0.0",
+          "text": "# Media Queries",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909343,
+          "is_public": true,
+          "key": "9ef9fcad-05d1-49cb-9a8f-d873b90a5780",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 03 Media Queries",
+          "updated_at": "2019-10-08T12:24:46.982Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100544",
+            "youtube_id": "To_DE-nL-N4",
+            "topher_id": "853536ca-d4a2-11e9-96b8-9fcd04062baf",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c920b_nd001-c01-l05-03-media-queries/nd001-c01-l05-03-media-queries_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c920b_nd001-c01-l05-03-media-queries/nd001-c01-l05-03-media-queries_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c920b_nd001-c01-l05-03-media-queries/nd001-c01-l05-03-media-queries_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c920b_nd001-c01-l05-03-media-queries/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909338,
+          "is_public": true,
+          "key": "0cd1c302-023d-4a2a-a578-ae5cd48fbb56",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries Recap",
+          "updated_at": "2019-10-08T12:24:47.320Z",
+          "version": "1.0.0",
+          "text": "While media queries can be used for a variety of things and in a number of ways, we are going to focus on what are called **breakpoints**, which are the `viewport` width at which we want our design to change. We then write the code inside that media query, with a set breakpoint, that we want to go into effect only when the viewport width that the app is being viewed on is at least the breakpoint width. Only the CSS that we want to change needs to go here - the original CSS rules will all still apply, and only the new CSS rules written inside the media query will override any pre-existing rules.\n\n\n---\n\n## Key Term\n\n**viewport** -  the area of the window in which web content can be seen.  We use the dimensions of the viewport (usually the width, but sometimes the height) as the basis of our media queries.  \n\n### For more information about `viewport` see  \n\n* [What is a viewport?](https://developer.mozilla.org/en-US/docs/Web/CSS/Viewport_concepts#What_is_a_viewport)\n\n* [Using the viewport meta tag to control layout on mobile browsers\n](https://developer.mozilla.org/en-US/docs/Mozilla/Mobile/Viewport_meta_tag)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909359,
+      "is_public": true,
+      "key": "e78fda03-4d7a-47a9-ad68-6134d2fd47ec",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Adding Media Queries in Code",
+      "updated_at": "2019-10-08T12:24:50.013Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909326,
+        909337,
+        909325,
+        909342,
+        909346
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909326,
+          "is_public": true,
+          "key": "71a6e15f-f3ff-4911-b392-cef97e0b2a9b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries Example Prep",
+          "updated_at": "2019-10-08T12:24:48.052Z",
+          "version": "1.0.0",
+          "text": "# Adding Media Queries in Code\n\nMedia queries are used to set different style rules for different devices or sized screens. We use breakpoints to set the condition of a media query. The logic is:\n\n```css\n@media(feature:value)\n```\n\nHere media features are aspects of the device that our media (website) is being viewed on. The media feature we are most interested in for this lesson is `width`, which allows us to evaluate the viewport width of the browser and set conditions based on that evaluation. We actually write this feature `min-width` (or `max-width`) because `width` is one of many media features that are range features, which means they can be prefixed with `min-` or `max-` to express constraints, which is what we're looking for with our breakpoints! If the constraint of the breakpoint (viewport width being in the range below our breakpoint) is broken (the width is larger than the breakpoint) the new CSS rule takes effect. Here is an example of how that could look in action:\n\n```css\n@media(min-width:900px) {\n  body{\n   background:red;\n }\n}\n```\n\nIn this example if the viewport width is greater than 900px the background of the webpage would turn red.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909337,
+          "is_public": true,
+          "key": "bb4e60fc-9740-48de-b96a-d8ac7b7cd111",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 04 Media Queries Example",
+          "updated_at": "2019-10-08T12:24:48.477Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100545",
+            "youtube_id": "m8oWoQv_li4",
+            "topher_id": "853546c4-d4a2-11e9-96e4-0fb4d9db9e21",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c933c_nd001-c01-l05-04-media-queries-example/nd001-c01-l05-04-media-queries-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c933c_nd001-c01-l05-04-media-queries-example/nd001-c01-l05-04-media-queries-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c933c_nd001-c01-l05-04-media-queries-example/nd001-c01-l05-04-media-queries-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c933c_nd001-c01-l05-04-media-queries-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909325,
+          "is_public": true,
+          "key": "1334ffcf-6e96-4ac9-bfdc-be11b4abe843",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries Example Summary",
+          "updated_at": "2019-10-08T12:24:48.910Z",
+          "version": "1.0.0",
+          "text": "Media queries are used to create responsive layouts using breakpoints. Below is an example of the syntax that is used for creating media queries:\n\n```css\n@media(min-width:1100px) {\n  body{\n    font-size: 27px;\n  }\n}\n```\n\nIn the example above, if the browser width of the webpage being viewed is above 1100px wide, then the font-size would become 27px.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909342,
+          "is_public": true,
+          "key": "99e74fc4-68f5-4306-abcd-ad25b0547951",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": "Media Queries Graphic",
+          "updated_at": "2019-10-08T12:24:49.239Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/August/59a3a143_1-16-why-responsive2x/1-16-why-responsive2x.jpg",
+          "width": 300,
+          "height": 320,
+          "alt": "Media queries can help change the layout for different screen sizes",
+          "caption": "Media queries can help change the layout for different screen sizes",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909346,
+          "is_public": true,
+          "key": "24d5af87-22f8-4753-b643-74a89c76220a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Media Queries Quiz",
+          "updated_at": "2019-10-08T12:24:49.736Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following is the correct syntax for media queries with a responsive breakpoint?",
+            "correct_feedback": "Great eye for syntax! You’re becoming a responsive design master!",
+            "video_feedback": null,
+            "default_feedback": "",
+            "answers": [
+              {
+                "id": "rbk1",
+                "text": "```javascript\n@media(width:800px) {\n  .container {\n    border: 2px solid blue;\n  }\n}\n```",
+                "is_correct": false,
+                "incorrect_feedback": "`min-width` is the property used to set the breakpoint. The `min` is prepended to create a boundary."
+              },
+              {
+                "id": "rbk2",
+                "text": "```javascript\n@media(min-width:800px) {\n  .container {\n    border: 2px solid blue;\n  }\n}\n```",
+                "is_correct": true,
+                "incorrect_feedback": "Great eye for syntax! You’re becoming a responsive design master!"
+              },
+              {
+                "id": "rbk3",
+                "text": "```javascript\nmedia(min-width:800px) {\n  .container {\n    border: 2px solid blue;\n  }\n}\n```",
+                "is_correct": false,
+                "incorrect_feedback": "This code is missing the `@` before the keyword `media`. The `@` is important and must be included."
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909361,
+      "is_public": true,
+      "key": "e3a2de83-5b0a-4626-b838-78b37f142dec",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Multiple Breakpoints",
+      "updated_at": "2019-10-08T12:24:53.278Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909341,
+        909345,
+        909376,
+        909340,
+        909348
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909341,
+          "is_public": true,
+          "key": "3e48a2d3-3301-4474-8e24-69a4c01b9d35",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries+",
+          "updated_at": "2019-10-08T12:24:50.425Z",
+          "version": "1.0.0",
+          "text": "# Multiple Breakpoints\n\nWe have seen how to set a breakpoint and use Media Queries to create different layouts for smaller screens and larger screens, but there are some development moments that will call for 3 possible layouts.   \r<br>\r<br>\rA simple example would be creating 2 different breakpoints so that up to x width one set of CSS rules apply, then between x and y width a second set would apply, and then for anything beyond a width of y a third set of CSS rules would apply.   \r<br>\r<br>\rHere is an example of what that code could look like:  \n\n```css\n/* Anything smaller than first breakpoint 600px */\n.container {\n  // rules for small screen\n}\n\n/* Medium Screens */\n@media (min-width: 600px) and (max-width:900px) {\n  .container {\n    // rules for medium-sized screen\n  }\n}\n\n/* Large Screens */\n@media (min-width:901px) {\n  .container {\n    // rules for large screen\n  }\n}\n```\n\nIn this example, the medium screens media query is new, and we use the keyword `and` to build a complex media query that evaluates both a min and max to create a range for the CSS rules to apply, in this case if the width of the viewport is between 600px-900px.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909345,
+          "is_public": true,
+          "key": "af3e8b81-ee42-4c79-9d28-716cd9afe3a7",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 05 Media Queries+ Walkthru",
+          "updated_at": "2019-10-08T12:24:50.854Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100540",
+            "youtube_id": "y3v9X5IJl8E",
+            "topher_id": "8569b788-d4a2-11e9-99dd-239908752d6f",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8883_nd001-c01-l05-05-media-queries-walkthru/nd001-c01-l05-05-media-queries-walkthru_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8883_nd001-c01-l05-05-media-queries-walkthru/nd001-c01-l05-05-media-queries-walkthru_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8883_nd001-c01-l05-05-media-queries-walkthru/nd001-c01-l05-05-media-queries-walkthru_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c8883_nd001-c01-l05-05-media-queries-walkthru/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 909376,
+          "is_public": true,
+          "key": "4f16d306-0db0-463d-966e-f0587678e4c6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:24:51.208Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c909361xHTMLLIVE282d9cbg",
+          "view_id": "html-live-5mu8v",
+          "gpu_capable": false,
+          "name": "responsive-multiple-breaks",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909340,
+          "is_public": true,
+          "key": "2ea90e97-ba5e-4146-8d2e-e5de4f33a440",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries Summary",
+          "updated_at": "2019-10-08T12:24:52.046Z",
+          "version": "1.0.0",
+          "text": "Complex media queries can be built using the keyword `and` to bound CSS rules between a range using `min-width` and `max-width`.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909348,
+          "is_public": true,
+          "key": "716b6682-4e48-4c05-bc86-a7c34d7302b2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Media Queries Further Research",
+          "updated_at": "2019-10-08T12:24:52.893Z",
+          "version": "1.0.0",
+          "text": "### Further Research \n\nMedia Queries are actually a vast landscape of possibility, most of which you will probably never use - but, having a strong grasp of media queries and responsive breakpoints is essential for a web developer. For more information see the [MDN docs entry on using Media Queries](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries). ",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909362,
+      "is_public": true,
+      "key": "b4acc728-e1eb-4986-baf0-9b5b4a70d615",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Building Responsive Layouts with Flexbox & Grid",
+      "updated_at": "2019-10-08T12:24:54.942Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909347,
+        909344,
+        909349
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909347,
+          "is_public": true,
+          "key": "9ae97591-94f1-47eb-8ef8-ea99b8ed1af6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Responsive Layouts with Flexbox & Grid Heading",
+          "updated_at": "2019-10-08T12:24:53.608Z",
+          "version": "1.0.0",
+          "text": "# Building Responsive Layouts with Flexbox & Grid",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909344,
+          "is_public": true,
+          "key": "2f87af4d-ba83-49f7-84c1-990e87162683",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 06 Building Responsive Layouts With Flexbox   Grid",
+          "updated_at": "2019-10-08T12:24:54.075Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100546",
+            "youtube_id": "Xr55JJsqNYc",
+            "topher_id": "8569b7d8-d4a2-11e9-99de-a7324c3f9b9b",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c93b4_nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid/nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c93b4_nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid/nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c93b4_nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid/nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c93b4_nd001-c01-l05-06-building-responsive-layouts-with-flexbox-grid/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909349,
+          "is_public": true,
+          "key": "de82b622-755c-47bd-8c55-4dbb28b962c3",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Responsive Layouts with Flexbox & Grid Summary",
+          "updated_at": "2019-10-08T12:24:54.617Z",
+          "version": "1.0.0",
+          "text": "One of the most useful features of CSS grid is that you can easily nest grids inside each other to create elegant, complex layouts. To nest CSS grids simply set the `display` property of the container element to `grid` and then select the child grid item you want to make the nested grid and set the `display` property of that element to `grid` as well! The same grid rules you’ve been learning still apply! Easy as that!",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909364,
+      "is_public": true,
+      "key": "26b35194-edfc-4e1d-a094-56c6e19bdd83",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Nesting Grids in Practice",
+      "updated_at": "2019-10-08T12:24:57.361Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909350,
+        909351,
+        909354,
+        909377,
+        909355
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909350,
+          "is_public": true,
+          "key": "b359b6c2-81b4-4805-a3f7-c9e48ecea695",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Responsive Layouts with Flexbox & Grid Example Prep",
+          "updated_at": "2019-10-08T12:24:55.439Z",
+          "version": "1.0.0",
+          "text": "# Nesting Grids in Practice\n\nIn the screencast below you’ll see how nesting grids works in practice, and how a nested grid can be used to make a simple image gallery.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909351,
+          "is_public": true,
+          "key": "725ffccb-9592-4e6a-ba4e-5ef776c8a4c4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 07 Building Responsive Layouts With Flexbox   Grid Example",
+          "updated_at": "2019-10-08T12:24:55.801Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100541",
+            "youtube_id": "gm7cZatnBuc",
+            "topher_id": "8569aef0-d4a2-11e9-99c4-ef5299073b0e",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8ac6_nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example/nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8ac6_nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example/nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8ac6_nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example/nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c8ac6_nd001-c01-l05-07-building-responsive-layouts-with-flexbox-grid-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909354,
+          "is_public": true,
+          "key": "50ffdd02-7e0a-46cf-9966-33b8de5f2ff1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Responsive Layouts with Flexbox & Grid Example Summary",
+          "updated_at": "2019-10-08T12:24:56.188Z",
+          "version": "1.0.0",
+          "text": "Nesting CSS grids is simple and can be done simply by using the `display:grid` rule for both a parent and child element.\n\nHere is how that could look with real code:\n\n```css\n.container {\n  display:grid;\n  // ...\n}\n\n#one {\n  display:grid\n}\n```",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 909377,
+          "is_public": true,
+          "key": "a4adc283-cac6-412c-b44d-d007a19b98a8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:24:56.577Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c909364xHTMLLIVEmpruqfpi",
+          "view_id": "html-live-6q77c",
+          "gpu_capable": false,
+          "name": "responsive-nest-grids",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md",
+                  "/home/workspace/index.html",
+                  "/home/workspace/css/style.css"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909355,
+          "is_public": true,
+          "key": "48ae54c6-132e-450f-be8e-9e2bdcc26770",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Building Responsive Layouts with Flexbox & Grid Summary",
+          "updated_at": "2019-10-08T12:24:56.904Z",
+          "version": "1.0.0",
+          "text": "In this section we covered how to nest grids to make creative layouts for the web, and how CSS grid can be used to create an easy photo gallery for a website or blog.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909363,
+      "is_public": true,
+      "key": "54459ec3-1817-4f8c-aeff-efec8393a340",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Course Recap",
+      "updated_at": "2019-10-08T12:24:58.174Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909353
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909353,
+          "is_public": true,
+          "key": "38b1250d-195d-4e04-9fac-5fc48a1ff781",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L05 08 Course Recap",
+          "updated_at": "2019-10-08T12:24:57.846Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100542",
+            "youtube_id": "IBwd8FtVFfA",
+            "topher_id": "8569af40-d4a2-11e9-99c5-ffb981cdb717",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8bb3_nd001-c01-l05-08-course-recap/nd001-c01-l05-08-course-recap_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8bb3_nd001-c01-l05-08-course-recap/nd001-c01-l05-08-course-recap_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c8bb3_nd001-c01-l05-08-course-recap/nd001-c01-l05-08-course-recap_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c8bb3_nd001-c01-l05-08-course-recap/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+      "id": 909365,
+      "is_public": true,
+      "key": "71a2dcaf-8871-4240-98a1-cc69c139b760",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Instructor Interview",
+      "updated_at": "2019-10-08T12:24:59.507Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        909356,
+        909352
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909356,
+          "is_public": true,
+          "key": "475abfd5-1717-45c5-98ae-3391527fa3e9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Instructor Interview Heading",
+          "updated_at": "2019-10-08T12:24:58.553Z",
+          "version": "1.0.0",
+          "text": "# Instructor Interview\n\nHere, you’ll get a chance to listen to Daniel talk about how he first learned front end development, some important tips for you on your front end journey, common mistakes developers might make, as well as a preview of where you’ll soon be going in the program!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1OICWpa7ejpID4wPkh2ktXEkJnp7gSx7B_tuXugEbiNo",
+          "id": 909352,
+          "is_public": true,
+          "key": "a9f84d4d-42a4-4a36-8b7a-7ee4f240032f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Daniel Baker Interview V2",
+          "updated_at": "2019-10-08T12:24:59.127Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100588",
+            "youtube_id": "JqbsIzO_Ofw",
+            "topher_id": "8569b81e-d4a2-11e9-99df-ebf632597aca",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4dceb5_daniel-baker-interview-v2/daniel-baker-interview-v2_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4dceb5_daniel-baker-interview-v2/daniel-baker-interview-v2_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4dceb5_daniel-baker-interview-v2/daniel-baker-interview-v2_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4dceb5_daniel-baker-interview-v2/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

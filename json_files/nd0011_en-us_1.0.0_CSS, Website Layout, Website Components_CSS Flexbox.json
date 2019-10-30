@@ -1,0 +1,1146 @@
+{
+  "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+  "id": 908316,
+  "is_public": true,
+  "key": "af6deed7-3e8f-4bcc-9ece-1743adcc28e6",
+  "locale": "en-us",
+  "root_owner_id": null,
+  "semantic_type": "Lesson",
+  "title": "CSS Flexbox",
+  "updated_at": "2019-09-30T23:47:30.989Z",
+  "version": "1.0.0",
+  "image": {
+    "url": "https://video.udacity-data.com/topher/2017/September/59ce97df_2-1-html-css-boxes2x/2-1-html-css-boxes2x.jpg",
+    "width": 592,
+    "height": 640
+  },
+  "video": null,
+  "lab": null,
+  "project": null,
+  "summary": "Build on your CSS knowledge by diving into Flexbox, a one-dimensional layout technique for helping organize items within your webpage.",
+  "lesson_type": "Classroom",
+  "duration": 90,
+  "display_workspace_project_only": false,
+  "is_project_lesson": false,
+  "career_portal_experience_levels": null,
+  "_concepts_ids": [
+    908311,
+    908312,
+    908307,
+    908314,
+    908309,
+    908315,
+    908310,
+    908313,
+    908308
+  ],
+  "_project_id": null,
+  "concepts": [
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908311,
+      "is_public": true,
+      "key": "51bd0188-1c43-4a88-b507-b7be0129035d",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Introducing Flexbox",
+      "updated_at": "2019-10-08T12:23:15.078Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908305,
+        908284,
+        908285
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908305,
+          "is_public": true,
+          "key": "d8a82695-dceb-4b57-b8f1-5d98b72b2d02",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Introducing Flexbox Heading",
+          "updated_at": "2019-10-08T12:23:13.735Z",
+          "version": "1.0.0",
+          "text": "# Introducing Flexbox",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908284,
+          "is_public": true,
+          "key": "3f46af74-1989-46e5-b7ed-86250e2d017a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 01 Introducing Flexbox",
+          "updated_at": "2019-10-08T12:23:14.211Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100471",
+            "youtube_id": "1RIj3J4TJfQ",
+            "topher_id": "850e8b92-d4a2-11e9-ab23-771b6270859b",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2edb_nd001-c01-l03-01-introducing-flexbox/nd001-c01-l03-01-introducing-flexbox_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2edb_nd001-c01-l03-01-introducing-flexbox/nd001-c01-l03-01-introducing-flexbox_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2edb_nd001-c01-l03-01-introducing-flexbox/nd001-c01-l03-01-introducing-flexbox_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2edb_nd001-c01-l03-01-introducing-flexbox/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908285,
+          "is_public": true,
+          "key": "52718880-f751-45d6-8a0a-1cce5191542a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Introducing Flexbox Recap",
+          "updated_at": "2019-10-08T12:23:14.728Z",
+          "version": "1.0.0",
+          "text": "To use flexbox set the `display` property of a div to `flex`. The items inside that element will automatically become flex items, and you can then use the flexbox syntax in your CSS code.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908312,
+      "is_public": true,
+      "key": "707d23da-0299-428c-8bb0-ccf716c1ed35",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "A Quick Flexbox Example",
+      "updated_at": "2019-10-08T12:23:18.845Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908273,
+        908271,
+        908296,
+        908272,
+        908319,
+        908274,
+        908282
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908273,
+          "is_public": true,
+          "key": "cf853505-0244-4630-9658-de40b9042e95",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "A Quick Flexbox Example Heading",
+          "updated_at": "2019-10-08T12:23:15.355Z",
+          "version": "1.0.0",
+          "text": "# A Quick Flexbox Example",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908271,
+          "is_public": true,
+          "key": "936b01f1-a2d6-45b5-b806-a968e44e9e40",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 02 Introducing Flexbox Example",
+          "updated_at": "2019-10-08T12:23:16.145Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100474",
+            "youtube_id": "Wp--K4tnM9g",
+            "topher_id": "850ecc1a-d4a2-11e9-abe2-9b80c85cd099",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ee8_nd001-c01-l03-02-introducing-flexbox-example/nd001-c01-l03-02-introducing-flexbox-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ee8_nd001-c01-l03-02-introducing-flexbox-example/nd001-c01-l03-02-introducing-flexbox-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ee8_nd001-c01-l03-02-introducing-flexbox-example/nd001-c01-l03-02-introducing-flexbox-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2ee8_nd001-c01-l03-02-introducing-flexbox-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908296,
+          "is_public": true,
+          "key": "407573b9-55a6-4505-8b21-5adddd4f02dd",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Introducing Flexbox Example Summary",
+          "updated_at": "2019-10-08T12:23:16.701Z",
+          "version": "1.0.0",
+          "text": "By setting an element's `display` property to `flex`, all elements inside of it become flex items that can be laid out in a customized way following design patterns like columns, rows, alignment, and distribution.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908272,
+          "is_public": true,
+          "key": "e21bfcd9-d62e-4d46-9ff1-a9fdd4d722bb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Introducing Flexbox Quiz",
+          "updated_at": "2019-10-08T12:23:17.051Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "What do you add to your code to begin using flexbox properties?",
+            "correct_feedback": "Correct!",
+            "video_feedback": null,
+            "default_feedback": "",
+            "answers": [
+              {
+                "id": "rbk1",
+                "text": "By setting the `display` property of the parent element to `flex`.",
+                "is_correct": true,
+                "incorrect_feedback": "The parent element’s `display` property should be set to `flex`."
+              },
+              {
+                "id": "rbk2",
+                "text": "By setting the `display` properties of the items inside the parent container to `flex`.",
+                "is_correct": false,
+                "incorrect_feedback": "The parent element is set to `flex` and the children items are automatically turned into flex items."
+              },
+              {
+                "id": "rbk3",
+                "text": "Just start using flexbox properties like `align-items` and `justify-content`.",
+                "is_correct": false,
+                "incorrect_feedback": "In order to use flexbox properties you must set the `display` to  `flex.`"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 908319,
+          "is_public": true,
+          "key": "90dcbb47-dbbe-422b-835d-e82b9379ade8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:23:17.561Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c908312xHTMLLIVEnfyuyk7z",
+          "view_id": "html-live-9uy5a",
+          "gpu_capable": false,
+          "name": "flexbox-1",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md",
+                  "/home/workspace/index.html"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908274,
+          "is_public": true,
+          "key": "b2b20a92-088a-4fdd-9d40-9274665b4307",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Introducing Flexbox Summary",
+          "updated_at": "2019-10-08T12:23:17.921Z",
+          "version": "1.0.0",
+          "text": "Here, we have learned that Flexbox (the Flexible Box Module) is a set of CSS rules for stretching multiple columns or rows across a parent container. Flex is unique amongst CSS properties because you have a main container and the items nested within it. CSS flex has properties that apply to both the element itself, and the items inside of it.\n\nTo use flexbox set the `display` property of the parent container to `flex`:\n```\n.container{\n  display:flex;\n}\n```",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908282,
+          "is_public": true,
+          "key": "d7be2f17-9362-41e1-be48-e7a31e105844",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Introducing Flexbox Further Research",
+          "updated_at": "2019-10-08T12:23:18.485Z",
+          "version": "1.0.0",
+          "text": "### Further research\n\nFor more information about a Flexbox overview, see [this MDN entry](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox).",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908307,
+      "is_public": true,
+      "key": "14dc4bec-7f8c-4e41-98d8-61a018bf6019",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Axes and Direction with Flexbox",
+      "updated_at": "2019-10-08T12:23:21.020Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908280,
+        908287,
+        908290
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908280,
+          "is_public": true,
+          "key": "82b0e887-3a61-4f13-8eed-13eea4aad133",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Axes and Direction with Flexbox Heading",
+          "updated_at": "2019-10-08T12:23:19.672Z",
+          "version": "1.0.0",
+          "text": "# Axes and Direction with Flexbox",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908287,
+          "is_public": true,
+          "key": "74ea83ec-85b2-4aa2-a334-45b170a9ffff",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 03 Axes And Direction With Flexbox",
+          "updated_at": "2019-10-08T12:23:20.141Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100473",
+            "youtube_id": "nk746LmofK8",
+            "topher_id": "850ed8f4-d4a2-11e9-ac09-033274070361",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ee4_nd001-c01-l03-03-axes-and-direction-with-flexbox/nd001-c01-l03-03-axes-and-direction-with-flexbox_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ee4_nd001-c01-l03-03-axes-and-direction-with-flexbox/nd001-c01-l03-03-axes-and-direction-with-flexbox_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ee4_nd001-c01-l03-03-axes-and-direction-with-flexbox/nd001-c01-l03-03-axes-and-direction-with-flexbox_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2ee4_nd001-c01-l03-03-axes-and-direction-with-flexbox/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908290,
+          "is_public": true,
+          "key": "7450e0db-9997-4f49-abbe-2f2c7420fb2e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Axes and Direction with Flexbox Recap",
+          "updated_at": "2019-10-08T12:23:20.607Z",
+          "version": "1.0.0",
+          "text": "The Flexbox model relies on two axes: the main axis and the cross axis. The main axis is defined by flex-direction, which has four possible values:\n\n- `row`\n- `row-reverse`\n- `column`\n- `column-reverse`\n\nThe two row settings will create the main axis horizontally - or `inline` direction. The two column settings will create the main axis vertically - or `block` direction. `block` or `inline` here refer to the CSS display settings which we have covered previously. \n\nThe axis determines the flow of your content - you can think of this as being either rows or columns - and they will be determined when you start aligning and justifying content within a flex container.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908314,
+      "is_public": true,
+      "key": "8b1bb19a-bba0-4715-8491-03786403cbf6",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Axes and Direction in Action",
+      "updated_at": "2019-10-08T12:23:24.738Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908279,
+        908277,
+        908289,
+        908278,
+        908320,
+        908276,
+        908297
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908279,
+          "is_public": true,
+          "key": "a61fada1-6f69-461d-a318-c6ad493ffa0b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Axes and Direction with Flexbox Example Prep",
+          "updated_at": "2019-10-08T12:23:21.633Z",
+          "version": "1.0.0",
+          "text": "# Axes and Direction in Action\n\nAfter setting an element's display to flex, the next thing you will usually want to state is whether the elements inside the container should be laid out in rows or columns. You can do this using the `flex-direction` property, and setting its value to either column or row.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908277,
+          "is_public": true,
+          "key": "66d32d22-896d-4902-a430-f33b5463c085",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 04 Axes And Direction With Flexbox Example",
+          "updated_at": "2019-10-08T12:23:22.247Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100477",
+            "youtube_id": "OohsQcDvdJc",
+            "topher_id": "850ed958-d4a2-11e9-ac0a-338ac8f31556",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ef3_nd001-c01-l03-04-axes-and-direction-with-flexbox-example/nd001-c01-l03-04-axes-and-direction-with-flexbox-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ef3_nd001-c01-l03-04-axes-and-direction-with-flexbox-example/nd001-c01-l03-04-axes-and-direction-with-flexbox-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ef3_nd001-c01-l03-04-axes-and-direction-with-flexbox-example/nd001-c01-l03-04-axes-and-direction-with-flexbox-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2ef3_nd001-c01-l03-04-axes-and-direction-with-flexbox-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908289,
+          "is_public": true,
+          "key": "a4ad770d-5144-4e8e-afd0-a3316a62fa24",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Axes and Direction with Flexbox Example Summary",
+          "updated_at": "2019-10-08T12:23:22.624Z",
+          "version": "1.0.0",
+          "text": "To set the layout of the items in a flex container to either a row or column use the `flex-direction` property like this:\n\n```\n.container{\n  display:flex;\n  flex-direction: row\n}\n```",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908278,
+          "is_public": true,
+          "key": "948bb0dc-0e2c-44f2-9579-4c0d0757c325",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "Axes and Direction with Flexbox Problem Set",
+          "updated_at": "2019-10-08T12:23:23.088Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following are true?",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "default_feedback": "In fact, all these things are true!",
+            "answers": [
+              {
+                "id": "rbk1",
+                "text": "If the `flex-direction` is set to `row` or `row-reverse` the main axis is horizontal.",
+                "is_correct": true,
+                "incorrect_feedback": "Brilliant!"
+              },
+              {
+                "id": "rbk2",
+                "text": "If the `flex-direction` is set to `column` or `column-reverse` the main axis is vertical.",
+                "is_correct": true,
+                "incorrect_feedback": "Brilliant!"
+              },
+              {
+                "id": "rbk3",
+                "text": "If the main axis is horizontal the cross axis is vertical.",
+                "is_correct": true,
+                "incorrect_feedback": "Brilliant!"
+              },
+              {
+                "id": "rbk4",
+                "text": "The two axis control the flow of space in flexbox and correspond to the `align-items` and `justify-content` properties.",
+                "is_correct": true,
+                "incorrect_feedback": "Brilliant!"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 908320,
+          "is_public": true,
+          "key": "356414b9-a768-45c3-8a89-1d055bfb4218",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:23:23.564Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c908314xHTMLLIVEhqegt0nd",
+          "view_id": "html-live-rm6dr",
+          "gpu_capable": false,
+          "name": "flexbox-axes-direction",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md",
+                  "/home/workspace/index.html"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908276,
+          "is_public": true,
+          "key": "c8b04846-9271-46c5-9a0e-bffa14eeefe6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Axes and Direction with Flexbox Summary",
+          "updated_at": "2019-10-08T12:23:23.854Z",
+          "version": "1.0.0",
+          "text": "Axes and direction are important concepts for understanding flexbox. They are both conceptual and technical which can be tricky. One suggestion is to try and draw your flex containers out first in a notebook. This can be helpful for mapping out axes and direction.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908297,
+          "is_public": true,
+          "key": "f5c2013d-aee5-4fa9-8b9c-b1b9f5867cc5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Axes and Direction with Flexbox Further Research",
+          "updated_at": "2019-10-08T12:23:24.416Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\nFor more on axis and direction with flexbox see the [documentation here](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#The_two_axes_of_flexbox).",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908309,
+      "is_public": true,
+      "key": "b5abc404-153a-4153-b7ec-ad89788910a4",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Ordering Elements with Flexbox",
+      "updated_at": "2019-10-08T12:23:26.340Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908291,
+        908286,
+        908300
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908291,
+          "is_public": true,
+          "key": "4330d28f-8d1f-4c06-b583-9f1501b8765d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Ordering Elements with Flexbox Heading",
+          "updated_at": "2019-10-08T12:23:25.159Z",
+          "version": "1.0.0",
+          "text": "# Ordering Elements with Flexbox",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908286,
+          "is_public": true,
+          "key": "383ff346-8e28-41b6-8e69-b8b66b9b3d1a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 05 Ordering Elements With Flexbox",
+          "updated_at": "2019-10-08T12:23:25.577Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100470",
+            "youtube_id": "MfdXaLz1yzM",
+            "topher_id": "850ee2d6-d4a2-11e9-ac26-1bd7231063ed",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ed6_nd001-c01-l03-05-ordering-elements-with-flexbox/nd001-c01-l03-05-ordering-elements-with-flexbox_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ed6_nd001-c01-l03-05-ordering-elements-with-flexbox/nd001-c01-l03-05-ordering-elements-with-flexbox_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ed6_nd001-c01-l03-05-ordering-elements-with-flexbox/nd001-c01-l03-05-ordering-elements-with-flexbox_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2ed6_nd001-c01-l03-05-ordering-elements-with-flexbox/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908300,
+          "is_public": true,
+          "key": "d218433c-bc81-419c-b5e5-318dd49f9aaa",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Ordering Elements with Flexbox Recap",
+          "updated_at": "2019-10-08T12:23:25.969Z",
+          "version": "1.0.0",
+          "text": "There are three ways to explicitly set the order in which items will appear in a grid.\n\n1. Moving the HTML code for the elements themselves to reorder\n2. Appending `-reverse` to `row` or `column` will reverse the order in the specified row or column\n3. Using the `order` property of the individual items inside the grid",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908315,
+      "is_public": true,
+      "key": "1b8e2d51-9af2-4525-b697-4a34d0141f8c",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Ordering Elements Demo",
+      "updated_at": "2019-10-08T12:23:29.967Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908306,
+        908302,
+        908283,
+        908303,
+        908322,
+        908275,
+        908288
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908306,
+          "is_public": true,
+          "key": "0fedbab3-a85c-459f-94a8-b8bf587bc142",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Ordering Elements with Flexbox Example Prep",
+          "updated_at": "2019-10-08T12:23:26.674Z",
+          "version": "1.0.0",
+          "text": "# Ordering Elements Demo\n\n`flex-direction:row;` will lay elements out from left to right. But `flex-direction:row-reverse` will flip that order and display elements from right to left.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908302,
+          "is_public": true,
+          "key": "e5e8a3ad-f8ae-4146-9e1a-0195486eb994",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 06 Ordering Elements With Flexbox V3",
+          "updated_at": "2019-10-08T12:23:27.160Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100547",
+            "youtube_id": "iPi0d4d1Rds",
+            "topher_id": "850f0c84-d4a2-11e9-aca3-af909f8b2b36",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c96ee_nd001-c01-l03-06-ordering-elements-with-flexbox-v3/nd001-c01-l03-06-ordering-elements-with-flexbox-v3_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c96ee_nd001-c01-l03-06-ordering-elements-with-flexbox-v3/nd001-c01-l03-06-ordering-elements-with-flexbox-v3_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4c96ee_nd001-c01-l03-06-ordering-elements-with-flexbox-v3/nd001-c01-l03-06-ordering-elements-with-flexbox-v3_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4c96ee_nd001-c01-l03-06-ordering-elements-with-flexbox-v3/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908283,
+          "is_public": true,
+          "key": "b1036031-5840-41ab-abd4-ac433156e0c0",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Ordering Elements with Flexbox Example Summary",
+          "updated_at": "2019-10-08T12:23:27.521Z",
+          "version": "1.0.0",
+          "text": "The row and columns settings for flex elements can be reversed by appending `-reverse` to either property value.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908303,
+          "is_public": true,
+          "key": "5390d01d-d70c-4c6f-b6d3-10b1f39fc34c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "Ordering Elements with Flexbox Problem Set",
+          "updated_at": "2019-10-08T12:23:27.896Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following is NOT a valid way to order elements inside a grid with Flexbox?",
+            "correct_feedback": "Nailed it - you’re a genius!",
+            "video_feedback": null,
+            "default_feedback": "Practice makes perfect. Try each of these out yourself to tell which one isn’t valid! Hint: does just the name an element cause anything to happen?",
+            "answers": [
+              {
+                "id": "rbk1",
+                "text": "Moving the HTML code for the elements themselves to reorder",
+                "is_correct": false,
+                "incorrect_feedback": ""
+              },
+              {
+                "id": "rbk2",
+                "text": "Appending `-reverse` to `row` or `column` to reverse the order in the specified row or column",
+                "is_correct": false,
+                "incorrect_feedback": ""
+              },
+              {
+                "id": "rbk3",
+                "text": "Naming the elements in numeric order",
+                "is_correct": true,
+                "incorrect_feedback": ""
+              },
+              {
+                "id": "rbk4",
+                "text": "Using the `order` property of the individual items inside the grid",
+                "is_correct": false,
+                "incorrect_feedback": ""
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 908322,
+          "is_public": true,
+          "key": "e15dc612-445d-46ee-80a4-9122ec141817",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:23:28.330Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c908315xHTMLLIVEh0704k2p",
+          "view_id": "html-live-syzzw",
+          "gpu_capable": false,
+          "name": "flexbox-order",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md",
+                  "/home/workspace/index.html"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908275,
+          "is_public": true,
+          "key": "13f565c2-e268-4018-bc2d-d05dd77c61f1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Ordering Elements with Flexbox Summary",
+          "updated_at": "2019-10-08T12:23:28.808Z",
+          "version": "1.0.0",
+          "text": "### Summary\n\nThe order of flex items is by default determined by the order they appear in your code. You can explicitly change this order using either `-reverse` or with the CSS property `order`.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908288,
+          "is_public": true,
+          "key": "fb1e9c3f-83b4-494e-8bfd-499c90db29e2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Ordering Elements with Flexbox Further Research",
+          "updated_at": "2019-10-08T12:23:29.582Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\nFor more information on ordering flex items, you can see this section of [the flexbox MDN article](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Flexbox#Ordering_flex_items).",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908310,
+      "is_public": true,
+      "key": "1d748687-fd8a-4412-baff-b9bdfc65719b",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Aligning Items & Justifying Content with Flexbox",
+      "updated_at": "2019-10-08T12:23:31.838Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908301,
+        908295,
+        908292
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908301,
+          "is_public": true,
+          "key": "8793ecf2-c720-44d8-8594-8d95302a259a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Aligning Items & Justifying Content with Flexbox Heading",
+          "updated_at": "2019-10-08T12:23:30.380Z",
+          "version": "1.0.0",
+          "text": "# Aligning Items & Justifying Content with Flexbox",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908295,
+          "is_public": true,
+          "key": "de2bb318-412f-49a3-9eab-c706fbebe413",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 07 Aligning Items   Justifying Content With Flexbox",
+          "updated_at": "2019-10-08T12:23:30.945Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100475",
+            "youtube_id": "s9Z4tTWbbAY",
+            "topher_id": "850f284a-d4a2-11e9-acf6-0777a7ee2dde",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2eed_nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox/nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2eed_nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox/nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2eed_nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox/nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2eed_nd001-c01-l03-07-aligning-items-justifying-content-with-flexbox/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908292,
+          "is_public": true,
+          "key": "0d936101-555d-4030-bfd2-cf68ad176a49",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Aligning Items & Justifying Content with Flexbox Recap",
+          "updated_at": "2019-10-08T12:23:31.295Z",
+          "version": "1.0.0",
+          "text": "To align items on the cross axis use `align-items` with the possible values:\n- stretch\n- flex-start\n- flex-end\n- center\n\nTo justify content on the main axis use `justify-content`, which has the possible values:\n- flex-start\n- flex-end\n- center\n- space-around\n- space-between\n- space-evenly",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908313,
+      "is_public": true,
+      "key": "7b1a9599-f222-44e8-8758-aae3871d98be",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Aligning & Justifying in Action",
+      "updated_at": "2019-10-08T12:23:34.969Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908281,
+        908298,
+        908304,
+        908294,
+        908323,
+        908299
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908281,
+          "is_public": true,
+          "key": "e6d2c65d-d384-4684-9f64-ab43fa07e2a0",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Aligning Items & Justifying Content with Flexbox Example Prep",
+          "updated_at": "2019-10-08T12:23:32.328Z",
+          "version": "1.0.0",
+          "text": "# Aligning & Justifying in Action\n\nAligning, justifying, and distributing is what flexbox is all about. Up next, we will focus in on two of the most powerful properties that flex introduces to achieve such easy and elegant layouts.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908298,
+          "is_public": true,
+          "key": "ab588e34-f313-4c35-8a53-42cf0ca8b80b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 08 Aligning Items   Justifying Content With Flexbox Example",
+          "updated_at": "2019-10-08T12:23:32.778Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100469",
+            "youtube_id": "Ois3sh2AAQw",
+            "topher_id": "850fe32a-d4a2-11e9-af2b-f35fbb7848ff",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ece_nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example/nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ece_nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example/nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2ece_nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example/nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2ece_nd001-c01-l03-08-aligning-items-justifying-content-with-flexbox-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908304,
+          "is_public": true,
+          "key": "38601322-df38-4088-bd29-35cb8b608059",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Aligning Items & Justifying Content with Flexbox Example Summary",
+          "updated_at": "2019-10-08T12:23:33.097Z",
+          "version": "1.0.0",
+          "text": "By setting different values for the properties `align-items` and `justify-content` you can easily create elegant distribution of elements across the available space.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908294,
+          "is_public": true,
+          "key": "eab5a75e-2408-4652-ac3b-0b3d1759fca6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "Aligning Items & Justifying Content with Flexbox Quiz",
+          "updated_at": "2019-10-08T12:23:33.664Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following is true?",
+            "correct_feedback": "You’re a boss!",
+            "video_feedback": null,
+            "default_feedback": "",
+            "answers": [
+              {
+                "id": "rbk1",
+                "text": "The align-items property will align the items on the cross axis.",
+                "is_correct": true,
+                "incorrect_feedback": "Nailed it! And this one was tricky! Great job!"
+              },
+              {
+                "id": "rbk2",
+                "text": "The justify-content property will align the items on the cross axis.",
+                "is_correct": false,
+                "incorrect_feedback": "Justify-content maps to the main-axis"
+              },
+              {
+                "id": "rbk3",
+                "text": "The align-items property will align the items on the main axis.",
+                "is_correct": false,
+                "incorrect_feedback": "Justify-content maps to the main-axis"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 908323,
+          "is_public": true,
+          "key": "55e48bba-f21f-41c4-8857-a0f9f0478f1b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "WorkspaceAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:23:34.098Z",
+          "version": "1.0.0",
+          "pool_id": "webterminal",
+          "workspace_id": "r179038c908313xHTMLLIVEa434jhc5",
+          "view_id": "html-live-ly7ly",
+          "gpu_capable": false,
+          "name": "flexbox-align-justify",
+          "configuration": {
+            "id": "reserved",
+            "blueprint": {
+              "conf": {
+                "disk": null,
+                "openFiles": [
+                  "/home/workspace/instructions.md",
+                  "/home/workspace/index.html"
+                ],
+                "showFiles": true,
+                "allowClose": true,
+                "showEditor": true,
+                "allowSubmit": false,
+                "autoRefresh": true,
+                "previewFile": "/home/workspace/index.html"
+              },
+              "kind": "html-live"
+            },
+            "workspaceId": "reserved"
+          },
+          "starter_files": null
+        },
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908299,
+          "is_public": true,
+          "key": "6f5a55fb-c9d0-425c-8d1e-f8a1e68ec8d1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": "Aligning Items & Justifying Content with Flexbox Further Research",
+          "updated_at": "2019-10-08T12:23:34.650Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\nFor further research on the topics covered in this section, see this MDN article [Alignment, justification and distribution of free space between items](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox#Alignment_justification_and_distribution_of_free_space_between_items).\n\nReading the documentation will make you smarter and enjoy coding more!",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+      "id": 908308,
+      "is_public": true,
+      "key": "92dcb221-eb1f-481f-891d-0b2e047cf9dc",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Recap",
+      "updated_at": "2019-10-08T12:23:35.898Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        908293
+      ],
+      "atoms": [
+        {
+          "content_source": "https://docs.google.com/a/udacity.com/open?id=1t1f5Hd7v8id-cUNdIXFclNApLUBd48sSu6CawFbyUY8",
+          "id": 908293,
+          "is_public": true,
+          "key": "0ead08cd-45a5-4226-bb6f-21c612e0783e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "ND001 C01 L03 09 Recap",
+          "updated_at": "2019-10-08T12:23:35.526Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "100472",
+            "youtube_id": "2jcMOMV_hj4",
+            "topher_id": "850feeec-d4a2-11e9-af50-237367db58b4",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2edf_nd001-c01-l03-09-recap/nd001-c01-l03-09-recap_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2edf_nd001-c01-l03-09-recap/nd001-c01-l03-09-recap_480p_1000kbps.mp4",
+              "uri_480p_ogg": null,
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2019/August/5d4a2edf_nd001-c01-l03-09-recap/nd001-c01-l03-09-recap_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2019/August/5d4a2edf_nd001-c01-l03-09-recap/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
