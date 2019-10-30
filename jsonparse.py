@@ -1,5 +1,8 @@
 import json
 import argparse
+import os
+import glob
+
 
 def input_args():
     parser = argparse.ArgumentParser(
@@ -38,12 +41,22 @@ def parseJSON(file, outputfile):
         for text in text_list:
             filehandle.write('%s\n' % text)
 
+def getFilePaths(directory):
+    all_files = []
+    for root, dirs, files in os.walk(directory):
+        files = glob.glob(os.path.join(root, '*.json'))
+        for f in files:
+            all_files.append(os.path.abspath(f))
+    return all_files
+
 def main():
     args = input_args()
     dir = args.dir
     output = args.output
+    files = getFilePaths('./json_files')
 
-    parseJSON(dir, output)
+    for i, file in enumerate(files, 1):
+        parseJSON(file, f'./text_files/test_file{i}')
 
 
 if __name__ == '__main__':
