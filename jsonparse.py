@@ -8,8 +8,8 @@ def input_args():
     parser = argparse.ArgumentParser(
         prog='jsonparse.py',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-    parser.add_argument('--dir', type=str, help='set directory of json file')
-    parser.add_argument('--output', type=str, help='set output directory')
+    parser.add_argument('--dir', type=str, help='set directory of json file', default='./json_files')
+    parser.add_argument('--output', type=str, help='set output directory', default='./text_files/text_file')
 
     return parser.parse_args()
 
@@ -53,10 +53,10 @@ def main():
     args = input_args()
     dir = args.dir
     output = args.output
-    files = getFilePaths('./json_files')
+    files = getFilePaths(dir)
 
     for i, file in enumerate(files, 1):
-        parseJSON(file, f'./text_files/test_file{i}')
+        parseJSON(file, f'{output} {i}')
 
 
 if __name__ == '__main__':

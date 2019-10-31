@@ -1,0 +1,2270 @@
+{
+  "content_source": null,
+  "id": 442270,
+  "is_public": true,
+  "key": "74c2a096-61db-4302-9d65-6b7fa9b8c329",
+  "locale": "en-us",
+  "root_owner_id": null,
+  "semantic_type": "Lesson",
+  "title": "The Document Object Model",
+  "updated_at": "2019-10-27T12:11:01.831Z",
+  "version": "1.0.0",
+  "image": {
+    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a6278fb_1-the-document-object-model2x/1-the-document-object-model2x.jpg",
+    "width": 500,
+    "height": 500
+  },
+  "video": null,
+  "lab": null,
+  "project": null,
+  "summary": "The Document Object Model (DOM) allows developers to interact with and control the rendered page. You'll learn how the DOM is formed, what Nodes and Elements are, and how to select items from the DOM.",
+  "lesson_type": "Classroom",
+  "duration": 120,
+  "display_workspace_project_only": null,
+  "is_project_lesson": false,
+  "career_portal_experience_levels": [],
+  "_concepts_ids": [
+    442271,
+    467394,
+    467395,
+    467456,
+    467465,
+    467396,
+    467397,
+    467398
+  ],
+  "_project_id": null,
+  "concepts": [
+    {
+      "content_source": null,
+      "id": 442271,
+      "is_public": true,
+      "key": "354d9102-8b45-4a89-91df-6f5ec9022dbd",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Introduction",
+      "updated_at": "2019-10-08T12:31:32.300Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478526,
+        467418,
+        467419,
+        467420,
+        467422,
+        467424,
+        467425
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478526,
+          "is_public": true,
+          "key": "857cd04f-6e52-48be-8588-0613fb24673c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L1 1 - Course Intro V1",
+          "updated_at": "2019-10-08T12:31:29.613Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69698",
+            "youtube_id": "abDDSfoG_fI",
+            "topher_id": "858cf2de-d4a2-11e9-9c83-6b412b04e392",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b02f_l1-1-course-intro-v1/l1-1-course-intro-v1_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b02f_l1-1-course-intro-v1/l1-1-course-intro-v1_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b02f_l1-1-course-intro-v1/l1-1-course-intro-v1_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b02f_l1-1-course-intro-v1/l1-1-course-intro-v1_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b02f_l1-1-course-intro-v1/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467418,
+          "is_public": true,
+          "key": "f3a2c18a-ed5a-4886-a2bc-a7917b4ce99e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:29.968Z",
+          "version": "1.0.0",
+          "text": "## Course Outline\n\nYou'll be learning so many things in this course! Here are the topics for each lesson:\n* **Lesson 1** - The Document Object Model\n* **Lesson 2** - Creating Content with JavaScript\n* **Lesson 3** - Working with Browser Events\n* **Lesson 4** - Performance\n\nIn Lesson 1, we'll take a dive into what the Document Object Model (DOM) is, how it gets created, and how we can access it with JavaScript.\n\nIn Lesson 2, you'll learn to interact with page content using JavaScript. You'll use the skills gained from the first lesson to JavaScript and the DOM to update existing page content, create new page content, add new content to the page, programmatically remove page content, and finally how to style page elements.\n\nIn Lesson 3, you'll learn about browser events. There is an entire world of thousands of browser events that are happening when you interact with a website. You can't see them directly, but you'll learn about them, how to listen for them, and how to respond when they occur.\n\nIn Lesson 4, you'll learn about Performance. It's never too early to start thinking about the performance implications of code. In this course we'll be writing code that can drastically change website (both its content and its looks!), so we need to make sure that the code we write is both functional and efficient.\n\nAs you can see, this course is packed with a ton of information! I hope you're excited to begin!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467419,
+          "is_public": true,
+          "key": "bc8c03da-f341-4ae4-a9e7-787df5c193a9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:30.296Z",
+          "version": "1.0.0",
+          "text": "## Being Successful\n\nTo be successful in this program, there are a number of technologies that you need to know how to use:\n* HTML\n* CSS\n* JavaScript\n\nWith JavaScript, though, it's imperative that you understand the basics of the language (variables, data types, loops, etc.). The course is called \"JavaScript and the DOM\", so JavaScript knowledge is vital for you to succeed.\n\nThe following are a few quiz questions to get you back in the mindset of writing JavaScript.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467420,
+          "is_public": true,
+          "key": "32fe8f28-a45e-43fc-aed0-d24975c44bc5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:30.977Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following is the correct way to declare a variable in JavaScript? (assume each line is run in isolation)",
+            "correct_feedback": "Great job! JavaScript uses the `var` keyword to declare a variable. This code declares a `name` variable and sets its value to equal the string `'Orvin'`.",
+            "video_feedback": null,
+            "default_feedback": null,
+            "answers": [
+              {
+                "id": "a1512189715740",
+                "text": "`name: 'Dominique';`",
+                "is_correct": false,
+                "incorrect_feedback": "Take a look at the character between `name` and `'Dominique'`. Is a colon the correct character to declare a variable?"
+              },
+              {
+                "id": "a1512189737449",
+                "text": "`const name = 'Miguel';`",
+                "is_correct": true,
+                "incorrect_feedback": "This is correct in newer versions of JavaScript."
+              },
+              {
+                "id": "a1512189738051",
+                "text": "`var name = 'Orvin';`",
+                "is_correct": true,
+                "incorrect_feedback": "Even if you're using newer versions of JavaScript, the `var` keyword is still correct."
+              },
+              {
+                "id": "a1512189770833",
+                "text": "`set(name, 'Kagure');`",
+                "is_correct": false,
+                "incorrect_feedback": "This uses a `set()` function to assign `\"Kagure\"` to a `name` variable. Is how it's done in JavaScript?"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467422,
+          "is_public": true,
+          "key": "68f0f785-5d0b-4c2b-8989-06495b5a9c4e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:31.441Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Using the code below, which of the following correctly access the string `'Malaysia'`?\n\n```js\nconst locations = ['Florida', 'England', 'Malaysia', 'South Africa', 'Fiji', 'China'];\n```",
+            "correct_feedback": "Arrays are positionally-based and counting starts at 0 (not 1!). Since `'Malaysia'` is the third item in the list, it is at position 2.",
+            "video_feedback": null,
+            "default_feedback": null,
+            "answers": [
+              {
+                "id": "a1512190027439",
+                "text": "`locations['Malaysia'];`",
+                "is_correct": false,
+                "incorrect_feedback": "Arrays are _positionally_ based. This means that an item can be accessed by its position in the array."
+              },
+              {
+                "id": "a1512190032331",
+                "text": "`locations[2];`",
+                "is_correct": true,
+                "incorrect_feedback": "How is an item accessed in an Array? By name or by position?"
+              },
+              {
+                "id": "a1512190032933",
+                "text": "`locations[3];`",
+                "is_correct": false,
+                "incorrect_feedback": "Close, remember that in JavaScript (and most programming language), counting starts at 0."
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467424,
+          "is_public": true,
+          "key": "9c081b8e-26af-4173-b7f4-23f5ae4c29f3",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:31.708Z",
+          "version": "1.0.0",
+          "text": "> ## Want to Brush Up?\n> \n> Hopefully these JavaScript challenges were not too rough for you! These are some of the JavaScript skills that you'll need throughout this course.\n> \n> If you did find some of these a bit challenging, it's probably a good idea to brush up a bit on some of your JavaScript. Check out [Intro to JavaScript](https://www.udacity.com/course/intro-to-javascript--ud803) for a refresher on these techniques!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467425,
+          "is_public": true,
+          "key": "c456a478-5e83-47e1-8512-ed5ec2780f4f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:32.034Z",
+          "version": "1.0.0",
+          "text": "Throughout this course, you'll be using lot of fundamental JavaScript skills, so if you're feeling a bit rusty, make sure to brush up on them now before we start diving into this new content.\n\nAnd speaking of this new content, we're going to be covering some really exciting stuff!\n\nThroughout this course, you'll level up not only your web knowledge, but also your browser and JavaScript knowledge, so get excited!",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467394,
+      "is_public": true,
+      "key": "da27b611-6ac8-4c6f-a124-3ba94c06abad",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "The DOM",
+      "updated_at": "2019-10-08T12:31:38.714Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467433,
+        467435,
+        478527,
+        478528,
+        467440,
+        467442,
+        467444,
+        467445,
+        467446,
+        467447,
+        467448,
+        467449,
+        467450
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467433,
+          "is_public": true,
+          "key": "1e3eeebf-2633-458f-83ab-d224f78cb445",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:32.642Z",
+          "version": "1.0.0",
+          "text": "In this section, we'll look at the Document Object Model - otherwise known as the DOM.\n\nThe words \"the DOM\" are used all over developer documentation sites and tutorials on writing interactive JavaScript code. But what is it? Perhaps you've used even used the DOM and still aren't quite sure what it is. Is it the browser? Is it a special part of JavaScript? ¯\\\\\\_(ツ)_/¯\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467435,
+          "is_public": true,
+          "key": "dd73d4c7-03e5-4935-8096-7054135d4280",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:31:33.049Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "Take a couple of minutes think about what you think \"the DOM\" is/refers to, and write out a description of the DOM."
+          },
+          "answer": {
+            "text": "Thanks for taking the time! The DOM is incredibly powerful, but it's helpful to really know what it is, so let's dig into it!",
+            "video": null
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478527,
+          "is_public": true,
+          "key": "0bd3b6ac-f4c7-4d86-bf85-dd9358845e1c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L1 14 - What Is The DOM V1",
+          "updated_at": "2019-10-08T12:31:33.384Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69699",
+            "youtube_id": "4HKsH0MxuxU",
+            "topher_id": "858cf69e-d4a2-11e9-9c8e-8b33850c4156",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b03f_l1-14-what-is-the-dom-v1/l1-14-what-is-the-dom-v1_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b03f_l1-14-what-is-the-dom-v1/l1-14-what-is-the-dom-v1_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b03f_l1-14-what-is-the-dom-v1/l1-14-what-is-the-dom-v1_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b03f_l1-14-what-is-the-dom-v1/l1-14-what-is-the-dom-v1_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b03f_l1-14-what-is-the-dom-v1/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478528,
+          "is_public": true,
+          "key": "b8808c3c-311d-4360-906c-4839abea801c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L1 12 - DOM Explanation By Illya",
+          "updated_at": "2019-10-08T12:31:33.890Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69732",
+            "youtube_id": "gndOFastyus",
+            "topher_id": "858cfc70-d4a2-11e9-9c98-1b82ad4d5eb9",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1cd_l1-12-dom-explanation-by-illya/l1-12-dom-explanation-by-illya_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1cd_l1-12-dom-explanation-by-illya/l1-12-dom-explanation-by-illya_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b1cd_l1-12-dom-explanation-by-illya/l1-12-dom-explanation-by-illya_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1cd_l1-12-dom-explanation-by-illya/l1-12-dom-explanation-by-illya_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b1cd_l1-12-dom-explanation-by-illya/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467440,
+          "is_public": true,
+          "key": "b0053f01-0c5c-4713-bf60-874c3551f573",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:34.235Z",
+          "version": "1.0.0",
+          "text": "To recap the video, the following steps happen:\n\n* HTML is received\n* HTML tags are converted to tokens\n* tokens are converted to Nodes\n* Nodes are converted to the DOM\n\nWhen you request a website, no matter what backend language is powering that website, it will respond with HTML. The browser receives a stream of HTML. The bytes are run through a complicated (but fully documented) parsing process that determines the different characters (e.g. the start tag character `<`, an attribute like `href`, a closing angle bracket like `>`). After parsing has occurred, a process called **tokenization**. Tokenization takes one character at a time and builds up **tokens**. The tokens are:\n\n* DOCTYPE\n* start tag\n* end tag\n* comment\n* character\n* end-of-file\n\nLet's take a break for a second. At this state, the browser has received the bytes that've been sent by a server. The browser has converted the bytes to tags and has read through the tags to create a list of tokens.\n\nThis list of tokens then goes through the tree construction stage. The output of this stage is a tree-like structure - this is the DOM!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467442,
+          "is_public": true,
+          "key": "d20848be-c133-4ea3-bc44-712a1c2796b9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:34.593Z",
+          "version": "1.0.0",
+          "text": "I want to point out two important quotes that Illya said in the video:\n\n> a tree structure that captures the content and properties of the HTML and all the relationships between the nodes\n\n> the DOM is the full, parsed representation of the HTML",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467444,
+          "is_public": true,
+          "key": "d2a64402-6050-4c58-a941-a3cbbdaf7483",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:34.950Z",
+          "version": "1.0.0",
+          "text": "So the DOM is a model (representation) of the relationships and attributes of the HTML document that was received. Remember that DOM stands for \"Document Object Model\". Something that I've found to be true as I've been learning is that to break something down, just read the thing backwards:\n\nDocument Object Model\n\n...would become…\n\n\nObject Model of the Document!\n\nRemember that a JavaScript object is a tree-like structure that has properties and values. So the DOM can be accessed using a special object provided by the browser: `document`\n\nTry this:\n\n1. open the console on this page\n* type out the word `document`\n    - careful not to declare it (`const document`)\n    - careful not to wrap it in quotes (`\"document\"`)\n* press enter",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467445,
+          "is_public": true,
+          "key": "f02f578f-83f0-493d-a479-26e9d3cf1007",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:35.371Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a22336a_ud117-l1-document-object-in-console/ud117-l1-document-object-in-console.jpg",
+          "width": 761,
+          "height": 533,
+          "alt": "A Screenshot viewing the `document` object in the DevTools' Console pane.",
+          "caption": "_Viewing the `document` object in the DevTools' Console pane._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 467446,
+          "is_public": true,
+          "key": "bde574d7-1a1b-4f07-962d-387dbdbbcc9f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:35.816Z",
+          "version": "1.0.0",
+          "text": "The `document` object is provided by the browser and is a representation of the HTML document. This object is _not_ provided by the JavaScript language. ECMAScript is the language specification that JavaScript is based on, and it only references the document object model in one place, in its \"Global Object\" section:\n\n> In addition to the properties defined in this specification the global object may have additional host defined properties. This may include a property whose value is the global object itself; for example, in the HTML document object model the window property of the global object is the global object itself. ([source](https://www.ecma-international.org/ecma-262/#sec-global-object))\n\nBasically, this says that the `document` object is not part of JavaScript, but is expected to _already exist_ and be freely accessible to JavaScript code.  \n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467447,
+          "is_public": true,
+          "key": "17300e35-ee0d-450f-8b05-2f33aedeff58",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:36.122Z",
+          "version": "1.0.0",
+          "text": "The DOM is standardized by the W3C. There are a number of specifications that make up the DOM, here are few:\n\n* Core Specification\n* Events Specification\n* Style Specification\n* Validation Specification\n* Load and Save Specification\n\nTo see the full list of DOM specs, check out the standard at: [https://www.w3.org/standards/techs/dom#w3c_all](https://www.w3.org/standards/techs/dom#w3c_all)",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467448,
+          "is_public": true,
+          "key": "1f0a63d8-3421-44cb-9f2f-b5314549eeee",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:31:36.444Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "Ok, so do not scroll back up or review what you just read. Just take a moment, think about everything you've learned about the DOM and the document object and, in your own words, write an explanation of what \"the DOM\" is."
+          },
+          "answer": {
+            "text": "Thanks for taking the time! Hopefully, the DOM makes much more sense _now_ than it did at the beginning of this section.",
+            "video": null
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467449,
+          "is_public": true,
+          "key": "0c398ea1-9dad-4615-b8b2-42d16b8b45ef",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:36.889Z",
+          "version": "1.0.0",
+          "text": "## The DOM Recap\n\nThe DOM stands for \"Document Object Model\" and is a tree-like structure that is a representation of the HTML document, the relationship between elements, and contains the content and properties of the elements.\n\nThe DOM is _not_:\n* part of the JavaScript language\n\nThe DOM is:\n* constructed from the browser\n* is globally accessible by JavaScript code using the `document` object\n\nThe DOM is used all of the time and is what we'll be using throughout this course!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467450,
+          "is_public": true,
+          "key": "167e0dc0-510e-4655-881d-e6685c121010",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:37.501Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [DOM Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)\n* [Section 8.2 Parsing HTML documents](https://www.w3.org/TR/html5/syntax.html#parsing) from the W3C's HTML Documentation\n* [DOM Specification](https://www.w3.org/standards/techs/dom#w3c_all) on W3C\n* [HTML Document Object Model mentioned in the ECMAScript Specification](https://www.ecma-international.org/ecma-262/#sec-global-object) - the language specification used by JavaScript",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467395,
+      "is_public": true,
+      "key": "025bd091-9767-4375-92bb-23f3dcb15f9c",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Selecting Page Elements With CSS Selectors",
+      "updated_at": "2019-10-08T12:31:44.228Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467451,
+        467452,
+        467453,
+        467454,
+        467455
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467451,
+          "is_public": true,
+          "key": "8a0adcae-8e59-4917-9bc4-3ab8be6fba54",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:39.908Z",
+          "version": "1.0.0",
+          "text": "## A CSS Mindset\n\nYou're probably used to seeing (and writing!) a lot of this kinda stuff:\n\n```css\n.header {\n    max-width: 100%;\n    margin-left: auto;\n    margin-right: auto\n}\n\n.header.header--clone .header__navbar {\n    height: 4.5rem\n}\n\n.header.header--stick {\n    top: 0;\n    background-color: #ffffff;\n    z-index: 8000;\n    box-shadow: 0px 1px 2px rgba(0,0,0,0.1)\n}\n\n.header__navbar {\n    max-width: 73.75rem;\n    margin-left: auto;\n    margin-right: auto;\n    height: 4.5rem;\n    padding: 0 1.5em\n}\n```\n\n...you know, CSS! The skills that you've learned writing CSS will help you in this section!\n\nWith this in mind, let's make sure that you're comfortable answering the following questions.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467452,
+          "is_public": true,
+          "key": "ecdd3a0f-caed-4a09-a1f3-5e6fd50f3260",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:41.851Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following will style an element by its ID?",
+            "correct_feedback": "In CSS, you need to use the `#` at the beginning of the selector to target an element by its ID.",
+            "video_feedback": null,
+            "default_feedback": "In CSS, when selecting an element by its ID, the CSS selector must start with a special character. Do you remember which character represents the ID?",
+            "answers": [
+              {
+                "id": "a1512191070510",
+                "text": "`.left-nav { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191079023",
+                "text": "`.id { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191080783",
+                "text": "`#footer { ... }`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191089096",
+                "text": "`p { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467453,
+          "is_public": true,
+          "key": "216b1683-70c5-4310-a49d-9c1926acbab8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:42.915Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following will style an element by its class?",
+            "correct_feedback": "In CSS, you need to use the `.` (the period!) at the beginning of the selector to target elements by their class.",
+            "video_feedback": null,
+            "default_feedback": "In CSS, when selecting elements by their class, the CSS selector must start with a special character. Do you remember which character this is?",
+            "answers": [
+              {
+                "id": "a1512191173490",
+                "text": "`.left-nav { ... }`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191183610",
+                "text": "`.id { ... }`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191185591",
+                "text": "`#footer { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191186312",
+                "text": "`p { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467454,
+          "is_public": true,
+          "key": "5e1b63ef-3054-49c6-9dff-747452d1fb7c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:43.466Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following will style an element by targeting the tag name?",
+            "correct_feedback": "In CSS, you target specific elements by their tag name.",
+            "video_feedback": null,
+            "default_feedback": "Are you sure there should be a special character at the beginning of the selector when selecting elements by tag?",
+            "answers": [
+              {
+                "id": "a1512191236100",
+                "text": "`.left-nav { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191247179",
+                "text": "`.id { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191247757",
+                "text": "`#footer { ... }`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512191248446",
+                "text": "`p { ... }`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467455,
+          "is_public": true,
+          "key": "b3496fbf-f906-423a-bdda-7d254436152b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:43.850Z",
+          "version": "1.0.0",
+          "text": "So this was a quick review on how to select elements by ID, class, and tag. Believe it or not, being able to select HTML elements this way is actually going to be a vital skill in this section where we learn how to access page elements using JavaScript and the DOM! \n\nIf you struggled a little bit with this section, perhaps you should do a quick review of CSS by reviewing the [HTML and CSS course](https://www.udacity.com/course/intro-to-html-and-css--ud001).\n\nAlrighty - let's get right to it and let the fun begin! 🙌🏼 \n",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467456,
+      "is_public": true,
+      "key": "b3643239-ecef-483d-8b9f-af0613781feb",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Select Page Element By ID",
+      "updated_at": "2019-10-08T12:31:49.241Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467457,
+        478413,
+        467459,
+        467460,
+        467461,
+        478414,
+        467463,
+        467464,
+        467481,
+        467482
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467457,
+          "is_public": true,
+          "key": "e731c6f5-2067-4f05-afac-64f51a62d188",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:44.772Z",
+          "version": "1.0.0",
+          "text": "## Select An Element By ID\n\nLet's take a look at how we can use JavaScript and the DOM to gain access to specific elements using their ID attribute.\n\nRemember the `document` object from the previous section? Well, we're going to start using it! Remember the `document` object is an object, just like a JavaScript object. This means it has key/value pairs. Some of the values are just pieces of data, while others are functions (also known as **methods**!) that provide some type of functionality. The first DOM method that we'll be looking at is the `.getElementById()` method:\n\n```js\ndocument.getElementById();\n```\n\nIf we ran the code above in the console, we wouldn't get anything, because we did not tell it the ID of any element to get! We need to pass a string to `.getElementById()` of the ID of the element that we want it to find and subsequently return to us:\n\n```js\ndocument.getElementById('footer');\n```\n\nOne thing to notice right off the bat, is that we're passing `'footer'`, not `'#footer'`. It already knows that it's searching for an ID (its name _is_ \"getElementById\", for a reason!).\n\nIf you'd like to read more about this method, check out its documentation page on MDN: [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById)\n\nLet's use this MDN documentation page to try out using this method.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478413,
+          "is_public": true,
+          "key": "c1efc364-a6bf-40d4-9719-cda390cc1134",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 31 - Selecting The Content",
+          "updated_at": "2019-10-08T12:31:45.395Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69601",
+            "youtube_id": "HTwkHkERtvQ",
+            "topher_id": "858cf248-d4a2-11e9-9c81-cf52691aaadb",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c22_dom-l1-31-selecting-the-content/dom-l1-31-selecting-the-content_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c22_dom-l1-31-selecting-the-content/dom-l1-31-selecting-the-content_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c22_dom-l1-31-selecting-the-content/dom-l1-31-selecting-the-content_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c22_dom-l1-31-selecting-the-content/dom-l1-31-selecting-the-content_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c22_dom-l1-31-selecting-the-content/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467459,
+          "is_public": true,
+          "key": "00628963-f18b-4b64-8a8c-f1152ad9c2ed",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:46.094Z",
+          "version": "1.0.0",
+          "text": "To recap what we just did:\n\n* we opened the DevTools for the page we were looking at\n* we switched to the Console pane\n* we ran `document.getElementById('content');` on the console\n\nRunning this code cause the `document` object to search through its entire tree-like structure for the element that has an ID of \"content\".",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467460,
+          "is_public": true,
+          "key": "a8a9d4d5-c4f5-42aa-87aa-0f42a7af4cbe",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TaskListAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:46.587Z",
+          "version": "1.0.0",
+          "tasks": [
+            "I loaded the HTML page",
+            "I opened the DevTools",
+            "I switched to the Console pane",
+            "I used `document.getElementById()` to locate an element by its ID"
+          ],
+          "positive_feedback": "Fantastic work! That wasn't too hard, was it!",
+          "video_feedback": null,
+          "description": "Now it's your turn!"
+        },
+        {
+          "content_source": null,
+          "id": 467461,
+          "is_public": true,
+          "key": "a148752b-c979-4416-86a4-908b0c8b385c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:46.891Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Now, what do you think will happen if you used `document.getElementById(<some-nonexistent-ID>)` to search for some ID that doesn't actually exist in the HTML page?",
+            "correct_feedback": "That's right! Passing `document.getElementById()` an unknown ID returns `null`.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look accurate to me. Why don't you try it out! Go to some website and use `document.getElementById()` to search for an element that doesn't exist.",
+            "answers": [
+              {
+                "id": "a1512192518941",
+                "text": "a dummy element will be returned",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512192530208",
+                "text": "`false` will be returned",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512192530826",
+                "text": "`null` will be returned",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512192533535",
+                "text": "it will cause an error",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478414,
+          "is_public": true,
+          "key": "8e3c79c8-36c7-4ea9-b67d-1b88cf19b5a6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 35 - Looking At Returned Node",
+          "updated_at": "2019-10-08T12:31:47.240Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69602",
+            "youtube_id": "oCm5Ft3NbdE",
+            "topher_id": "84f2152a-d4a2-11e9-b209-c7e9f5347da8",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c28_dom-l1-35-looking-at-returned-node/dom-l1-35-looking-at-returned-node_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c28_dom-l1-35-looking-at-returned-node/dom-l1-35-looking-at-returned-node_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c28_dom-l1-35-looking-at-returned-node/dom-l1-35-looking-at-returned-node_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c28_dom-l1-35-looking-at-returned-node/dom-l1-35-looking-at-returned-node_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c28_dom-l1-35-looking-at-returned-node/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467463,
+          "is_public": true,
+          "key": "fb6ff037-a228-4d02-94db-ea5c5b0323c9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:47.714Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following will select the element with the ID of `logo`?",
+            "correct_feedback": "This is correct because it's `.getElementById()` has the word \"Id\", not \"ID\" and because it expects the string \"logo\", not \"#logo\".",
+            "video_feedback": null,
+            "default_feedback": "Make sure to pay attention to capitalization and what is being searched for.",
+            "answers": [
+              {
+                "id": "a1512192626366",
+                "text": "`document.getElementById('logo');`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512192629323",
+                "text": "`document.getElementByID('logo');`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512192629910",
+                "text": "`document.getElementById('#logo');`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467464,
+          "is_public": true,
+          "key": "92eb8732-4162-4733-97e6-271d3e60a2d1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:48.231Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Write the DOM code to select the element with ID `strawberry-banner`.",
+            "default_feedback": "That doesn't look right. Make sure to search use the `document` object and to use the DOM method you've just learned.",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "document\\.getElementById\\( *['\"]strawberry-banner['\"] *\\);?",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467481,
+          "is_public": true,
+          "key": "3704b9e2-1f68-40f9-89e1-3d9a6fc40aef",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:48.558Z",
+          "version": "1.0.0",
+          "text": "## Selecting By ID Recap\n\nIn this section, we learned how to select a DOM element by its ID:\n\n* `.getElementById()`\n\nThere are a couple of important things to keep in mind about this method:\n* it is called on the `document` object\n* it returns a _single_ item\n\n```js\n// select the element with the ID \"callout\"\ndocument.getElementById('callout');\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467482,
+          "is_public": true,
+          "key": "dd06f5b2-151f-4495-9385-73063a86597e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:48.917Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [.getElementById()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementById) on MDN",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467465,
+      "is_public": true,
+      "key": "04d813ef-2bfc-4862-a4cc-38057d2a11c3",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Select Page Elements By Class Or Tag",
+      "updated_at": "2019-10-08T12:31:59.899Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467466,
+        467467,
+        478415,
+        467469,
+        467471,
+        478416,
+        467473,
+        467474,
+        467475,
+        467476,
+        478417,
+        467478,
+        467479,
+        467480
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467466,
+          "is_public": true,
+          "key": "8979b53a-476a-4e64-a8c4-48518d8e0ce1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:49.674Z",
+          "version": "1.0.0",
+          "text": "## Selecting Multiple Elements At Once\n\nAs I'm sure you remember from learning both HTML structure and CSS styling, an ID should be _unique_ - meaning two or more elements should never have the same ID. Since IDs are unique, and since there will be only one element in the HTML with that ID, `document.getElementById()` will only ever return at most one element. So how would we select multiple DOM elements?\n\nThe next two DOM methods that we'll be looking at that both return multiple elements are:\n* `.getElementsByClassName()`\n* `.getElementsByTagName()`\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467467,
+          "is_public": true,
+          "key": "61786d2c-19f2-4907-90be-a5984d80efb3",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:50.028Z",
+          "version": "1.0.0",
+          "text": "## Accessing Elements By Their Class\n\nThe first method we'll look at is `.getElementsByClassName()`:\n\n```js\ndocument.getElementsByClassName();\n```\n\nSimilarly to `.getElementById()`, if we ran the code above in the console, we wouldn't get anything, because we did not tell it the class to search for! Also just like `.getElementById()`, `.getElementsByClassName()` is expecting that we call it with a string of the class we want it to search for/return:\n\n```js\ndocument.getElementsByClassName('brand-color');\n```\n\nIf you'd like to read more about this method, check out its documentation page on MDN: [https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName)\n\nLet's use this MDN documentation page to try out using this method.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478415,
+          "is_public": true,
+          "key": "6f0d2ead-1635-433c-bf7b-c68dc1b6f911",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 40 - GetElementsByClassName",
+          "updated_at": "2019-10-08T12:31:50.351Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69603",
+            "youtube_id": "mP04gbpghpY",
+            "topher_id": "84f20cc4-d4a2-11e9-b1f0-7b0f59f694fd",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c2e_dom-l1-40-getelementsbyclassname/dom-l1-40-getelementsbyclassname_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c2e_dom-l1-40-getelementsbyclassname/dom-l1-40-getelementsbyclassname_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c2e_dom-l1-40-getelementsbyclassname/dom-l1-40-getelementsbyclassname_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c2e_dom-l1-40-getelementsbyclassname/dom-l1-40-getelementsbyclassname_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c2e_dom-l1-40-getelementsbyclassname/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467469,
+          "is_public": true,
+          "key": "a9cc0a13-7cd3-40cb-8726-7bc3b04c9743",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:50.769Z",
+          "version": "1.0.0",
+          "text": "> ### Beware of the S!\n\n> I know we haven't looked at `.getElementsByTagName()` just yet, but there's something different about `.getElementById()` compared with both `.getElementsByClassName()` and `.getElementsByTagName()` that I want to point out because it can be easy to miss; both `.getElementsByClassName()` and `.getElementsByTagName()` have an extra \"s\" in their name.\n\n> The method's name is `.getElementsByClassName()`, not `.getElementByClassName()`. Notice the word right in the middle, it's \"Elements\" not \"Element\". If you think about it, this actually makes a lot of sense! Since both `.getElementsByClassName()` and `.getElementsByTagName()` could return multiple items, their method names tell us that directly. Now compare this with `.getElementById()` that will only ever return at most _one_ element. Its name has the singular \"Element\" in it.\n\n> I just wanted to point this out because I've been bitten by that missing \"s\" many-a-time when running code like:\n\n> ```js\ndocument.getElementByClassName('highlight-spanned');\n```\n\n> This code above will _not_ work, because there is no DOM method `.getElementByClassName()` (with singular \"Element\").",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467471,
+          "is_public": true,
+          "key": "2411d603-4595-4718-a061-50bc5cb754d6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:51.266Z",
+          "version": "1.0.0",
+          "text": "## Accessing Elements By Their Tag\n\nAfter looking at both `.getElementById()` and `.getElementsByClassName()`, the new `.getElementsByTagName()` method should seem quite easy on the eyes:\n\n```js\ndocument.getElementsByTagName('p');\n```\n\nLet's use this MDN documentation page to try out using this method: [https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction)\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478416,
+          "is_public": true,
+          "key": "6448230a-8a3d-436f-a527-a49d25f24c4d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 43 - GetElementsByTagName",
+          "updated_at": "2019-10-08T12:31:51.958Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69604",
+            "youtube_id": "cxqIYlQ4tu8",
+            "topher_id": "84f20c42-d4a2-11e9-b1ee-bba008969ab2",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c3a_dom-l1-43-getelementsbytagname/dom-l1-43-getelementsbytagname_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c3a_dom-l1-43-getelementsbytagname/dom-l1-43-getelementsbytagname_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c3a_dom-l1-43-getelementsbytagname/dom-l1-43-getelementsbytagname_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c3a_dom-l1-43-getelementsbytagname/dom-l1-43-getelementsbytagname_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c3a_dom-l1-43-getelementsbytagname/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467473,
+          "is_public": true,
+          "key": "1e7ef11d-448c-41e5-94d5-7c37acbd4288",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:53.162Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the following would correctly select all elements with class: `'splort'`?",
+            "correct_feedback": "That's the one!",
+            "video_feedback": null,
+            "default_feedback": "Is the correct method being used? Is the method being called with the correct information?",
+            "answers": [
+              {
+                "id": "a1512229334841",
+                "text": "`document.getElementsByClassName('splort');`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512229356804",
+                "text": "`document.getElementsByClassname('splort');`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512229357753",
+                "text": "`document.getElementsByClassName('.splort');`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512229358395",
+                "text": "`document.getElementByClassName('splort');`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467474,
+          "is_public": true,
+          "key": "e5e53b2b-a1ef-4439-8e99-257b61ad09b1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:54.309Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Write the DOM code to select all `<article>` elements.",
+            "default_feedback": "Are you using the correct DOM method, and is it being called with the correct information?",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "document\\.getElementsByTagName\\( *['\"]article['\"] *\\);?",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467475,
+          "is_public": true,
+          "key": "583574b8-f7f0-424c-8fc4-b799896ff341",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:31:55.257Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Write the DOM code to select all elements with class: `fancy-footer`.",
+            "default_feedback": "Are you using the correct DOM method, and is it being called with the correct information?",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "document\\.getElementsByClassName\\( *['\"]fancy-footer['\"] *\\);?",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467476,
+          "is_public": true,
+          "key": "513ce48c-ecfd-4a7d-be2b-e3fc49a60867",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:56.070Z",
+          "version": "1.0.0",
+          "text": "## What's Returned?",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478417,
+          "is_public": true,
+          "key": "9628abc1-f8d0-47aa-a353-4440e683543b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 48 - Returns An Array Like",
+          "updated_at": "2019-10-08T12:31:57.051Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69605",
+            "youtube_id": "vMFA3Tja6XU",
+            "topher_id": "858cf202-d4a2-11e9-9c80-af5e9cc9f7c0",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c47_dom-l1-48-returns-an-array-like/dom-l1-48-returns-an-array-like_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c47_dom-l1-48-returns-an-array-like/dom-l1-48-returns-an-array-like_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c47_dom-l1-48-returns-an-array-like/dom-l1-48-returns-an-array-like_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c47_dom-l1-48-returns-an-array-like/dom-l1-48-returns-an-array-like_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c47_dom-l1-48-returns-an-array-like/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467478,
+          "is_public": true,
+          "key": "f8ac40cb-9d10-4492-81be-8d1451b388a4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:57.877Z",
+          "version": "1.0.0",
+          "text": "We just saw that `.getElementsByClassName()` returns an array-like data structure of elements. But what exactly _is_ an element?\n\nIn the next section, we'll take the plunge and look at Elements and Nodes.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467479,
+          "is_public": true,
+          "key": "352d29fa-85ac-4e3a-8e50-53bf5d8ef3f4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:58.472Z",
+          "version": "1.0.0",
+          "text": "## Selecting Multiple Elements At Once Recap\n\nIn this section, we learned two ways to select multiple DOM elements:\n\n* `.getElementsByClassName()`\n* `.getElementsByTagName()`\n\nThere are a few important things to keep in mind about these two methods:\n\n* both methods use the `document` object\n* both return multiple items\n* the list that's returned is not an array\n\n```js\n// select all elements that have the class \"accent-color\"\ndocument.getElementsByClassName('accent-color');\n\n// select all \"span\" elements\ndocument.getElementsByTagName('span');\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467480,
+          "is_public": true,
+          "key": "b6447759-cc30-467d-88ab-b83596e4f222",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:31:59.199Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [.getElementsByClassName()](https://developer.mozilla.org/en-US/docs/Web/API/Document/getElementsByClassName) on MDN\n* [.getElementsByTagName()](https://developer.mozilla.org/en-US/docs/Web/API/Element/getElementsByTagName) on MDN",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467396,
+      "is_public": true,
+      "key": "360fd77c-3a6d-4256-bdf3-a792363e672a",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Nodes, Elements, and Interfaces...Oh My!",
+      "updated_at": "2019-10-08T12:32:13.139Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467483,
+        467484,
+        467485,
+        478529,
+        467487,
+        478530,
+        467489,
+        467490,
+        478418,
+        467492,
+        467493,
+        467494,
+        467495,
+        478419,
+        467497,
+        467498,
+        467499,
+        467500,
+        478420,
+        467502,
+        467503,
+        467504
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467483,
+          "is_public": true,
+          "key": "70e48953-5b52-4eba-bdee-f464a07eb764",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:00.708Z",
+          "version": "1.0.0",
+          "text": "## The `Node` Interface",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467484,
+          "is_public": true,
+          "key": "d4a36625-6d8e-43f8-9896-43525c786652",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "MatchingQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:01.491Z",
+          "version": "1.0.0",
+          "question": {
+            "complex_prompt": {
+              "text": "Put these in the correct order of operation."
+            },
+            "default_feedback": "That doesn't seem like the right order. Why don't you try again? If you're still stuck,  check out the video below.",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "concepts_label": "Order",
+            "answers_label": "Item",
+            "concepts": [
+              {
+                "text": "happens first",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1512230663330",
+                  "text": "tag"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "happens second",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1512230695168",
+                  "text": "token"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "happens third",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1512230695786",
+                  "text": "nodes"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "happens fourth",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1512230696857",
+                  "text": "DOM"
+                },
+                "incorrect_feedbacks": []
+              }
+            ],
+            "answers": [
+              {
+                "id": "a1512230695786",
+                "text": "nodes"
+              },
+              {
+                "id": "a1512230695168",
+                "text": "token"
+              },
+              {
+                "id": "a1512230663330",
+                "text": "tag"
+              },
+              {
+                "id": "a1512230696857",
+                "text": "DOM"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467485,
+          "is_public": true,
+          "key": "4381ef16-0d0a-4648-8560-cbf754998940",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:02.478Z",
+          "version": "1.0.0",
+          "text": "We looked at this in an earlier section, but let's take one more quick look at what Illya said about how the DOM is constructed.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478529,
+          "is_public": true,
+          "key": "596d4e65-38fb-49b9-b807-ee1148e3456d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L1 54 - Illya Talking About Nodes",
+          "updated_at": "2019-10-08T12:32:03.011Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69733",
+            "youtube_id": "B2UPRofY5ig",
+            "topher_id": "84f2b1f6-d4a2-11e9-b3da-a3d79f975909",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1d7_l1-54-illya-talking-about-nodes/l1-54-illya-talking-about-nodes_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1d7_l1-54-illya-talking-about-nodes/l1-54-illya-talking-about-nodes_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b1d7_l1-54-illya-talking-about-nodes/l1-54-illya-talking-about-nodes_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1d7_l1-54-illya-talking-about-nodes/l1-54-illya-talking-about-nodes_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b1d7_l1-54-illya-talking-about-nodes/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467487,
+          "is_public": true,
+          "key": "0b9d27e1-8a3b-4e5c-b7b4-ec7639fea8a7",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:03.479Z",
+          "version": "1.0.0",
+          "text": "So to reiterate the process, it's:\n* characters\n* tags\n* tokens\n* nodes\n* DOM\n\nBut what _is_ a \"node\", exactly?\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478530,
+          "is_public": true,
+          "key": "6d7fa076-e16d-4cea-9f4b-6833959b9766",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L1 55 - A Node V2",
+          "updated_at": "2019-10-08T12:32:04.391Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69700",
+            "youtube_id": "GfeCBh7dsW4",
+            "topher_id": "84f28a1e-d4a2-11e9-b360-dfeb93abd502",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b04f_l1-55-a-node-v2/l1-55-a-node-v2_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b04f_l1-55-a-node-v2/l1-55-a-node-v2_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b04f_l1-55-a-node-v2/l1-55-a-node-v2_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b04f_l1-55-a-node-v2/l1-55-a-node-v2_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b04f_l1-55-a-node-v2/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467489,
+          "is_public": true,
+          "key": "ac66e4d0-2da3-4713-ab5e-29077cd04055",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:05.149Z",
+          "version": "1.0.0",
+          "text": "> ## ⚠️ Interface vs User Interface ⚠️\n> \n> The word \"interface\" might be an unclear word right now, and that's ok. I do want to make sure that you're not connecting this \"interface\" with a _user interface_ (UI) or a graphical user interface (GUI).\n> \n> Our use of \"interface\" is not related to either a UI or a GUI. Our use of \"interface\" is a technical, computer science word for a list of properties and methods that are inherited.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467490,
+          "is_public": true,
+          "key": "20c24d85-0711-4c4d-be2e-4c992c2e42e4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:05.768Z",
+          "version": "1.0.0",
+          "text": "Node (with a capital \"N\"!) is a blueprint that contains information about all of the properties and methods for real nodes (with a lowercase \"n\"!).\nIf you're not used to them, the words \"**interface**\", \"**property**\", and \"**method**\" can be kind of cryptic at first. Just remember that:\n\n* interface = blueprint\n* properties = data\n* methods = functionality\n\nLet's check out Node on MDN: [Node Interface on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Node)\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478418,
+          "is_public": true,
+          "key": "a530d3a5-a55f-4787-97fc-f9bd2b1dc41c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 59 - The Node Interface",
+          "updated_at": "2019-10-08T12:32:06.417Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69606",
+            "youtube_id": "M2HMdiNdtYg",
+            "topher_id": "84f21c46-d4a2-11e9-b21e-07a0f75c8586",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c53_dom-l1-59-the-node-interface/dom-l1-59-the-node-interface_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c53_dom-l1-59-the-node-interface/dom-l1-59-the-node-interface_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c53_dom-l1-59-the-node-interface/dom-l1-59-the-node-interface_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c53_dom-l1-59-the-node-interface/dom-l1-59-the-node-interface_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c53_dom-l1-59-the-node-interface/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467492,
+          "is_public": true,
+          "key": "22cf3b8c-6fe8-4bd2-a113-04d4e425320d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:06.968Z",
+          "version": "1.0.0",
+          "text": "So the Node Interface is a blueprint for all of the properties (data) and methods (functionality) that every real node has after it's been created. Now, the Node Interface has a lot of properties and methods, but it's not very _specific_...I mean, what _is_ a node??? \n\nJust like \"blueprint for a Building\" is not as specific as \"blueprint for a house\" or \"blueprint for a skyscraper\". These are more-specific blueprints. And these more-specific blueprints would probably have their own properties and methods that are specific to _just_ houses or _just_ skyscrapers.\n\nThis brings us to the \"Element Interface\".\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467493,
+          "is_public": true,
+          "key": "1180aa1e-5503-4bb3-af59-5cab0d65843b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:07.572Z",
+          "version": "1.0.0",
+          "text": "## Element Interface\n\nJust like the Node Interface, the Element Interface is a blueprint for creating elements: [Element Interface on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Element)\n\nOne really important thing about the Element Interface is that it is a descendent of the Node Interface.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467494,
+          "is_public": true,
+          "key": "ed5f8b24-23e9-4c8f-967f-7a014ca0f1f4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:08.075Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a22d197_ud117-l1-interface-chain/ud117-l1-interface-chain.jpg",
+          "width": 766,
+          "height": 192,
+          "alt": "A diagram showing an Element with an arrow pointing to Node, and Node with an arrow pointing to EventTarget",
+          "caption": "_Element points to its parent, Node._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 467495,
+          "is_public": true,
+          "key": "7838e05b-4736-4882-84b1-655418ee2076",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:08.658Z",
+          "version": "1.0.0",
+          "text": "Since Element is pointing at Node, this indicates that the Element Interface inherits all of the Node Interface's properties and methods. This means that any element (lowercase \"e\"!) that was created from the Element Interface is _also_ a descendent from the Node Interface...which means the element (lowercase \"e\"!) is also a node (lowercase \"n\"!).\n\nLet's do a little digging around on an element!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478419,
+          "is_public": true,
+          "key": "76fa725e-6723-4e4c-8cd3-09f81556e2a1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 64 - The Element Interface",
+          "updated_at": "2019-10-08T12:32:09.230Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69607",
+            "youtube_id": "5womdssnSWA",
+            "topher_id": "84f20b7a-d4a2-11e9-b1eb-cff46e297f53",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c67_dom-l1-64-the-element-interface/dom-l1-64-the-element-interface_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c67_dom-l1-64-the-element-interface/dom-l1-64-the-element-interface_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c67_dom-l1-64-the-element-interface/dom-l1-64-the-element-interface_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c67_dom-l1-64-the-element-interface/dom-l1-64-the-element-interface_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c67_dom-l1-64-the-element-interface/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467497,
+          "is_public": true,
+          "key": "840799d6-974c-44b5-84af-d91368bf3ac1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:09.597Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Does the `.outerHTML` property come from the Node Interface or the Element Interface? Check all that apply.",
+            "correct_feedback": "`.outerHTML` is a property on the Element Interface.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look right. Why don't you review the properties and methods of both the [Node Interface](https://developer.mozilla.org/en-US/docs/Web/API/Node) and the [Element Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)?",
+            "answers": [
+              {
+                "id": "a1512231377827",
+                "text": "Node Interface",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512231390320",
+                "text": "Element Interface",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512231390939",
+                "text": "neither",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467498,
+          "is_public": true,
+          "key": "3bca3abb-0e81-443b-b841-14f2e8236d3d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:09.970Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which interface does the `.id` property come from?",
+            "correct_feedback": "The `.id` property is on the Element Interface.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look right. Why don't you review the properties and methods of both the [Node Interface](https://developer.mozilla.org/en-US/docs/Web/API/Node) and the [Element Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)?",
+            "answers": [
+              {
+                "id": "a1512232737211",
+                "text": "Node Interface",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512232740601",
+                "text": "Element Interface",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512232741226",
+                "text": "neither",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467499,
+          "is_public": true,
+          "key": "e0bd8e53-2f57-427f-8e77-c33eaa20cbf5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:10.395Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which interface does the `.textContent` property come from?",
+            "correct_feedback": "The `.textContent` property is on the Node Interface.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look right. Why don't you review the properties and methods of both the [Node Interface](https://developer.mozilla.org/en-US/docs/Web/API/Node) and the [Element Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)?",
+            "answers": [
+              {
+                "id": "a1512232794326",
+                "text": "Node Interface",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512232797227",
+                "text": "Element Interface",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512232797796",
+                "text": "neither",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467500,
+          "is_public": true,
+          "key": "a8e45da9-0a1f-4a0b-80f1-6855c21d4191",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:11.206Z",
+          "version": "1.0.0",
+          "text": "> Do you remember the `.getElementsByClassName()` method on the `document` object that we looked at previously? While reviewing the Element interface, you might've noticed that it _also_ has a `.getElementsByClassName()` method! The Element Interface inherits from the Node Interface, not the Document Interface (yep, there's a Document Interface!). The Element Interface has its own `.getElementsByClassName()` that does the exact same thing as the one on the `document` object. \n> \n> This means that you can use the `document` object to select an element, _then_ you can call `.getElementsByClassName()` on that element to receive a list of elements with the class name that are descendents of that specific element!\n> \n> ```js\n> // selects the DOM element with an ID of \"sidebar\"\n> const sidebarElement = document.getElementById('sidebar');\n> \n> // searches within the \"sidebar\" element for any elements with a class of \"sub-heading\"\n> const subHeadingList = sidebarElement.getElementsByClassName('sub-heading');\n> ```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478420,
+          "is_public": true,
+          "key": "5b794afb-5b0e-4b2f-bc15-b3016442924f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 69 - Other Element Interface",
+          "updated_at": "2019-10-08T12:32:11.694Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69608",
+            "youtube_id": "kt3Suy4pfB4",
+            "topher_id": "8504a21c-d4a2-11e9-ae7c-9789048d4028",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c7d_dom-l1-69-other-element-interface/dom-l1-69-other-element-interface_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c7d_dom-l1-69-other-element-interface/dom-l1-69-other-element-interface_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c7d_dom-l1-69-other-element-interface/dom-l1-69-other-element-interface_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c7d_dom-l1-69-other-element-interface/dom-l1-69-other-element-interface_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c7d_dom-l1-69-other-element-interface/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467502,
+          "is_public": true,
+          "key": "7a496888-f360-46ac-9e15-c8de51607385",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:12.028Z",
+          "version": "1.0.0",
+          "text": "To check out all of the different interfaces, check here: [Web API Interfaces](https://developer.mozilla.org/en-US/docs/Web/API)",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467503,
+          "is_public": true,
+          "key": "f9af8863-e51c-4a1c-8f81-97ba24133e06",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:12.417Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nHopefully this was an enlightening lesson on a number of fronts! You learned about interfaces, properties, and methods; an interface is like a blueprint, properties are like bits of information or data, and methods are functionality.\n\nWe also looked at a couple of specific interfaces:\n* Node Interface\n* Element Interface\n\nWe saw that both of these interfaces have properties and methods. We also saw how the Element Interface inherits all of the properties and methods from the Node interface.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467504,
+          "is_public": true,
+          "key": "3adc6a11-6e0d-45a4-b510-199a265d9505",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:12.805Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [Node Interface](https://developer.mozilla.org/en-US/docs/Web/API/Node)\n* [Element Interface](https://developer.mozilla.org/en-US/docs/Web/API/Element)\n* [list of Web API Interfaces](https://developer.mozilla.org/en-US/docs/Web/API)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467397,
+      "is_public": true,
+      "key": "eee59c35-d033-4714-b331-b042b7a36564",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "More Ways To Access Elements",
+      "updated_at": "2019-10-08T12:32:21.140Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467505,
+        467506,
+        467507,
+        478531,
+        467509,
+        467510,
+        467511,
+        467512,
+        478421,
+        467514,
+        467515,
+        467516,
+        478422,
+        467518,
+        467519,
+        467520
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467505,
+          "is_public": true,
+          "key": "ac4fac5c-7bb4-4c94-812a-86a6bd7304a4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:13.864Z",
+          "version": "1.0.0",
+          "text": "We've been looking at the:\n\n* `.getElementById()`\n* `.getElementsByClassName()`\n* and `.getElementsByTagName()`\n\nNow these DOM methods are standardized. However, not all browsers support every standard. They do _now_, for these three methods, but there are hundreds of other methods with varying levels of support.\n\nThat's why almost every method on MDN has a Browser compatibility table that lists when each browser started supporting that specific method.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467506,
+          "is_public": true,
+          "key": "3246efc1-cb7d-43ac-96ff-d223d14866b1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:14.363Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a22d8c5_ud117-l1-browser-compatibility-table/ud117-l1-browser-compatibility-table.jpg",
+          "width": 1168,
+          "height": 376,
+          "alt": "A Screenshot showing the Browser compatibility table for the `.getElementsByClassName()` method, Chrome, Edge, Opera, and Safari are marked as Yes. Firefox is 3.0 and IE is 9.0",
+          "caption": "_The Browser compatibility table for the `.getElementsByClassName()` method._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 467507,
+          "is_public": true,
+          "key": "b6d12d2e-54b2-47c2-a7e4-484120b00f70",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:14.825Z",
+          "version": "1.0.0",
+          "text": "Thankfully, all browsers have pretty much aligned to support the official standard.\n\nHowever, back in the day, that wasn't the case. You had to write different code to perform the same action in different browsers. Then you had to write code to check which browser you were in to run the correct code for that browser. Let me tell you, it was a bit of a nightmare.\n\nSeveral JavaScript libraries came along to help mitigate these issues. Let's take a brief look at the [jQuery library](https://jquery.com/).\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478531,
+          "is_public": true,
+          "key": "eee8a4e4-85fe-49b4-aa30-c7bae0a80a69",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L1 76 HS - JQuery'S Influence",
+          "updated_at": "2019-10-08T12:32:15.235Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69701",
+            "youtube_id": "FjpYmoQlYgI",
+            "topher_id": "84f25c60-d4a2-11e9-b2d5-f3adb676e06a",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b05f_l1-76-hs-jquerys-influence/l1-76-hs-jquerys-influence_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b05f_l1-76-hs-jquerys-influence/l1-76-hs-jquerys-influence_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b05f_l1-76-hs-jquerys-influence/l1-76-hs-jquerys-influence_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b05f_l1-76-hs-jquerys-influence/l1-76-hs-jquerys-influence_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b05f_l1-76-hs-jquerys-influence/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467509,
+          "is_public": true,
+          "key": "8b61b491-2a95-4645-8c03-74fb6c171cbb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:15.576Z",
+          "version": "1.0.0",
+          "text": "We already reviewed this in a previous section, but let's recap it one more time!\n\n```css\n#header {\n    color: 'red';\n}\n\n.header {\n    color: 'red';\n}\n\nheader {\n    color: 'red';\n}\n```\n\nEach one of these sets the color to red. The only difference is in the selector; selecting by ID, selecting by class, and selecting by tag. Got it? Good!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467510,
+          "is_public": true,
+          "key": "8f179c0c-ebbd-4db4-a9ab-6d7acb081abd",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:15.889Z",
+          "version": "1.0.0",
+          "text": "You've already learned the DOM methods to select by ID, class, and tag, too:\n\n* `.document.getElementById()`\n* `.document.getElementsByClassName()`\n* `.document.getElementsByTagName()`\n\nThree different methods that do almost the exact same thing. Wouldn't it be awesome if there were a way to do element selecting similar to how CSS does it?\n\nWait for it - there is!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467511,
+          "is_public": true,
+          "key": "74b732d1-03c9-4ef8-8aed-3204f0059318",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:16.269Z",
+          "version": "1.0.0",
+          "text": "## The querySelector Method\n\nWe can use the `.querySelector()` method to select elements just like we do with CSS. We use the `.querySelector()` method and pass it a string that's just like a CSS selector:\n\n```js\n// find and return the element with an ID of \"header\"\ndocument.querySelector('#header');\n\n// find and return the first element with the class \"header\"\ndocument.querySelector('.header');\n\n// find and return the first <header> element\ndocument.querySelector('header');\n```\n\nCheck out the `.querySelector()` method on MDN: [https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467512,
+          "is_public": true,
+          "key": "0d1330fc-71c7-4232-a6e9-6a232a6ecee6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:16.616Z",
+          "version": "1.0.0",
+          "text": "> ### ⚠️ `.querySelector()` Returns A Single Element ⚠️ \n\n> I want to point out one potentially tricky thing - the `.querySelector()` method only returns _one_ element. This makes sense if you use it to search for an element by ID. However, even though `.getElementsByClassName()` and `.getElementsByTagName()` both return a list of multiple elements, using `.querySelector()` with a class selector or a tag selector will still only return the _first_ item it finds.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478421,
+          "is_public": true,
+          "key": "6b265b8e-c916-430f-834a-555d912a5d95",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 81 - QuerySelector",
+          "updated_at": "2019-10-08T12:32:16.914Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69609",
+            "youtube_id": "L5SbgvM0VCQ",
+            "topher_id": "84f21e4e-d4a2-11e9-b223-db119d5b3edc",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c8b_dom-l1-81-queryselector/dom-l1-81-queryselector_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c8b_dom-l1-81-queryselector/dom-l1-81-queryselector_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c8b_dom-l1-81-queryselector/dom-l1-81-queryselector_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c8b_dom-l1-81-queryselector/dom-l1-81-queryselector_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c8b_dom-l1-81-queryselector/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467514,
+          "is_public": true,
+          "key": "d7d47946-f47b-4a0a-922e-21ca1e4e3589",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:17.243Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Write the `.querySelector()` code to find the first item with an ID of: `fanciful-butterfly`.",
+            "default_feedback": "Are you using the correct DOM method, and is it being called with the correct information?",
+            "correct_feedback": "Great work!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "document\\.querySelector\\( *['\"]\\#fanciful-butterfly['\"] *\\);?",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467515,
+          "is_public": true,
+          "key": "11ffe650-ed06-4f4b-afae-60576b442876",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:17.602Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Write the `.querySelector()` code to find the first paragraph element that _also_ has a class of: `callout`",
+            "default_feedback": "Are you using the correct DOM method, and is it being called with the correct information?",
+            "correct_feedback": "Great work!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "document\\.querySelector\\( *['\"]p\\.callout['\"] *\\);?",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467516,
+          "is_public": true,
+          "key": "1f565c17-babd-4e53-8c9b-e6227cc3aed0",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:17.941Z",
+          "version": "1.0.0",
+          "text": "## The querySelectorAll Method\n\nThe `.querySelector()` method returns only _one_ element from the DOM (if it exists). However, there are definitely times when you will want to get a list of all elements with a certain class or all of one type of element (e.g. all `<tr>` tags). We can use the `.querySelectorAll()` method to do this!\n\n```js\n// find and return a list of elements with the class \"header\"\ndocument.querySelectorAll('.header');\n\n// find and return a list of <header> elements\ndocument.querySelectorAll('header');\n```\n\nHere's the `.querySelectorAll()` method on MDN: [https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478422,
+          "is_public": true,
+          "key": "7e9985fd-d669-4577-aebb-c8616e7787aa",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L1 85 - QuerySelectorAll",
+          "updated_at": "2019-10-08T12:32:18.721Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69610",
+            "youtube_id": "XrS6vzAfBSk",
+            "topher_id": "84f221d2-d4a2-11e9-b22e-2b0d496987cc",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c96_dom-l1-85-queryselectorall/dom-l1-85-queryselectorall_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c96_dom-l1-85-queryselectorall/dom-l1-85-queryselectorall_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316c96_dom-l1-85-queryselectorall/dom-l1-85-queryselectorall_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316c96_dom-l1-85-queryselectorall/dom-l1-85-queryselectorall_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316c96_dom-l1-85-queryselectorall/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467518,
+          "is_public": true,
+          "key": "a0fb43f6-a4fe-431e-9e97-e5c62c2c8b5d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:19.309Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Write the `.querySelectorAll()` code to find all paragraph elements that are descendents of elements that have the class: `articles`",
+            "default_feedback": "Are you using the correct DOM method, and is it being called with the correct information?",
+            "correct_feedback": "Awesome work!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "document\\.querySelectorAll\\( *['\"]\\.articles p['\"] *\\);?",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467519,
+          "is_public": true,
+          "key": "a339fb20-4e84-4bf7-b356-18d25f38ec17",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:19.877Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, we took a brief look the history of browser support for standard DOM methods, the rise of the jQuery library, and how jQuery's success brought about new DOM methods. The new DOM methods we looked at are\n* `.querySelector()` - returns a single element\n* `.querySelectorAll()` - returns a list of elements\n\n```js\n// find and return the element with an ID of \"header\"\ndocument.querySelector('#header');\n\n// find and return a list of elements with the class \"header\"\ndocument.querySelectorAll('.header');\n```\n\nWe also took a brief look that the list returned by `.querySelectorAll()` is a NodeList. We saw that it is possible to loop over a NodeList with either its `.forEach()` method, or the humble `for` loop:\n\n```js\nconst allHeaders = document.querySelectorAll('header');\n\nfor(let i = 0; i < allHeaders.length; i++){\n    console.dir(allHeaders[i]);\n}\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467520,
+          "is_public": true,
+          "key": "77f954a9-b071-4dec-af0a-34c83e152f6b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:20.268Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [jQuery website](https://jquery.com/)\n* [.querySelector() method on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelector)\n* [.querySelectorAll() method on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/querySelectorAll)\n* [NodeList on MDN](https://developer.mozilla.org/en-US/docs/Web/API/NodeList)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467398,
+      "is_public": true,
+      "key": "3b4e60bb-40aa-4fcd-ab8b-3ee1827e2356",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Lesson summary",
+      "updated_at": "2019-10-08T12:32:22.904Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478532
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478532,
+          "is_public": true,
+          "key": "171453e3-24e7-4272-963c-79243a0da1ac",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "The Document Object Model - Lesson Summary",
+          "updated_at": "2019-10-08T12:32:22.071Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69702",
+            "youtube_id": "G7Je14a9svA",
+            "topher_id": "84f289d8-d4a2-11e9-b35f-ef6331520634",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b06b_l1-89-hs-lesson-summary/l1-89-hs-lesson-summary_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b06b_l1-89-hs-lesson-summary/l1-89-hs-lesson-summary_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b06b_l1-89-hs-lesson-summary/l1-89-hs-lesson-summary_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b06b_l1-89-hs-lesson-summary/l1-89-hs-lesson-summary_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b06b_l1-89-hs-lesson-summary/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

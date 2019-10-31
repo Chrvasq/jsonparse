@@ -1,0 +1,1780 @@
+{
+  "content_source": null,
+  "id": 467127,
+  "is_public": true,
+  "key": "f270dbcf-eb43-4ce3-b7be-a74d26023496",
+  "locale": "en-us",
+  "root_owner_id": null,
+  "semantic_type": "Lesson",
+  "title": "Working with Browser Events",
+  "updated_at": "2019-10-27T12:11:29.810Z",
+  "version": "1.0.0",
+  "image": {
+    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a627919_3-working-with-browser-events2x/3-working-with-browser-events2x.jpg",
+    "width": 500,
+    "height": 500
+  },
+  "video": null,
+  "lab": null,
+  "project": null,
+  "summary": "Hundreds of events fire every time you interact with a page. Learn what an event is, how to listen for an event and respond to it, what data is included with an event, and the phases of an event.",
+  "lesson_type": "Classroom",
+  "duration": 120,
+  "display_workspace_project_only": null,
+  "is_project_lesson": false,
+  "career_portal_experience_levels": [],
+  "_concepts_ids": [
+    467405,
+    467406,
+    467913,
+    467407,
+    467408,
+    467409,
+    467410
+  ],
+  "_project_id": null,
+  "concepts": [
+    {
+      "content_source": null,
+      "id": 467405,
+      "is_public": true,
+      "key": "f63b1837-b096-4707-b0f5-72bc6a93bfac",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Introduction",
+      "updated_at": "2019-10-08T12:32:28.401Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478541,
+        467914,
+        478542,
+        467919,
+        478439,
+        467921
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478541,
+          "is_public": true,
+          "key": "04d37e73-bfdb-4de8-9f7e-c00b2eff3fc2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L3 1 - Lesson Overview V2",
+          "updated_at": "2019-10-08T12:32:25.058Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69716",
+            "youtube_id": "UtJyZeapAsc",
+            "topher_id": "84f25d82-d4a2-11e9-b2d9-ef0f535e77ea",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b103_l3-1-lesson-overview-v2/l3-1-lesson-overview-v2_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b103_l3-1-lesson-overview-v2/l3-1-lesson-overview-v2_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b103_l3-1-lesson-overview-v2/l3-1-lesson-overview-v2_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b103_l3-1-lesson-overview-v2/l3-1-lesson-overview-v2_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b103_l3-1-lesson-overview-v2/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467914,
+          "is_public": true,
+          "key": "6236172d-a64f-4d5f-ad5c-e314a8aa5bf5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:25.635Z",
+          "version": "1.0.0",
+          "text": "## Lesson Overview\n\nTo recap, we'll be looking at :\n* **Events** - what they are\n* **Responding to an event** - how to listen for an event and respond when one happens\n* **Event Data** - harness the data that is included with an event \n* **Stopping an event** - preventing an event from triggering multiple responses\n* **Event Lifecycle** - the lifecycle stages of an event\n* **DOM Readiness** - events to know when the DOM itself is ready to be interacted with\n\nThis lesson is chock full of incredibly useful information, so don't skim over anything!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478542,
+          "is_public": true,
+          "key": "7aee7f8f-7b05-47fb-ae04-18b7cebfcd81",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L3 3 - What Is An Event",
+          "updated_at": "2019-10-08T12:32:26.184Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69717",
+            "youtube_id": "PbVXk2-eUuk",
+            "topher_id": "850748fa-d4a2-11e9-b6c7-1f91e2c8453e",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b121_l3-3-what-is-an-event/l3-3-what-is-an-event_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b121_l3-3-what-is-an-event/l3-3-what-is-an-event_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b121_l3-3-what-is-an-event/l3-3-what-is-an-event_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b121_l3-3-what-is-an-event/l3-3-what-is-an-event_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b121_l3-3-what-is-an-event/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467919,
+          "is_public": true,
+          "key": "911dab2f-17a5-4e9b-a340-c90bd6dc1a95",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:26.631Z",
+          "version": "1.0.0",
+          "text": "## Seeing An Event\n\nThere is a hidden world of events going on right now on this very page! It's really hard to actually _see_ into this hidden world, though. So how can we know that events really _are_ being announced? If they are being announced, how come they're not easy for us to see?\n\nFortunately, the Chrome browser has a special `monitorEvents()` function that will let us see different events as they are occurring. \n\nCheck out the documentation on the Chrome DevTools site: [monitorEvents documentation](https://developers.google.com/web/tools/chrome-devtools/console/events#monitor_events)\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478439,
+          "is_public": true,
+          "key": "f63fbb60-61bb-4244-a61b-bf345effe7f7",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 05  MonitorEvents-In-Action",
+          "updated_at": "2019-10-08T12:32:27.122Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69624",
+            "youtube_id": "6PFZQxV-d_8",
+            "topher_id": "84f1f41e-d4a2-11e9-b1aa-5b9abd97c5e1",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d2c_dom-l3-05-monitorevents-in-action/dom-l3-05-monitorevents-in-action_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d2c_dom-l3-05-monitorevents-in-action/dom-l3-05-monitorevents-in-action_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d2c_dom-l3-05-monitorevents-in-action/dom-l3-05-monitorevents-in-action_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d2c_dom-l3-05-monitorevents-in-action/dom-l3-05-monitorevents-in-action_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d2c_dom-l3-05-monitorevents-in-action/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467921,
+          "is_public": true,
+          "key": "5b44fd84-cee6-4f85-b982-440e85298a86",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:27.754Z",
+          "version": "1.0.0",
+          "text": "In this video, you saw the following events:\n\n* `click`\n* `dblclick`\n* `scroll`\n* `resize`\n\nHowever, there are _hundreds_ more!\n\nThe monitorEvents function will keep spitting out all of the events that are happening on the targeted element until the end of time...that, or until you refresh the page. Alternatively, the Chrome browser _does_ offer an `unmonitorEvents()` function that will turn off the announcing of events for the targeted element:\n\n```js\n// start displaying all events on the document object\nmonitorEvents(document);\n\n// turn off the displaying of all events on the document object.\nunmonitorEvents(document);\n```\n\nOne last little bit of info on `monitorEvents` is that this is for development/testing purposes only. It's not supposed to be used for production code.\n",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467406,
+      "is_public": true,
+      "key": "147bc1d1-b002-4ebd-bbff-8d91ed1691bf",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Respond to Events",
+      "updated_at": "2019-10-08T12:32:37.428Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        467923,
+        467924,
+        467927,
+        467928,
+        478440,
+        467932,
+        467936,
+        467938,
+        467939,
+        478441,
+        467941,
+        467943,
+        478442,
+        475907,
+        475908
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 467923,
+          "is_public": true,
+          "key": "449907cd-cefb-4b62-a637-6decf4604442",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:28.820Z",
+          "version": "1.0.0",
+          "text": "## An Event Target\n\nDo you remember the Node Interface and the Element interface from the first lesson? Do you remember how the Element Interface is a descendant of the Node Interface, and therefore inherits all of Node's properties and methods?\n\nWell there was one piece that I totally skipped over then but am addressing now. The Node Interface inherits from the `EventTarget` Interface.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467924,
+          "is_public": true,
+          "key": "548d1ce0-6908-41df-91f7-03823dc5852a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:29.276Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a22d197_ud117-l1-interface-chain/ud117-l1-interface-chain.jpg",
+          "width": 766,
+          "height": 192,
+          "alt": "A diagram showing EventTarget inherited by all nodes and elements",
+          "caption": "_The EventTarget Interface is inherited by all nodes and elements._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 467927,
+          "is_public": true,
+          "key": "d4c5d5b9-5d76-46f7-bca1-93ac7c35e397",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:29.800Z",
+          "version": "1.0.0",
+          "text": "The [EventTarget page](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget) says that EventTarget:\n\n\n> is an interface implemented by objects that can receive events and may have listeners for them.\n\nand \n\n> Element, document, and window are the most common event targets, but other objects can be event targets too…\n\nAs you can see from the image above, the EventTarget is at the top of the chain. This means that it does not inherit any properties or methods from any other interfaces. However, every other interface inherits from it and therefore contain its properties and methods. This means that each of the following is an \"event target\";\n\n* the `document` object\n* a paragraph element\n* a video element\n* etc.\n\nI want to drive home that both the _document_ object and _any DOM element_ can be an event target. And again, why is this?...because both the Element Interface and the Document Interface inherit from the EventTarget Interface. So any individual element inherits from the Element Interface, which in turn inherits from the EventTarget Interface. Likewise, the document object comes from the Document Interface, which in turn inherits from the EventTarget Interface.\n\nIf you take a look at the EventTarget Interface, you'll notice that it doesn't have _any_ properties and only three methods! These methods are:\n\n* `.addEventListener()`\n* `.removeEventListener()`\n* `.dispatchEvent()`\n\nThe one that we'll be looking at for the rest of this course will be the `.addEventListener()` method.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 467928,
+          "is_public": true,
+          "key": "2ccfac9b-4da6-47f7-b5ad-a55cc65b8d09",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:30.380Z",
+          "version": "1.0.0",
+          "text": "## Adding An Event Listener\n\nWe've taken a brief look at this hidden world of events. Using the `.addEventListener()` method will let us _listen for_ events and respond to them! I just said \"_listen for_ events\". There are several ways to \"phrase\" this, so I want to give some examples:\n\n* listen for an event\n* listen to an event\n* hook into an event\n* respond to an event\n\n...all of these mean the same thing and are interchangeable with one another.\n\nLet's use some pseudo-code to explain how to set an event listener:\n\n```js\n<event-target>.addEventListener(<event-to-listen-for>, <function-to-run-when-an-event-happens>);\n```\n\nSo an event listener needs three things:\n\n1. an event target - this is called the **target**\n* the type of event to listen for - this is called the **type**\n* a function to run when the event occurs - this is called the **listener**\n\nThe `<event-target>` (i.e. the _target_) goes right back to what we just looked at: everything on the web is an event target (e.g. the `document` object, a `<p>` element, etc.). \n\nThe `<event-to-listen-for>` (i.e. the _type_) is the event we want to respond to. It could be a click, a double click, the pressing of a key on the keyboard, the scrolling of the mouse wheel, the submitting of a form...the list goes on!\n\nThe `<function-to-run-when-an-event-happens>` (i.e. the _listener_) is a function to run when the event actually occurs.\n\nLet's transform the pseudo-code to a _real_ example of an event listener:\n\n```js\nconst mainHeading = document.querySelector('h1');\n\nmainHeading.addEventListener('click', function () {\n  console.log('The heading was clicked!');\n});\n```\n\nLet's break down the snippet above:\n\n* the target is the first `<h1>` element on the page\n* the event type to listen for is a `\"click\"` event\n* the listener is a function that logs `\"The heading was clicked!\"` to the console\n\nCheck out the documentation for more info: [addEventListener docs](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478440,
+          "is_public": true,
+          "key": "af0bb7a8-8400-4f06-9720-ff1b3f598fc5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 11 - Quick Event Listener",
+          "updated_at": "2019-10-08T12:32:31.302Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69625",
+            "youtube_id": "bj4Lrxdx9Vo",
+            "topher_id": "84f1fa2c-d4a2-11e9-b1ba-8f8582006708",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d34_dom-l3-11-quick-event-listener/dom-l3-11-quick-event-listener_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d34_dom-l3-11-quick-event-listener/dom-l3-11-quick-event-listener_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d34_dom-l3-11-quick-event-listener/dom-l3-11-quick-event-listener_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d34_dom-l3-11-quick-event-listener/dom-l3-11-quick-event-listener_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d34_dom-l3-11-quick-event-listener/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467932,
+          "is_public": true,
+          "key": "b29718c0-19b4-48bd-ab2f-57c49b490f30",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:32.061Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "In the following code, what is the _event type_?\n\n```js\nconst lotsOfElements = document.querySelectorAll('.quizzing-quizzby');\nconst element = lotsOfElements[2];\n\nelement.addEventListener('animationend', function () {\n    const mainHeading = document.querySelector('h1');\n\n    mainHeading.style.backgroundColor = 'purple'; \n});\n```\n",
+            "correct_feedback": "The string `animationend` is the event listener's type.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look right. The question is asking for the _type_. Review the previous material on the three different parts of the `.addEventListener()` method. Then come back and locate the _type_.",
+            "answers": [
+              {
+                "id": "a1512415916510",
+                "text": "The third element with the class `quizzing-quizzby`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512415919779",
+                "text": "The first `<h1>` on the page",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512415920313",
+                "text": "The string `animationend`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512415921009",
+                "text": "The function that changes the first heading's background to purple",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467936,
+          "is_public": true,
+          "key": "76b04088-c96d-42d5-bc61-b19ea17391af",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:32.619Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Given this code:\n\n```js\ndocument.addEventListener('keypress', function () {\n    document.body.remove();\n});\n```\n\nWhat will happen if the mouse is used to click the page?\n",
+            "correct_feedback": "This code sets up a listener _only_ for when a key is pressed. If the document is clicked, no listener is set up for that, so the click is ignored.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look right. What event is being listened for?",
+            "answers": [
+              {
+                "id": "a1512415978678",
+                "text": "nothing",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512415982639",
+                "text": "the `<body>` element would be removed",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512415985497",
+                "text": "an error would occur",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1512416047454",
+                "text": "a warning would be logged to the console",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467938,
+          "is_public": true,
+          "key": "c1c959b6-f5d2-446f-95ea-bdb35b82eff6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TaskListAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:33.347Z",
+          "version": "1.0.0",
+          "tasks": [
+            "go to one of your favorite sites",
+            "open the Console pane in DevTools",
+            "use `.addEventListener()` to register a listener on the `document` object",
+            "listen for a click event",
+            "when a click happens, log a message to the console"
+          ],
+          "positive_feedback": "Great job!",
+          "video_feedback": null,
+          "description": "Now it's your turn to write an event listener!"
+        },
+        {
+          "content_source": null,
+          "id": 467939,
+          "is_public": true,
+          "key": "2e5e714f-50da-489a-b39b-bbcb14a1b9da",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:33.771Z",
+          "version": "1.0.0",
+          "text": "## Add Event Listener to the Project\n\nRunning code in a browser's developer tools is fantastic for testing. But that event listener will only last until the page is refreshed. As with all _real_ JavaScript code that we want to send to our users, our event listener code needs to be in a JavaScript file. \n\nLet's try adding an Event Listener to our project's files!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478441,
+          "is_public": true,
+          "key": "d23538e3-9678-4060-9450-85af439749de",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 14 - Add Event To Project",
+          "updated_at": "2019-10-08T12:32:34.351Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69626",
+            "youtube_id": "8qnQbFtXpto",
+            "topher_id": "85074a3a-d4a2-11e9-b6c9-935637dd0cbe",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d3d_dom-l3-14-add-event-to-project/dom-l3-14-add-event-to-project_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d3d_dom-l3-14-add-event-to-project/dom-l3-14-add-event-to-project_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d3d_dom-l3-14-add-event-to-project/dom-l3-14-add-event-to-project_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d3d_dom-l3-14-add-event-to-project/dom-l3-14-add-event-to-project_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d3d_dom-l3-14-add-event-to-project/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467941,
+          "is_public": true,
+          "key": "0b3e94ef-2a13-49d8-8da1-c915f3372bef",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:32:34.662Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "Think about these interfaces:\n\n* EventTarget\n* Node\n* Element\n\nIs there a difference between these two:\n\n*  `document.addEventListener()`\n* `myHeading.addEventListener()` (assume the `myHeading` variable is an element)\n"
+          },
+          "answer": {
+            "text": "Thanks for your response.",
+            "video": null
+          }
+        },
+        {
+          "content_source": null,
+          "id": 467943,
+          "is_public": true,
+          "key": "f070032f-b95a-44ff-b47f-9d6446d08a2f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:35.033Z",
+          "version": "1.0.0",
+          "text": "So far, we've only looked at the `\"click\"` event and a couple of other ones. When we used the `monitorEvents()` function in the previous section, we saw a number of different event types (e.g. `dblclick`, `scroll`, `resize`).\n\nHow do you know what events are even out there to listen for? The answer is easy - documentation! To see a full list of all of the possible events you can listen for, check out the Events documentation: [list of events](https://developer.mozilla.org/en-US/docs/Web/Events)",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478442,
+          "is_public": true,
+          "key": "9e42a14c-a76b-462b-bec1-94fc9136f2e9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 19 - Look At Event Types",
+          "updated_at": "2019-10-08T12:32:35.599Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69627",
+            "youtube_id": "YjlwcyJ5jIU",
+            "topher_id": "84f1f61c-d4a2-11e9-b1ae-8f265e4ccaa7",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d46_dom-l3-19-look-at-event-types/dom-l3-19-look-at-event-types_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d46_dom-l3-19-look-at-event-types/dom-l3-19-look-at-event-types_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d46_dom-l3-19-look-at-event-types/dom-l3-19-look-at-event-types_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d46_dom-l3-19-look-at-event-types/dom-l3-19-look-at-event-types_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d46_dom-l3-19-look-at-event-types/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475907,
+          "is_public": true,
+          "key": "48dbdc4c-8862-4b65-be88-e4841e98c25b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:35.915Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, you learned all about events, the EventTarget Interface, and how to add event listeners. We used the `.addEventListener()` method to attach listeners to:\n\n* the `document`\n* a Node\n* an Element\n\n...basically anything that inherits from the EventTarget Interface. We also saw that there are three main parts to an event listener:\n\n1. an event target - the **target**\n* the type of event to listen for - the **type**\n* a function to run when the event occurs - the **listener**",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475908,
+          "is_public": true,
+          "key": "2627723e-188b-4910-81d8-ccc692af5047",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:36.802Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [addEventListener on MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener)\n* [EventTarget Interface](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)\n* [Introduction to events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Building_blocks/Events)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467913,
+      "is_public": true,
+      "key": "5cb73a2b-6509-45a2-88df-d88b3e811d3d",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Remove an Event Listener",
+      "updated_at": "2019-10-08T12:32:43.133Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        475909,
+        475910,
+        475911,
+        478543,
+        475913,
+        475914,
+        475915,
+        475916,
+        478444,
+        475918,
+        475919,
+        475920
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 475909,
+          "is_public": true,
+          "key": "c4602f85-81d5-4748-acbd-4355d9c43109",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:38.049Z",
+          "version": "1.0.0",
+          "text": "## Removing An Event Listener\n\nWe say that we can use an event target's `.addEventListener()` method to start listening for specific events and respond to them. Let's say you only want to listen for just the first click event, respond to it, and ignore all other click events. The `.addEventListener()` event will listen for and respond to _all_ click events.\n\n(The newest version of the `.addEventListener()` specification _does_ allow for an object to be passed as a third parameter. This object can be used to configure how the `.addEventListener()` method behaves. Of note, there is an option to listen for only a single event. However, this configuration object is not widely supported just yet).\n\nTo remove an event listener, we use the `.removeEventListener()` method. It sounds straightforward enough, right? However, before we look at `.removeEventListener()`, we need to take a brief review of object equality. It seems like an odd jump, but it'll make sense in just a moment.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475910,
+          "is_public": true,
+          "key": "dbc30c3b-6faa-4faa-b3fd-2daafee556be",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:38.392Z",
+          "version": "1.0.0",
+          "text": "### Are Objects Equal in JavaScript\n\nEquality is a common task in most programming languages, but in JavaScript, it can be a little bit tricky because JavaScript does this thing called type coercion where it will try to convert the items being compared into the same type. (e.g. string, number,). JavaScript has the double equality (`==`) operator that _will allow type coercion_. It also has the triple equality (`===`) symbol that will prevent type coercion when comparing. \n\nHopefully, this is all review. But let's talk about _just_ object equality, which includes objects, arrays, and functions. Try giving this quiz a shot:\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475911,
+          "is_public": true,
+          "key": "58c93d43-c5b8-4e5e-ac61-8a35d816b45a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:38.878Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Will the following equality test result in `true` or `false`?\n\n```js\n{ name: 'Richard' } === { name: 'Richard' }\n```\n",
+            "correct_feedback": "(Potentially) Counterintuitively, these two objects are _not_ equal.",
+            "video_feedback": null,
+            "default_feedback": "Nope, this is a tricky area.",
+            "answers": [
+              {
+                "id": "a1513022312326",
+                "text": "`true`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513022314843",
+                "text": "`false`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478543,
+          "is_public": true,
+          "key": "4b7fe2b8-5bed-4784-bc61-2526afe30692",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L3 21 HS - Object Equality",
+          "updated_at": "2019-10-08T12:32:39.221Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69718",
+            "youtube_id": "A1hfTM8pagg",
+            "topher_id": "84f29ebe-d4a2-11e9-b39f-2b76c046c6f7",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b13b_l3-21-hs-object-equality/l3-21-hs-object-equality_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b13b_l3-21-hs-object-equality/l3-21-hs-object-equality_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b13b_l3-21-hs-object-equality/l3-21-hs-object-equality_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b13b_l3-21-hs-object-equality/l3-21-hs-object-equality_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b13b_l3-21-hs-object-equality/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475913,
+          "is_public": true,
+          "key": "335d188b-3d16-4b1a-b035-a83b3d43eb0c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:39.659Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Given this code:\n\n```js\nvar a = {\n    myFunction: function quiz() { console.log('hi'); }\n};\nvar b = {\n    myFunction: function quiz() { console.log('hi'); }\n};\n```\n\nDoes the following code evaluate to `true` or `false`?\n\n```js\na.myFunction === b.myFunction\n```",
+            "correct_feedback": "This is the same thing as `{ name: 'Richard' } === { name: 'Richard' }`; both of the `myFunction` functions are different functions. They look the same, but they are distinct entities.",
+            "video_feedback": null,
+            "default_feedback": "Think about the `myFunction` functions. Are they distinct, separate functions, or are they referring to the same function?",
+            "answers": [
+              {
+                "id": "a1513022404452",
+                "text": "`true`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513022411008",
+                "text": "`false`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475914,
+          "is_public": true,
+          "key": "afd2d70b-1616-49df-a9e8-14e68d803c4c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:40.070Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Given this code:\n\n```js\nfunction quiz() { ... }\n\nvar a = {\n    myFunction: quiz\n};\nvar b = {\n    myFunction: quiz\n}\n```\n\nDoes the following code evaluate to `true` or `false`?\n\n```js\na.myFunction === b.myFunction\n```",
+            "correct_feedback": "Both of the `myFunction` functions are referring to the same, exact `quiz` function.",
+            "video_feedback": null,
+            "default_feedback": "Think about the `myFunction` properties. Are they distinct, separate functions, or are they referring to the same function?",
+            "answers": [
+              {
+                "id": "a1513022442668",
+                "text": "`true`",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513022451261",
+                "text": "`false`",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475915,
+          "is_public": true,
+          "key": "dd94075c-64a6-4127-8de0-5e0d3aba5ec1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:40.591Z",
+          "version": "1.0.0",
+          "text": "Ok, so why do we care about any of this object/function equality? The reason is that the `.removeEventListener()` method requires you to pass _the same exact listener function_ to it as the one you passed to `.addEventListener()`.\n\nLet's see some pseudo-code for the `.removeEventListener()`:\n\n```js\n<event-target>.removeEventListener(<event-to-listen-for>, <function-to-remove>);\n```\n\nSo an event listener needs three things:\n\n1. an event target - this is called the **target**\n* the type of event to listen for - this is called the **type**\n* the function to remove - this is called the **listener**\n\nRemember, the _listener_ function must be the _exact_ same function as the one used in the `.addEventListener()` call...not just an identical looking function. Let's look at a couple of examples.\n\nThis code will successfully add and then remove an event listener:\n\n```js\nfunction myEventListeningFunction() {\n    console.log('howdy');\n}\n\n// adds a listener for clicks, to run the `myEventListeningFunction` function\ndocument.addEventListener('click', myEventListeningFunction);\n\n// immediately removes the click listener that should run the `myEventListeningFunction` function\ndocument.removeEventListener('click', myEventListeningFunction);\n```\n\nNow, why does this work? It works because both `.addEventListener()` and `.removeEventListener`:\n\n* have the same _target_\n* have the same _type_\n* and pass _the exact same listener_\n\nNow let's look at an example that would _not_ work (it does _not_ remove the event listener):\n\n```js\n// adds a listener for clicks, to run the `myEventListeningFunction` function\ndocument.addEventListener('click', function myEventListeningFunction() {\n    console.log('howdy');\n});\n\n// immediately removes the click listener that should run the `myEventListeningFunction` function\ndocument.removeEventListener('click', function myEventListeningFunction() {\n    console.log('howdy');\n});\n```\n\nThis code does _not_ successfully remove the event listener. Again, why does this _not_ work?\n\n* both `.addEventListener()` and `.removeEventListener` have the same _target_\n* both `.addEventListener()` and `.removeEventListener` have the same _type_\n* `.addEventListener()` and `.removeEventListener` have their own distinct _listener_ functions...they do not refer to the exact same function (**this is the reason the event listener removal fails!**)\n\nWhy don't you try your hand at this!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475916,
+          "is_public": true,
+          "key": "5e94bbf3-d348-415e-8bae-0f3e4b0a3847",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:41.202Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Assuming that `myForm` is a `<form>` element, will the `<form>` element have a `submit` event listener after running the following code, or not?\n\n```js\nmyForm.addEventListener('submit', function respondToSubmit(){...});\nmyForm.removeEventListener('submit', function respondToSubmit(){...});\n```",
+            "correct_feedback": "Since both `.addEventListener()` and `.removeEventListener` provide their own `respondToSubmit()` function and do not refer to the same function, the event listener removal fails, and the `<form>` will _still_ have an event listener attached to it.",
+            "video_feedback": null,
+            "default_feedback": "Look carefully at the code. Do the `.addEventListener()` and `.removeEventListener` have the same _target_, _type_, and _listener_?",
+            "answers": [
+              {
+                "id": "a1513022654400",
+                "text": "the element will have no event listeners",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513022663460",
+                "text": "the element will still have an event listener",
+                "is_correct": true,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478444,
+          "is_public": true,
+          "key": "5e7a76c5-ab25-4d04-a63b-fc31bda9062e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 29 - Finding Event Listeners",
+          "updated_at": "2019-10-08T12:32:41.602Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69628",
+            "youtube_id": "chX2ZNzGXZo",
+            "topher_id": "84f1bf3a-d4a2-11e9-b110-fb541e36e951",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d53_dom-l3-29-finding-event-listeners/dom-l3-29-finding-event-listeners_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d53_dom-l3-29-finding-event-listeners/dom-l3-29-finding-event-listeners_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d53_dom-l3-29-finding-event-listeners/dom-l3-29-finding-event-listeners_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d53_dom-l3-29-finding-event-listeners/dom-l3-29-finding-event-listeners_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d53_dom-l3-29-finding-event-listeners/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475918,
+          "is_public": true,
+          "key": "0a2bedda-dd08-4d99-b7b0-c9c130463f0f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:41.960Z",
+          "version": "1.0.0",
+          "text": "## What's Next?\n\nNow that we've learned about adding and removing event listeners, it's time to learn about the _phases_ of an event!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475919,
+          "is_public": true,
+          "key": "e7f86823-31d8-47c6-9a89-78cb83092646",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:42.325Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, you learned about how to remove event listeners. You took a dive into object equality and how that plays a huge part in removing an event. Lastly, we also looked at how you can find out what event listener a DOM element has by using the DevTools.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475920,
+          "is_public": true,
+          "key": "e2c0f1ec-8166-4c31-83d4-25c6f0e1ba1b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:42.763Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [removeEventListener on MDN](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/removeEventListener)\n* [Easily jump to event listeners](https://developers.google.com/web/updates/2015/05/easily-jump-to-event-listeners)\n* [Equality comparisons and sameness](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness)\n* [Article: Object Equality in JavaScript](http://adripofjavascript.com/blog/drips/object-equality-in-javascript.html)\n* [EventTarget Interface](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467407,
+      "is_public": true,
+      "key": "5fdd280f-9bf8-4c13-b544-24cd9a4fb63e",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Phases of an Event",
+      "updated_at": "2019-10-08T12:32:49.802Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        475921,
+        475922,
+        478553,
+        476100,
+        475924,
+        478554,
+        475927,
+        475942,
+        475941,
+        475946,
+        475947,
+        478445,
+        475951,
+        475953,
+        475954
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 475921,
+          "is_public": true,
+          "key": "cd6e09a4-1cdb-424a-83e8-2a6b3afcc1ab",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:32:43.628Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "Thinking about nodes and how the DOM is structured, after running the code below, which event listener will fire first when the page is clicked? Write out your answer and your explanation of why it will be in that order:\n\n```js\ndocument.addEventListener('click', function () {\n   console.log('The document was clicked');\n});\n\ndocument.body.addEventListener('click', function () {\n    console.log('The document body was clicked');\n});\n```\n"
+          },
+          "answer": {
+            "text": "Thank you for your response.",
+            "video": null
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475922,
+          "is_public": true,
+          "key": "3d12ff70-7b44-4bc1-82fa-470391e31853",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:44.009Z",
+          "version": "1.0.0",
+          "text": "## Event Phases\n\nThere are three different phases during the lifecycle of an event. They are:\n\n* the **capturing** phase\n* the **at target** phase\n* and the **bubbling** phase\n\nAnd they actually follow the order above; first, it's _capturing_, then _at target_, and then the _bubbling_ phase.\n\nMost event handlers run during the **at target** phase, such as when you attach a click event handler to the button. The event arrives at the button (its **target**), and there's only a handler for it right there, so the event handler gets run.\n\nBut sometimes you have a collection of items -- such as a list -- and want to have one handler cover every item (and still have the option of individual handlers for some items.) By default, if you click on a child item and a handler doesn't intercept the click, the event will \"bubble\" upward to the parent, and keep bubbling until something handles it or it hits the document. \n\nCapturing, on the other hand, lets the parent intercept an event before it reaches a child. \n\nLet's dig into these phases to see how they affect when events fire and the order they fire in!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478553,
+          "is_public": true,
+          "key": "ada974e8-dc1e-44e0-8d33-32145af71bbc",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L3 - 35 - Which Is First V1",
+          "updated_at": "2019-10-08T12:32:44.355Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69714",
+            "youtube_id": "rGhgPPYc2sg",
+            "topher_id": "84f1f66c-d4a2-11e9-b1af-3be4b1140070",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b0ea_l3-35-which-is-first-v1/l3-35-which-is-first-v1_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b0ea_l3-35-which-is-first-v1/l3-35-which-is-first-v1_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b0ea_l3-35-which-is-first-v1/l3-35-which-is-first-v1_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b0ea_l3-35-which-is-first-v1/l3-35-which-is-first-v1_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b0ea_l3-35-which-is-first-v1/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476100,
+          "is_public": true,
+          "key": "7a6aa459-e088-4a84-8e6c-e1ea9e40bad2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:44.805Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a2f0488_ud117-phases-of-event-flow/ud117-phases-of-event-flow.svg",
+          "width": 240,
+          "height": 560,
+          "alt": "A diagram showing the three event phases of an event: capturing, at target, and bubbling.",
+          "caption": "_The three event phases of an event: capturing, at target, and bubbling._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 475924,
+          "is_public": true,
+          "key": "cb39f414-98a5-4ea4-856f-236bd36149ee",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:45.296Z",
+          "version": "1.0.0",
+          "text": "So of the three phases in an event, which one does the `.addEventListener()` method actually use? And, how can we change it?\n\nUp until this point, we've only seen the `.addEventListener()` method called with _two_ arguments, the:\n\n* event _type_\n* and the _listener_ \n\n```js\ndocument.addEventListener('click', function () {\n   console.log('The document was clicked');\n});\n```\n\nThere's actually a _third_ argument to the `.addEventListener()` method; the _useCapture_ argument. From it's name, you'd think that if this argument were left out, `.addEventListener()` would default to using the _capturing_ phase. This is an incorrect assumption! **By default, when `.addEventListener()` is called with only two arguments, the method defaults to using the bubbling phase.**\n\nThe code below uses `.addEventListener()` with only two arguments, so it will invoke the listener during the bubbling phase:\n\n```js\ndocument.addEventListener('click', function () {\n   console.log('The document was clicked');\n});\n```\n\nHowever, in this code, `.addEventListener()` is called with _three arguments_ with the third argument being `true` (meaning it _should invoke the listener earlier, during the capturing phase_!). \n\n```js\ndocument.addEventListener('click', function () {\n   console.log('The document was clicked');\n}, true);\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478554,
+          "is_public": true,
+          "key": "83093923-0424-4f4b-b7c8-6fe8f044d22b",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L3-38 – Capture Walkthru V1",
+          "updated_at": "2019-10-08T12:32:45.642Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69724",
+            "youtube_id": "4WYyk3AhCOU",
+            "topher_id": "84f297a2-d4a2-11e9-b38a-7b4b957f34b5",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b161_l3-38-capture-walkthru-v1/l3-38-capture-walkthru-v1_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b161_l3-38-capture-walkthru-v1/l3-38-capture-walkthru-v1_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b161_l3-38-capture-walkthru-v1/l3-38-capture-walkthru-v1_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b161_l3-38-capture-walkthru-v1/l3-38-capture-walkthru-v1_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b161_l3-38-capture-walkthru-v1/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475927,
+          "is_public": true,
+          "key": "89379cc6-dc54-417d-aa39-f0429c0a2404",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:46.079Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Which of the phases is the following code set up for?\n\n```js\nconst items = document.querySelectorAll('.quizzing-quizzes');\nconst el = items[1];\n\nel.addEventListener('click', function () {\n    console.log('You clicked on the 2nd quizzing-quizzes item!');\n}, false);\n```\n",
+            "correct_feedback": "Remember that the third argument of the `.addEventListener()` method is the boolean for the capturing phase. Since it's `false`, that means the event listener should _not_ run during the capturing phase...therefore it will run in the (default) bubble phase.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look entirely accurate to me. Take another look at the event listener code. What is its third argument, and what does it mean?",
+            "answers": [
+              {
+                "id": "a1513023100719",
+                "text": "the capturing phase",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513023162603",
+                "text": "the at target phase",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513023163097",
+                "text": "the bubbling phase",
+                "is_correct": true,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475942,
+          "is_public": true,
+          "key": "de7ad9ce-673a-44cd-940d-7dc802da4bf9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:46.407Z",
+          "version": "1.0.0",
+          "text": "Now that you have a little more knowledge about the \"capturing\", \"at target\", and \"bubbling\" phases, we're going to go back to the question at the beginning of this section. ",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475941,
+          "is_public": true,
+          "key": "c1444616-8c81-4027-83ce-c56409bcd9a6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "MatchingQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:46.936Z",
+          "version": "1.0.0",
+          "question": {
+            "complex_prompt": {
+              "text": "After running the code below and clicking on the page, two console.log messages will display in the console. Put the messages in the correct order.\n\n```js\ndocument.addEventListener('click', function () {\n   console.log('The document was clicked');\n});\n\ndocument.body.addEventListener('click', function () {\n    console.log('The body element was clicked');\n});\n```\n"
+            },
+            "default_feedback": "Which _phase_ is each of these event listeners set up for?",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "concepts_label": "Order of Messages",
+            "answers_label": "console.log Message",
+            "concepts": [
+              {
+                "text": "First Message",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513023281359",
+                  "text": "The body element was clicked."
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "Second Message",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513023472834",
+                  "text": "The document was clicked."
+                },
+                "incorrect_feedbacks": []
+              }
+            ],
+            "answers": [
+              {
+                "id": "a1513023281359",
+                "text": "The body element was clicked."
+              },
+              {
+                "id": "a1513023472834",
+                "text": "The document was clicked."
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475946,
+          "is_public": true,
+          "key": "27902168-0f45-4bfd-b8cd-fce52f72ede9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:47.255Z",
+          "version": "1.0.0",
+          "text": "## The Event Object\n\nNow that you know that event listeners fire in a specific order _and_ how to interpret and control that order, it's time to shift focus to the details of the event itself.\n\nWhen an event occurs, the browser includes an **event object**. This is just a regular JavaScript object that includes a ton of information about the event itself. According to MDN, the `.addEventListener()`'s _listener_ function receives:\n\n> a notification (an object that implements the Event interface) when an event of the specified type occurs\n\nUp until this point, I've been writing all of the _listener_ functions without any parameter to store this event object. Let's add a parameter so we _can_ store this important information:\n\n```js\ndocument.addEventListener('click', function (event) {  // ← the `event` parameter is new!\n   console.log('The document was clicked');\n});\n```\n\nNotice the new `event` parameter that's been added to the listener function. Now when the listener function is called, it is able to store the event data that's passed to it!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475947,
+          "is_public": true,
+          "key": "b6c64604-9419-4584-8582-5efbe071d859",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:47.612Z",
+          "version": "1.0.0",
+          "text": "### 💡 An \"event\" is an \"evt\" is an \"e\" 💡\n\nRemember that a function's parameter is just like a regular variable. In the following example, I'm using a parameter with the name `event`.\n\n```js\nconst items = document.querySelectorAll('.quizzing-quizzes');\nconst el = items[1];\n\nel.addEventListener('keypress', function (event) {\n    console.log('You clicked on the 2nd quizzing-quizzes item!');\n});\n```\n\nInstead of `event`, the parameter's name could just as easily be:\n\n* `evt`\n* `e`\n* `theEvent`\n* `horse`\n\nThe name `event` or `evt` does not provide any inherent meaning or special capabilities; there is nothing special to the name... it's just the name of the parameter. Feel free to give it any name that's informative/descriptive!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478445,
+          "is_public": true,
+          "key": "e6c2e104-54fd-46ff-9b3e-68d5010c2b37",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 44 - Event Object Example",
+          "updated_at": "2019-10-08T12:32:48.121Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69629",
+            "youtube_id": "134IQEN89VQ",
+            "topher_id": "84f1f73e-d4a2-11e9-b1b2-2fd1f6af1629",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d5c_dom-l3-44-event-object-example/dom-l3-44-event-object-example_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d5c_dom-l3-44-event-object-example/dom-l3-44-event-object-example_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d5c_dom-l3-44-event-object-example/dom-l3-44-event-object-example_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d5c_dom-l3-44-event-object-example/dom-l3-44-event-object-example_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d5c_dom-l3-44-event-object-example/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475951,
+          "is_public": true,
+          "key": "4431077d-0587-487b-b95e-2d70b63a1a51",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:48.706Z",
+          "version": "1.0.0",
+          "text": "## The Default Action\n\nAs we just looked at, the event object stores a lot of information, and we can use this data to do all sorts of things. However, one incredibly common reason that professionals use the event object for, is to prevent the default action from happening. That sounds like an odd thing to do, but let's explore this.\n\nThink about an anchor link on a webpage. There are probably a couple dozen links on this page! What if you wanted to run some code and display some output when you click on one of these links. If you click on the link, it will automatically navigate you to the location listed in its `href` attribute: that's what it does by default. \n\nWhat about a form element? When you submit a form, by default, it will send the data to the location in its `action` attribute. What if we wanted to validate the data before sending it, though?\n\nWithout the event object, we're stuck with the default actions. However, the event object has a `.preventDefault()` method on it that a handler can call to prevent the default action from occurring!\n\n```js\nconst links = document.querySelectorAll('a');\nconst thirdLink = links[2];\n\nthirdLink.addEventListener('click', function (event) {\n    event.preventDefault();\n    console.log(\"Look, ma! We didn't navigate to a new page!\");\n});\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475953,
+          "is_public": true,
+          "key": "672ad1a9-ec3d-4787-ad69-194205442206",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:49.020Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nWe covered a number of important aspects of events and event listeners in this section! We looked at:\n\n* the phases of an event:\n    - the `capturing` phase\n    - the `at target` phase\n    - the `bubbling` phase\n* the event object\n* prevent the default action with `.preventDefault()`\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475954,
+          "is_public": true,
+          "key": "aa23b367-1169-4e77-9a25-1a1e32f677c7",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:49.360Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [Event dispatch and DOM event flow](https://www.w3.org/TR/DOM-Level-3-Events/#event-flow) on W3C\n    - [capture phase](https://www.w3.org/TR/DOM-Level-3-Events/#capture-phase) on W3C\n    - [target phase](https://www.w3.org/TR/DOM-Level-3-Events/#target-phase) on W3C\n    - [bubble phase](https://www.w3.org/TR/DOM-Level-3-Events/#bubble-phase) on W3C\n* [Event](https://developer.mozilla.org/en-US/docs/Web/API/Event) on MDN\n* [Event reference](https://developer.mozilla.org/en-US/docs/Web/Events) on MDN\n* [addEventListener](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener) on MDN",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467408,
+      "is_public": true,
+      "key": "85463be2-3206-434e-aa39-4604965daa29",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Avoid Too Many Events",
+      "updated_at": "2019-10-08T12:33:00.458Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        475955,
+        475956,
+        478448,
+        478575,
+        475958,
+        478577,
+        475959,
+        478578,
+        475960,
+        475961,
+        475962,
+        475963,
+        475964,
+        475966
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 475955,
+          "is_public": true,
+          "key": "d62418cd-f565-4289-803f-7cef4b7d5348",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:50.252Z",
+          "version": "1.0.0",
+          "text": "How many event listeners are created with this code? \n\n```js\nconst myCustomDiv = document.createElement('div');\n\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    newElement.addEventListener('click', function respondToTheClick(evt) {\n        console.log('A paragraph was clicked.');\n    });\n\n    myCustomDiv.appendChild(newElement);\n}\n\ndocument.body.appendChild(myCustomDiv);\n```",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475956,
+          "is_public": true,
+          "key": "e929398f-9b8d-4ff8-bd48-27132236ab37",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ValidatedQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:32:50.703Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Enter the number of event listeners below. (enter numbers, only)",
+            "default_feedback": "That's not the right number. Did you notice the code was written _inside_ a `for` loop?  Remember to enter an integer, not a word!",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "matchers": [
+              {
+                "semantic_type": "RegexMatcher",
+                "is_correct": true,
+                "expression": "200",
+                "expression_description": null,
+                "flags": "",
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478448,
+          "is_public": true,
+          "key": "19e20b08-5ade-4802-9782-d5236334061c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 50 - See All Event Handlers",
+          "updated_at": "2019-10-08T12:32:51.729Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69630",
+            "youtube_id": "G6Sxv6pr3RA",
+            "topher_id": "84f1f8ce-d4a2-11e9-b1b5-0f320277f706",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d65_dom-l3-50-see-all-event-handlers/dom-l3-50-see-all-event-handlers_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d65_dom-l3-50-see-all-event-handlers/dom-l3-50-see-all-event-handlers_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d65_dom-l3-50-see-all-event-handlers/dom-l3-50-see-all-event-handlers_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d65_dom-l3-50-see-all-event-handlers/dom-l3-50-see-all-event-handlers_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d65_dom-l3-50-see-all-event-handlers/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 478575,
+          "is_public": true,
+          "key": "2db6b55e-aad5-468b-aa42-df1ab30f9066",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:52.488Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a31c70d_l3-working-with-browser-events-js-the-dom/l3-working-with-browser-events-js-the-dom.jpg",
+          "width": 960,
+          "height": 720,
+          "alt": "A diagram depicting paragraph elements inside a div element, and each paragraph elements having event listeners and the function respondToTheClick",
+          "caption": "",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 475958,
+          "is_public": true,
+          "key": "ec4ce3ad-56d1-4760-9e4d-b8af32438208",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:52.952Z",
+          "version": "1.0.0",
+          "text": "## Refactoring The Number of Event Listeners\n\nLet's look at the code another time:\n\n```js\nconst myCustomDiv = document.createElement('div');\n\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    newElement.addEventListener('click', function respondToTheClick() {\n        console.log('A paragraph was clicked.');\n    });\n\n    myCustomDiv.appendChild(newElement);\n}\n\ndocument.body.appendChild(myCustomDiv);\n```\n\nWe're creating a `<div>` element, attaching two hundred paragraph elements and attaching an event listener with a `respondToTheClick` function to each paragraph as we create it. There are a number of ways we could refactor this code. For example, as of right now, we're creating two hundred different `respondToTheClick` functions (that all actually do the exact same thing!). We could extract this function and just reference the function instead of creating two hundred different functions:\n\n```js\nconst myCustomDiv = document.createElement('div');\n\nfunction respondToTheClick() {\n    console.log('A paragraph was clicked.');\n}\n\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    newElement.addEventListener('click', respondToTheClick);\n\n    myCustomDiv.appendChild(newElement);\n}\n\ndocument.body.appendChild(myCustomDiv);\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478577,
+          "is_public": true,
+          "key": "a4c0d7dc-6a93-4aef-84a2-525f9a6c1cd4",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:53.483Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a31c70c_l3-working-with-browser-events-js-the-dom-1/l3-working-with-browser-events-js-the-dom-1.jpg",
+          "width": 960,
+          "height": 720,
+          "alt": "A diagram depicting paragraph elements each having event listeners, and each of the event listeners linked to one respondToTheClick function",
+          "caption": "",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 475959,
+          "is_public": true,
+          "key": "e57db617-e9a9-4944-8bff-d07e452ae561",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:54.069Z",
+          "version": "1.0.0",
+          "text": "This is a great step in the right direction!\n\nHowever, we still have two hundred event listeners. They're all pointing to the same listener function, but there are still two hundred _different_ event listeners.\n\nWhat if we moved all of the listeners to the `<div>` instead?\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478578,
+          "is_public": true,
+          "key": "583170b8-dd7d-4b55-a5a7-263870625b81",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:54.600Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a31c70d_l3-working-with-browser-events-js-the-dom-2/l3-working-with-browser-events-js-the-dom-2.jpg",
+          "width": 960,
+          "height": 720,
+          "alt": "An image depicting a div element with nested paragraph elements, and an event listener only on the div element, that is linked to the respondToTheClick function",
+          "caption": "",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 475960,
+          "is_public": true,
+          "key": "97ae4b57-70cc-477e-80f1-0aa5c0f6c7ed",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:54.952Z",
+          "version": "1.0.0",
+          "text": "The code for this would look like:\n\n```js\nconst myCustomDiv = document.createElement('div');\n\nfunction respondToTheClick() {\n    console.log('A paragraph was clicked.');\n}\n\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    myCustomDiv.appendChild(newElement);\n}\n\nmyCustomDiv.addEventListener('click', respondToTheClick);\n\ndocument.body.appendChild(myCustomDiv);\n```\n\nNow there is only:\n\n* a single event listener\n* a single listener function\n\nNow the browser doesn't have to store in memory two hundred different event listeners and two hundred different listener functions. That's a great for performance`!\n\nHowever, if you test the code above, you'll notice that we've lost access to the individual paragraphs. There's no way for us to target a specific paragraph element.So how _do_ we combine this efficient code with the access to the individual paragraph items that we did before?\n\nWe use a process called **event delegation**.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475961,
+          "is_public": true,
+          "key": "41581a0e-a87c-45cb-997b-9ffee06ffa3c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:56.475Z",
+          "version": "1.0.0",
+          "text": "## Event Delegation\n\nRemember the event object that we looked at in the previous section? That's our ticket to getting back the original functionality!\n\nThe event object has a `.target` property. This property references the _target_ of the event. Remember the capturing, at target, and bubbling phases?...these are coming back into play here, too!\n\nLet's say that you click on a paragraph element. Here's roughly the process that happens:\n\n1. a paragraph element is clicked\n* the event goes through the capturing phase\n* it reaches the target\n* it switches to the bubbling phase and starts going up the DOM tree\n* when it hits the `<div>` element, it runs the listener function\n* inside the listener function, `event.target` is the element that was clicked\n\nSo `event.target` gives us direct access to the paragraph element that was clicked. Because we have access to the element directly, we can access its `.textContent`, modify its styles, update the classes it has - we can do anything we want to it!\n\n```js\nconst myCustomDiv = document.createElement('div');\n\nfunction respondToTheClick(evt) {\n    console.log('A paragraph was clicked: ' + evt.target.textContent);\n}\n\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    myCustomDiv.appendChild(newElement);\n}\n\ndocument.body.appendChild(myCustomDiv);\n\nmyCustomDiv.addEventListener('click', respondToTheClick);\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475962,
+          "is_public": true,
+          "key": "6fdb233a-01a2-436a-87aa-e5660eaacfb8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:57.984Z",
+          "version": "1.0.0",
+          "text": "### Checking the Node Type in Event Delegation\n\nIn the code snippet we used above, we added the event listener directly to the `<div>` element. The _listener_ function logs a message saying that a paragraph element was clicked (and then the text of the target element). This works perfectly! However, there is nothing to _ensure_ that it was actually a `<p>` tag that was clicked before running that message. In this snippet, the `<p>` tags were direct children of the `<div>` element, but what happens if we had the following HTML:\n\n```html\n<article id=\"content\">\n  <p>Brownie lollipop <span>carrot cake</span> gummies lemon drops sweet roll dessert tiramisu. Pudding muffin <span>cotton candy</span> croissant fruitcake tootsie roll. Jelly jujubes brownie. Marshmallow jujubes topping sugar plum jelly jujubes chocolate.</p>\n\n  <p>Tart bonbon soufflé gummi bears. Donut marshmallow <span>gingerbread cupcake</span> macaroon jujubes muffin. Soufflé candy caramels tootsie roll powder sweet roll brownie <span>apple pie</span> gummies. Fruitcake danish chocolate tootsie roll macaroon.</p>\n</article>\n```\n\nIn this [filler text](http://www.cupcakeipsum.com/), notice that there are some `<span>` tags. If we want to listen to the `<article>` for a click on a `<span>`, you _might_ think that this could would work:\n\n```js\ndocument.querySelector('#content').addEventListener('click', function (evt) {\n    console.log('A span was clicked with text ' + evt.target.textContent);\n});\n```\n\nThis will work, but there's a major flaw. The listener function will still fire when either one of the paragraph elements is clicked, too! In other words, this listener function is not verifying that the target of the event is _actually a `<span>` element_. Let's add in this check:\n\n```js\ndocument.querySelector('#content').addEventListener('click', function (evt) {\n    if (evt.target.nodeName === 'SPAN') {  // ← verifies target is desired element\n        console.log('A span was clicked with text ' + evt.target.textContent);\n    }\n});\n```\n\nRemember that every element inherits properties from [the Node Interface](https://developer.mozilla.org/en-US/docs/Web/API/Node). One of the properties of the Node Interface that is inherited is `.nodeName`. We can use this property to verify that the target element is actually the element we're looking for. When a `<span>` element is clicked, it will have a `.nodeName` property of `\"SPAN\"`, so the check will pass and the message will be logged. However, if a `<p>` element is clicked, it will have a `.nodeName` property of `\"P\"`, so the check will fail and the message will _not_ be logged.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475963,
+          "is_public": true,
+          "key": "2ea3624f-3099-48d7-bede-6db26cae9206",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:59.439Z",
+          "version": "1.0.0",
+          "text": "## ⚠️ The `nodeName`'s Capitalization ⚠️\n\nThe `.nodeName` property will return a _capital_ string, not a _lowercase_ one. So when you perform your check make sure to either:\n\n* check for capital letters\n* convert the `.nodeName` to lowercase\n\n\n```js\n// check using capital letters\nif (evt.target.nodeName === 'SPAN') {\n    console.log('A span was clicked with text ' + evt.target.textContent);\n}\n\n> // convert nodeName to lowercase\nif (evt.target.nodeName.toLowerCase() === 'span') {\n    console.log('A span was clicked with text ' + evt.target.textContent);\n}\n```",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475964,
+          "is_public": true,
+          "key": "6b4208d0-2a94-44c6-8e33-51182c3bbd3c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:32:59.876Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, we looked at Event Delegation. Event Delegation is the process of delegating to a parent element the ability to manage events for child elements. We were able to do this by making use of: \n\n* the event object and its `.target` property\n* the different phases of an event\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475966,
+          "is_public": true,
+          "key": "b56799f5-60a8-4456-a5b5-2f18758f8bec",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:00.193Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [Article: Event delegation](https://javascript.info/event-delegation)\n* [Article: How JavaScript Event Delegation Works](https://davidwalsh.name/event-delegate)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467409,
+      "is_public": true,
+      "key": "83a199c3-2ff4-4bc9-9a81-92269046a387",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Know When The DOM Is Ready",
+      "updated_at": "2019-10-08T12:33:05.814Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478544,
+        475971,
+        475972,
+        543131,
+        475974,
+        475975,
+        475976,
+        475977,
+        475978
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478544,
+          "is_public": true,
+          "key": "e8a36f55-66ad-4a03-81b0-9bc94cb7f8db",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L3 59 HS - What You'Ll Learn",
+          "updated_at": "2019-10-08T12:33:01.315Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69720",
+            "youtube_id": "Ypt0vyLeQ1Q",
+            "topher_id": "84f1f914-d4a2-11e9-b1b6-d3608a81ee24",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b148_l3-59-hs-what-youll-learn/l3-59-hs-what-youll-learn_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b148_l3-59-hs-what-youll-learn/l3-59-hs-what-youll-learn_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b148_l3-59-hs-what-youll-learn/l3-59-hs-what-youll-learn_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b148_l3-59-hs-what-youll-learn/l3-59-hs-what-youll-learn_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b148_l3-59-hs-what-youll-learn/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475971,
+          "is_public": true,
+          "key": "d4a8ed7a-1aa1-4697-b3fd-8888c89ab321",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:02.019Z",
+          "version": "1.0.0",
+          "text": "## The DOM Is Built Incrementally\n\nDo you remember the video we watched of Illya from Google explaining how the DOM is parsed? A key thing to point out is that when the HTML is received and converted into tokens and built into the document object model, is that this is a sequential process. When the parser gets to a `<script>` tag, it must wait to download the script file and execute that JavaScript code. _This is the important part and the key to why the placement of the JavaScript file matters!_\n\nLet's look at some code to show (more or less) what's happening. Take a look at this initial part of an HTML file:\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n  <link rel=\"stylesheet\" href=\"/css/styles.css\" />\n  <script>\n    document.querySelector('footer').style.backgroundColor = 'purple';\n  </script>\n```\n\nThis isn't the full HTML file...BUT, it's all that's been parsed so far. Notice at the bottom of the code that we have so far is a `<script>` file. This is using inline JavaScript rather than pointing to an external file. The inline file will execute faster because the browser doesn't have to make another network request to fetch the JavaScript file. But the outcome will be exactly the same for both this inline version and if the HTML had linked to an external JavaScript file.\n\nDo you see the JavaScript/DOM code in the `<script>` tags? Take a second and read it again:\n\n```js\ndocument.querySelector('footer').style.backgroundColor = 'purple';\n```\n\nDoes anything jump out at you about this code? Anything at all? This code is completely error-free...unfortunately, when it runs, it will still cause an error. Any ideas why?\n\nThe problem is with the `.querySelector()` method. When it runs...there's no `<footer>` element to select from the constructed document object model yet! So instead of returning a DOM element, it will return `null`. This causes an error because it would be like running the following code:\n\n```js\nnull.style.backgroundColor = 'purple';\n```\n\n`null` doesn't have a `.style` property, so thus our error is born.\n\nNow, we've already used one solution to this issue. Remember that we moved the JavaScript file down to the bottom of the page. Think about why this would make things work. Well, if the DOM is built sequentially, _if_ the JavaScript code is moved to the very bottom of the page, then by the time the JavaScript code is run, all DOM elements will already exist!\n\nHowever, an _alternative_ solution would be to use browser events! 🙌🏼\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475972,
+          "is_public": true,
+          "key": "83abb6de-2176-497f-8047-3d6163392ec8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:02.375Z",
+          "version": "1.0.0",
+          "text": "### The Content Is Loaded Event\n\nWhen the document object model has been fully loaded, the browser will fire an event. This event is called the `DOMContentLoaded` event, and we can listen for it the same way we listen to any other events:\n\n```js\ndocument.addEventListener('DOMContentLoaded', function () {\n    console.log('the DOM is ready to be interacted with!');\n});\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 543131,
+          "is_public": true,
+          "key": "7e23418b-7308-4159-82e2-d811b5a21769",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L3 65 - DOM Contnet Load",
+          "updated_at": "2019-10-08T12:33:02.808Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69631",
+            "youtube_id": "bmtMp4Rgryc",
+            "topher_id": "84f1bd3c-d4a2-11e9-b109-13639352b1fc",
+            "subtitles": [
+              {
+                "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2017/December/5a316d6d_dom-l3-65-dom-contnet-load/subtitles/lang_en_vs1.srt",
+                "language_code": "en"
+              }
+            ],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d6d_dom-l3-65-dom-contnet-load/dom-l3-65-dom-contnet-load_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d6d_dom-l3-65-dom-contnet-load/dom-l3-65-dom-contnet-load_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d6d_dom-l3-65-dom-contnet-load/dom-l3-65-dom-contnet-load_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d6d_dom-l3-65-dom-contnet-load/dom-l3-65-dom-contnet-load_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d6d_dom-l3-65-dom-contnet-load/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475974,
+          "is_public": true,
+          "key": "f12e5a27-96b8-454b-bc68-df2b0f801985",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:03.503Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a2eee37_ud117-domcontentloaded-event-with-indicators/ud117-domcontentloaded-event-with-indicators.jpg",
+          "width": 1205,
+          "height": 715,
+          "alt": "A Screenshot showing the Network pane of DevTools with the DOMContentLoaded indicators highlighted.",
+          "caption": "_The Network pane of DevTools with the DOMContentLoaded indicators highlighted._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 475975,
+          "is_public": true,
+          "key": "90d7454b-e5c4-4af0-9593-645da40a8e54",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:33:03.991Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "On what event target should we listen for the `DOMContentLoaded` event?",
+            "correct_feedback": "The target of the `DOMContentLoaded` event is the `document` object.",
+            "video_feedback": null,
+            "default_feedback": "That's not what I found. Have you taken a look at the [DOMContentLoaded documentation page](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded) yet?",
+            "answers": [
+              {
+                "id": "a1513025102205",
+                "text": "the `document` object",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513025109987",
+                "text": "the body element",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513025120607",
+                "text": "anything that inherits the Element interface",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475976,
+          "is_public": true,
+          "key": "b9277e0c-1e42-48f6-ac28-a5839a62eb2a",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:04.393Z",
+          "version": "1.0.0",
+          "text": "## Using the `DOMContentLoaded` Event\n\nBecause we now know about the `DOMContentLoaded` event, we can use it to _keep_ our JS code in the `<head>`.\n\nLet's update the previous HTML code to include this event:\n\n```html\n<!DOCTYPE html>\n<html lang=\"en\">\n<head>\n    <link rel=\"stylesheet\" href=\"/css/styles.css\" />\n    <script>\n      document.addEventListener('DOMContentLoaded', function () {\n          document.querySelector('footer').style.backgroundColor = 'purple';\n      });\n    </script>\n```\n\nPretty cool, right?!? We have the JavaScript code in the `<head>` element, but it is now wrapped in an event listener for the `DOMContentLoaded` event. This will prevent the DOM-styling code from running when the browser gets to it. Then, when the DOM has been constructed, the event will fire and this code will run.\n\nIf you're looking at somebody else's code, you may see that their code listens for the `load` event being used instead (e.g. `document.onload(...)`).  `load` fires later than `DOMContentLoaded` -- `load` waits until all of the images, stylesheets, etc. have been loaded (everything referenced by the HTML.)  Many older developers use `load` in place of `DOMContentLoaded` as the latter wasn't supported by the very earliest browsers. But if you need to detect when your code can run, `DOMContentLoaded` is generally the better choice.\n\nHowever, just because you _can_ use the `DOMContentLoaded` event to write JavaScript code in the `<head>` that doesn't mean you _should_ do this. Doing it this way, we have to write _more_ code (all of the event listening stuff) and more code is usually not always the best way to do something. Instead, it would be better to move the code to the bottom of the HTML file just before the closing `</body>` tag.\n\nSo when would you want to use this technique? Well, JavaScript code in the `<head>` will run before JavaScript code in the `<body>`, so if you do have JavaScript code that needs to run _as soon as possible_, then you could put that code in the `<head>` and wrap it in a `DOMContentLoaded` event listener. This way it will run as early as possible, but not too early that the DOM isn't ready for it.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475977,
+          "is_public": true,
+          "key": "ca4b8674-cc44-40c4-b286-2d2bd4f1ae2d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:04.844Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, we learned about the helpful `DOMContentLoaded` event.\n\nAlong the way, we reviewed how the HTML code is parsed incrementally and how this affects JavaScript/DOM code. We also looked at why writing DOM-manipulation code in the `<head>` can cause errors.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475978,
+          "is_public": true,
+          "key": "442eba23-a92c-4467-8147-1e64b27ac287",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:05.262Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [DOMContentLoaded Event docs on MDN](https://developer.mozilla.org/en-US/docs/Web/Events/DOMContentLoaded)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467410,
+      "is_public": true,
+      "key": "94e8eedd-51c5-477e-ad1a-603b3bf38ca6",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Lesson summary",
+      "updated_at": "2019-10-08T12:33:06.769Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478545
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478545,
+          "is_public": true,
+          "key": "a50ce33b-7964-4b13-8560-0b891e922d27",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Working with Browser Events - Lesson Summary",
+          "updated_at": "2019-10-08T12:33:06.250Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69723",
+            "youtube_id": "hie7yuJvKhY",
+            "topher_id": "84f26ce6-d4a2-11e9-b307-d7fc10ad2a5c",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b159_l3-68-hs-lesson-summary/l3-68-hs-lesson-summary_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b159_l3-68-hs-lesson-summary/l3-68-hs-lesson-summary_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b159_l3-68-hs-lesson-summary/l3-68-hs-lesson-summary_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b159_l3-68-hs-lesson-summary/l3-68-hs-lesson-summary_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b159_l3-68-hs-lesson-summary/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

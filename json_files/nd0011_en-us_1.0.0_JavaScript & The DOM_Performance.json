@@ -1,0 +1,1211 @@
+{
+  "content_source": null,
+  "id": 467128,
+  "is_public": true,
+  "key": "364ca3da-1eb9-4213-beb4-7791ac4e1ea4",
+  "locale": "en-us",
+  "root_owner_id": null,
+  "semantic_type": "Lesson",
+  "title": "Performance",
+  "updated_at": "2018-12-17T05:29:26.270Z",
+  "version": "1.0.0",
+  "image": {
+    "url": "https://s3.amazonaws.com/video.udacity-data.com/topher/2018/January/5a62793f_4-performance2x/4-performance2x.jpg",
+    "width": 500,
+    "height": 500
+  },
+  "video": null,
+  "lab": null,
+  "project": null,
+  "summary": "Learn how to measure the code you write to make sure it's performing efficiently and how reflow and repaint affect performance. Learn how to harness the JavaScript Event loop for performance gains.",
+  "lesson_type": "Classroom",
+  "duration": 120,
+  "display_workspace_project_only": null,
+  "is_project_lesson": false,
+  "career_portal_experience_levels": [],
+  "_concepts_ids": [
+    467411,
+    467412,
+    467413,
+    467414,
+    476046,
+    476047,
+    467415,
+    467416
+  ],
+  "_project_id": null,
+  "concepts": [
+    {
+      "content_source": null,
+      "id": 467411,
+      "is_public": true,
+      "key": "6e242deb-7793-4c9a-9898-44144ee2c603",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Introduction",
+      "updated_at": "2019-10-08T12:33:59.029Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478546
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478546,
+          "is_public": true,
+          "key": "775d3fa4-a52f-4a18-a824-81db241a359f",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Performance - Lesson Overview",
+          "updated_at": "2019-10-08T12:33:58.642Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69725",
+            "youtube_id": "S0yU5sqkQvI",
+            "topher_id": "84f1f95a-d4a2-11e9-b1b7-9fe598de422e",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b16b_l4-1-hs-lesson-overview/l4-1-hs-lesson-overview_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b16b_l4-1-hs-lesson-overview/l4-1-hs-lesson-overview_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b16b_l4-1-hs-lesson-overview/l4-1-hs-lesson-overview_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b16b_l4-1-hs-lesson-overview/l4-1-hs-lesson-overview_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b16b_l4-1-hs-lesson-overview/hls/playlist.m3u8"
+            }
+          }
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467412,
+      "is_public": true,
+      "key": "535ff7d3-ebe8-41b6-9c32-42ad65f722af",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Add Page Content Efficiently",
+      "updated_at": "2019-10-08T12:34:05.866Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        475980,
+        475982,
+        475983,
+        475984,
+        475986,
+        475987,
+        478453,
+        475989,
+        475990,
+        475991
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 475980,
+          "is_public": true,
+          "key": "8077bdc1-21fe-421c-81ee-5e0eea011dc3",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:33:59.428Z",
+          "version": "1.0.0",
+          "text": "## Using A Loop To Add Content\n\nIn the last lesson, we used a `for` loop to create two hundred paragraphs, add event listeners to them, and add them to the page. Let's take another look at the `for` loop, but this time without all of the event listener stuff:\n\n```js\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    document.body.appendChild(newElement);\n}\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475982,
+          "is_public": true,
+          "key": "57a49c28-4c54-4ae9-b545-20d114b82957",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:33:59.743Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "Is this `for` loop code written efficiently? Write out the different ways you think this code could be improved. (hint - there are actually several ways!)"
+          },
+          "answer": {
+            "text": "Thanks for your response!",
+            "video": null
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475983,
+          "is_public": true,
+          "key": "9c42c8aa-86a8-43ae-9eb3-13e8fdd7d3ee",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:00.641Z",
+          "version": "1.0.0",
+          "text": "Let's quickly recap the code to see where we can make improvements.\n\n```js\nfor (let i = 1; i <= 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.textContent = 'This is paragraph number ' + i;\n\n    document.body.appendChild(newElement);\n}\n```\n\nThis code:\n\n* creates a paragraph element\n* adds some text to the paragraph\n* adds the paragraph to the page\n\n...and it does this two hundred times.\n\nSince we want two hundred things done, the best way to do this is with a `for` loop, so that code is inescapable. However, the code _inside the `for` loop_ is not all that efficient, and there are quite a few things we could do to improve this code. We could:\n\n* create some parent container element _outside of the loop_\n* we could append all new paragraph elements to this parent container\n* we append this parent container to the `<body>` element instead of appending each time through the loop\n\nLet's see all of these changes:\n\n```js\nconst myCustomDiv = document.createElement('div');\n\nfor (let i = 1; i <= 200; i++) {\n  const newElement = document.createElement('p');\n  newElement.innerText = 'This is paragraph number ' + i;\n\n  myCustomDiv.appendChild(newElement);\n}\n\ndocument.body.appendChild(myCustomDiv);\n```\n\nThis looks a lot better, right? Right!...but how do we _know_ it is? How can we _prove_ it's better?\n\nWe can test the time it takes to actually run this code!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475984,
+          "is_public": true,
+          "key": "32fb812a-236b-4a8f-b9f9-43e0b659dfb5",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:01.274Z",
+          "version": "1.0.0",
+          "text": "## Testing Code Performance\n\nThe standard way to measure how long it takes code to run is by using `performance.now()`. `performance.now()` returns a timestamp that is measured in milliseconds, so it's extremely accurate. How accurate? Here's what the its documentation page says:\n\n> accurate to five thousandths of a millisecond (5 microseconds)\n\nThat's _incredibly_ precise!\n\nIf you've ever used a timing procedure in another programming language, then you might've heard of Epoch time (also called Unix time or POSIX time). These tools tell you the time that has passed since 1/1/1970 (the first of January). The browser's `performance.now()` method is slightly different in that it starts measuring from the time the page loaded. Detailed information can be found on its documentation page: [performance.now() on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now)\n\nThese are the steps to use `performance.now()` to measure the speed of your code:\n\n1. use `performance.now()` to get the an initial start time for the code\n* run the code you want to test\n* execute `performance.now()` to get another time measurement\n* subtract the initial time from the final time\n\nAdding two hundred paragraphs to the page is actually going to be relatively quick, so let's slow things down by using a set of nested `for` loops that just count from one to a hundred...one hundred times!\n\n```js\nfor (let i = 1; i <= 100; i++) { \n  for (let j = 1; j <= 100; j++) {\n    console.log('i and j are ', i, j);\n  }\n}\n```\n\nNext, we'll add in the `performance.now()` code to measure how long these loops take:\n\n```js\nconst startingTime = performance.now();\n\nfor (let i = 1; i <= 100; i++) { \n  for (let j = 1; j <= 100; j++) {\n    console.log('i and j are ', i, j);\n  }\n}\n\nconst endingTime = performance.now();\nconsole.log('This code took ' + (endingTime - startingTime) + ' milliseconds.');\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475986,
+          "is_public": true,
+          "key": "20f8d9fa-063e-4e09-9ecc-936c28c3ae6d",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:02.137Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a2ef055_ud117-timing-with-performance-now/ud117-timing-with-performance-now.jpg",
+          "width": 832,
+          "height": 539,
+          "alt": "",
+          "caption": "_Using `performance.now()` to calculate the total time it takes code to run._",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 475987,
+          "is_public": true,
+          "key": "f33cfa5a-c77d-4bae-8de4-d93098242be9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:02.481Z",
+          "version": "1.0.0",
+          "text": "Let's go back to our original code of adding two hundred paragraphs to the page to see how long that code takes to run.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478453,
+          "is_public": true,
+          "key": "744d38fb-dc00-4260-8ec6-45d7a683e836",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "DOM L4 08 - Comparing Code",
+          "updated_at": "2019-10-08T12:34:02.901Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69632",
+            "youtube_id": "ARy8Xpn6Ekg",
+            "topher_id": "84f1f3d8-d4a2-11e9-b1a9-5b09bea76f57",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d72_dom-l4-08-comparing-code/dom-l4-08-comparing-code_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d72_dom-l4-08-comparing-code/dom-l4-08-comparing-code_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d72_dom-l4-08-comparing-code/dom-l4-08-comparing-code_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d72_dom-l4-08-comparing-code/dom-l4-08-comparing-code_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d72_dom-l4-08-comparing-code/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475989,
+          "is_public": true,
+          "key": "1e9efacf-1bbf-472b-a2c6-e48926db0be8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:03.410Z",
+          "version": "1.0.0",
+          "text": "## Using a Document Fragment\n\nSo far, we've made a number of improvements to the code. However, there is still one thing that seems not so great; we have to create a extraneous `<div>` element _just to hold all the  `<p>` tags so we can add them all at once_ and then we append this `<div>` to the `<body>` element. So in the end, we have an extra `<div>` that isn't really needed. It was just around because we wanted to add each new `<p>` to it instead of to the `<body>`.\n\nWhy are we doing this? The browser is constantly working to make the screen match the DOM. When we add a new element, the browser has to run through a `reflow` calculation (to determine the new screen layout) and then `repaint` the screen. This takes time.\n\nIf we had added each new paragraph to the body element, then the code would've been a lot slower, because this would cause the browser to go through the reflow and repaint process _for each paragraph_. We really only want the browser to do this once, so we need to attach each new paragraph to something, but we don't want to have an extra, unneeded element to get added to the DOM. \n\nThis is exactly why we have the **DocumentFragment**! According to the documentation, a DocumentFragment:\n\n> represents a minimal document object that has no parent. It is used as a lightweight version of Document that stores a segment of a document structure comprised of nodes just like a standard document.\n\nSo it's like creating another lightweight DOM tree. But the beneficial part of this is what it says next:\n\n> The key difference is that because the document fragment isn't part of the active document tree structure, changes made to the fragment don't affect the document, cause reflow, or incur any performance impact that can occur when changes are made.\n\nIn other words, changes made to a DocumentFragment happen off-screen; there's no reflow and repaint cost while you build this. So this is exactly what we need!\n\nWe can use the `.createDocumentFragment()` method to create an empty DocumentFragment object. This code should be very familiar to you, because it looks so very similar to `document.createElement()`. \n\n```js\nconst myDocFrag = document.createDocumentFragment();\n```\n\nLet's rewrite our code to use a DocumentFragment instead of the `<div>`.\n\n```js\nconst fragment = document.createDocumentFragment();  // ← uses a DocumentFragment instead of a <div>\n\nfor (let i = 0; i < 200; i++) {\n    const newElement = document.createElement('p');\n    newElement.innerText = 'This is paragraph number ' + i;\n\n    fragment.appendChild(newElement);\n}\n\ndocument.body.appendChild(fragment); // reflow and repaint here -- once!\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475990,
+          "is_public": true,
+          "key": "e237607f-be11-4ca7-863f-8b5f1db5565c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:04.118Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, we took a brief dive into the performance implications of the code we write. We looked at a specific chunk of code and came up with ways that we could improve its performance simply by rearranging when the code was running (moving initialization code out of the `for` loop).\n\nWe also looked at how to measure how long it takes code to run using `performance.now()`.\n\nLastly, we looked at using a DocumentFragment to prevent performance issues and to prevent adding unnecessary elements to the DOM.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475991,
+          "is_public": true,
+          "key": "cc770e82-4203-4bf6-aa9b-0e7436d0f1fb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:05.151Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [performance.now() on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Performance/now)\n* [Performance Interface on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Performance)\n* [DocumentFragment Interface on MDN](https://developer.mozilla.org/en-US/docs/Web/API/DocumentFragment)\n* [createDocumentFragment docs on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Document/createDocumentFragment)\n",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467413,
+      "is_public": true,
+      "key": "d1bee920-e33f-41db-aac3-2c3c5a08db3b",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Reflow & Repaint",
+      "updated_at": "2019-10-08T12:34:11.150Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        475992,
+        475993,
+        475994,
+        475995,
+        475996,
+        475997,
+        475998,
+        476000
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 475992,
+          "is_public": true,
+          "key": "aa843db7-63eb-42fa-a8c1-e88bb7e310eb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:06.641Z",
+          "version": "1.0.0",
+          "text": "## Reflow & Repaint\n\nWe mentioned Reflow and Repaint in the last section, now it's time to take a closer look.\n\n**Reflow** is the process of the browser laying out the page. It happens when you first display the DOM (generally after the DOM and CSS have been loaded), and happens again every time something could change the layout. This is a fairly _expensive_ (slow) process.\n\n**Repaint** happens after reflow as the browser draws the new layout to the screen.  This is fairly quick, but you still want to limit how often it happens.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475993,
+          "is_public": true,
+          "key": "c814372e-d22f-4556-bcc7-4b52b7b82dea",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:07.675Z",
+          "version": "1.0.0",
+          "text": "For example, if you add a CSS class to an element, the browser often recalculates the layout of the entire page—that's one reflow and one repaint!",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475994,
+          "is_public": true,
+          "key": "0509de80-bf69-4876-9f3f-b103bb4f8d6e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:34:08.081Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "Adding a single CSS class could trigger _reflow_. In your own words, explain why adding some CSS to an element might cause reflow to happen."
+          },
+          "answer": {
+            "text": "Thanks for your response!",
+            "video": null
+          }
+        },
+        {
+          "content_source": null,
+          "id": 475995,
+          "is_public": true,
+          "key": "9b87745e-96d8-4173-9163-8961759626a2",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:08.517Z",
+          "version": "1.0.0",
+          "text": "Why did adding a little CSS change cause a reflow? What if adding a class changed the position of the element or caused it to float? The browser won't know for certain (and a complete calculation of the impact of a change could take longer than doing the reflow!)",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475996,
+          "is_public": true,
+          "key": "7a34efbc-c0ca-4855-9060-b53c840194fa",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:09.011Z",
+          "version": "1.0.0",
+          "text": "Let's take a realistic example. Say you're writing the next great blogging platform, and you want to have a \"remove spam\" button for the administrator. Your HTML looks like this:\n\n```html\n<div id=\"comments\">\n  <div class=\"comment\"> <!-- some content --> </div>\n  <div class=\"comment\"> <!-- some content --> </div>\n  <div class=\"comment\"> <!-- some content --> </div>\n</div>\n```\n\nWhen we run the spam filter, we discover comments one and two have to be removed.\n\nIf we simply call `.removeChild()` for each of the two comments that need to be removed, that's one reflow and one repaint _for each change_ (so a total of 2 reflows and 2 repaints). We could rebuild the whole thing in a `DocumentFragment` and replace `#comments` -- that's the time to rebuild (possibly involving reading files or data), plus at least one reflow and one repaint. \n\nOr we could _hide_ `#comments`, delete the spam, and show it again -- that's surprisingly fast, to the cost of one reflow and two repaints (and little else). It's fast because hiding doesn't change the layout, it just erases that section of the screen (1 repaint). When you make the changed section visible again, that's a reflow and a repaint.\n\nIn general, if you have to make a group of changes, hide/change all/show is a great pattern to use if the changes are relatively contained.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475997,
+          "is_public": true,
+          "key": "9fe58896-c65c-4592-a0e5-ebe014b671e8",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:09.437Z",
+          "version": "1.0.0",
+          "text": "## Virtual DOM\n\nBy the way, this is why React and other \"virtual DOM\" libraries are so popular. You don't make changes to the DOM, but make changes to another structure (a \"virtual DOM\") and the library calculates the best way to update the screen to match. The catch is you then have to rework your code to use whatever library you're adopting, and sometimes you can do a better job updating the screen yourself (because you understand your own unique situation).\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 475998,
+          "is_public": true,
+          "key": "534c2951-b7a0-4cfc-adba-6c2142848d2c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:09.861Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nIn this section, we took a brief look at what reflow and repaint are and saw how they can impact the performance of a website.\n\nReflow is the process of calculating the dimensions and position of page elements. This is a computationally intensive (slow) tasks. Repaint is the process of drawing the pixels to the screen. This is faster than reflow, but is still not a fast process. You want to make sure that your code causes the fewest number of reflows as possible.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476000,
+          "is_public": true,
+          "key": "fecc10c8-d705-48ef-af0e-edb4606db74e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:10.588Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [Website Performance Optimization](https://www.udacity.com/course/website-performance-optimization--ud884) course by Udaicty\n* [Minimizing browser reflow](https://developers.google.com/speed/articles/reflow) from PageSpeed Tools Guides\n* [Avoid Large, Complex Layouts and Layout Thrashing](https://developers.google.com/web/fundamentals/performance/rendering/avoid-large-complex-layouts-and-layout-thrashing) from Google's Web Fundamentals Guides\n* [Performance Analysis Reference](https://developers.google.com/web/tools/chrome-devtools/evaluate-performance/reference#rendering) from Google's Web Fundamentals Guides\n* Article [Reflows & Repaints: CSS Performance Making Your JavaScript Slow?](http://www.stubbornella.org/content/2009/03/27/reflows-repaints-css-performance-making-your-javascript-slow/)",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467414,
+      "is_public": true,
+      "key": "da8ce985-9c2a-468f-8337-448adb2beea0",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "The Call Stack",
+      "updated_at": "2019-10-08T12:34:18.538Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        476003,
+        476008,
+        476011,
+        476013,
+        478455,
+        476022,
+        476033,
+        476035,
+        476036,
+        476038
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 476003,
+          "is_public": true,
+          "key": "4ba2900a-3ea1-4cad-afe0-3c61976479dc",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:11.615Z",
+          "version": "1.0.0",
+          "text": "## Single Threading\n\nYou might've heard that JavaScript is **single-threaded** but what does that mean? According to Wikipedia, single-threading is:\n\n> the processing of one command at a time (<a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Thread_(computing)#Single_threading\">source</a>)\n\nOk, so JavaScript can \"process\" one command at a time. The opposite of single-threading, is multithreading. There are numerous pros and cons to both which we won't be getting into (feel free to check out the [Wikipedia article on Threading](https://bit.ly/2Nwu4Rd) for more info about the pros and cons). We're going to take a look at JavaScript's single-threaded model and how/why we should write our code to take advantage of it.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476008,
+          "is_public": true,
+          "key": "c2f0f529-82eb-4eaf-a4a3-43ae6103cb8e",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:11.960Z",
+          "version": "1.0.0",
+          "text": "Let's look at some code:\n\n```js\nfunction addParagraph() {\n    const para = document.createElement('p');\n    para.textContent = 'JavaScript is single threaded!';\n    document.body.appendChild(para);\n}\n\nfunction appendNewMessage() {\n    const para = document.createElement('p');\n    para.textContent = \"Isn't that cool?\";\n    document.body.appendChild(para);\n}\n\naddParagraph();\nappendNewMessage();\n```\n\nKeeping JavaScript's single-threaded nature in mind (meaning it can only perform one task at a time), let's break down this code into the order it will run:\n\n* the `addParagraph()` function is declared on line 1\n* the `appendNewMessage()` function is declared on line 6\n* `addParagraph()` is called on line 13\n    - execution moves into the function and executes all three lines in order\n    - now that the function is finished, execution returns to where it was called\n* the `appendNewMessage()` function is called on line 14\n    - execution moves into the function and executes all three lines in order\n    - now that the function is finished, execution returns to where it was called \n* the program ends because all lines of code have been executed\n\nHopefully, the order that this code executed in wasn't surprising. There are a couple of things I particularly want you to pay attention to. First, is the run-to-completion nature of the code. When `addParagraph()` is invoked on line 13, _all of the code in the function gets executed_: it doesn't just execute some lines and leave other lines to be executed later. The entire block of code is run. A second thing I want to point out is that `addParagraph()` is invoked, runs, and finishes _before_ `appendNewMessage()` is invoked (including a possible reflow and repaint); JavaScript doesn't execute multiple lines/functions at the same time (this is single-threading...processing one command at a time!).\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476011,
+          "is_public": true,
+          "key": "b5801128-2f2d-44c0-8f03-a15f85747a7c",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:12.507Z",
+          "version": "1.0.0",
+          "text": "I have a question for you - once `addParagraph()` has been invoked and it runs the lines of code inside the `addParagraph()` function, how does it know to go _back to `appendNewMessage()`_? How does it keep track of that?\n\nWhat if we changed this code slightly to create nested functions:\n\n```js\nfunction addParagraph() {\n    const para = document.createElement('p');\n    para.textContent = 'JavaScript is single threaded!';\n\n    appendNewMessage();\n    document.body.appendChild(para);\n}\n\nfunction appendNewMessage() {\n    const para = document.createElement('p');\n\n    para.textContent = \"Isn't that cool?\";\n    document.body.appendChild(para);\n}\n\naddParagraph();\n```\n\nNotice that the call to `appendNewMessage()` is located _inside the_ `addParagraph()` _function_. First, `addParagraph()` is invoked. Then `appendNewMessage()` is invoked on line 5. Once `appendNewMessage()` has finished running, execution returns and finishes running the last line of code in the `addParagraph()` function...but how does it know how to do that? How does the JavaScript engine know where it left off and how to get back to it?\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476013,
+          "is_public": true,
+          "key": "bd5d1e2a-5c77-40bb-8311-273b1be61fd3",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:13.348Z",
+          "version": "1.0.0",
+          "text": "## The Call Stack\n\nThe JavaScript engine keeps a call stack (basically a list) of the functions that are running. When a function is invoked, it is added to the list. When all of the code inside a function has been run, then the function is removed from the call stack. The cool part about a call stack is that a function doesn't have to complete before another function is added to the call stack.\n\nLet's see how this works!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478455,
+          "is_public": true,
+          "key": "e4e97aff-8f7e-4d1e-aa22-7d63ae843a22",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L4 - 24 - Callstack V1",
+          "updated_at": "2019-10-08T12:34:14.787Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69634",
+            "youtube_id": "J9iKeNhoXNM",
+            "topher_id": "84f227a4-d4a2-11e9-b23e-37776fdf73c7",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d7d_l4-24-callstack-v1/l4-24-callstack-v1_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d7d_l4-24-callstack-v1/l4-24-callstack-v1_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d7d_l4-24-callstack-v1/l4-24-callstack-v1_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d7d_l4-24-callstack-v1/l4-24-callstack-v1_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d7d_l4-24-callstack-v1/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476022,
+          "is_public": true,
+          "key": "08c27941-c637-4d90-af02-74aae9153707",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "CheckboxQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:34:15.999Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "How many items (frames) will be on the stack when the code reaches the `\"stop here\"` comment?\n\n```js\nfunction quiz () {\n  var y = 'yes';\n  questions();\n  fun();\n}\nfunction questions () {\n  var y = 'no';\n  return 7;\n}\nfunction are () {\n  return 3;\n}\nfunction fun () {\n  are();\n  // stop here\n}\n\nquiz()\n```\n\nAssume there is no \"&lt;main>\"/default frame.",
+            "correct_feedback": "When `// stop here` is reached, both `quiz` and `fun` are on the stack.",
+            "video_feedback": null,
+            "default_feedback": "That doesn't look right. Have you tried walking through the code line by line to follow the order the code executes?",
+            "answers": [
+              {
+                "id": "a1513026076369",
+                "text": "0",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513026083084",
+                "text": "1",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513026083579",
+                "text": "2",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513026084074",
+                "text": "3",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513026084569",
+                "text": "4",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476033,
+          "is_public": true,
+          "key": "eae8cb3c-acf4-469e-9161-8512e71eff74",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:16.728Z",
+          "version": "1.0.0",
+          "text": "Use this code for the following question.\n\n```js\nfunction dolphins () {\n  // stop here\n  return 'llamas';\n}\nfunction rhinos () {\n  var y = 'no';\n  return penguins();\n}\nfunction penguins () {\n  return camels();\n}\nfunction camels () {\n  return dolphins();\n}\n\nrhinos()\n```\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476035,
+          "is_public": true,
+          "key": "f0b90c08-a4f1-4a82-b5c1-7d0a99e853ff",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "MatchingQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:34:17.216Z",
+          "version": "1.0.0",
+          "question": {
+            "complex_prompt": {
+              "text": "Put the function names in the correct order they would appear when the `// stop here` comment is reached. Remember to put the oldest/initial at the bottom of the stack. Assume there is no \"&lt;main>\"/default frame."
+            },
+            "default_feedback": "That doesn't look right. Have you tried walking through the code line by line to follow the order the code executes?",
+            "correct_feedback": "Great job!",
+            "video_feedback": null,
+            "concepts_label": "Order of Stack",
+            "answers_label": "Function Name",
+            "concepts": [
+              {
+                "text": "Top of the stack",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513026631091",
+                  "text": "dolphins"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "2nd item in the stack",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513026640895",
+                  "text": "camels"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "3rd item in the stack",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513026641526",
+                  "text": "penguins"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "bottom of the stack",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513026642110",
+                  "text": "rhinos"
+                },
+                "incorrect_feedbacks": []
+              }
+            ],
+            "answers": [
+              {
+                "id": "a1513026641526",
+                "text": "penguins"
+              },
+              {
+                "id": "a1513026631091",
+                "text": "dolphins"
+              },
+              {
+                "id": "a1513026640895",
+                "text": "camels"
+              },
+              {
+                "id": "a1513026642110",
+                "text": "rhinos"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476036,
+          "is_public": true,
+          "key": "204e9890-5b03-4a30-9d93-bc8e876724ce",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:17.634Z",
+          "version": "1.0.0",
+          "text": "## The Call Stack Recap\n\nIn this section, we looked at how JavaScript is a single-threaded programming language, which means it can only execute one thing at a time. We looked at how JavaScript keeps track of what functions are running by using the Call Stack.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476038,
+          "is_public": true,
+          "key": "35adca45-1ca7-4d1a-b05f-9849d9c63153",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:17.961Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [Call stack](https://developer.mozilla.org/en-US/docs/Glossary/Call_stack) on MDN\n* [Call stack](https://en.wikipedia.org/wiki/Call_stack) on Wikipedia",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 476046,
+      "is_public": true,
+      "key": "3461277b-4d6e-43d2-af67-e576f7612863",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "The Event Loop",
+      "updated_at": "2019-10-08T12:34:26.479Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        476048,
+        476049,
+        478579,
+        476051,
+        478456,
+        476067,
+        476069,
+        476070
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 476048,
+          "is_public": true,
+          "key": "56a396fa-43fa-495e-9611-98d64ccccd17",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:19.341Z",
+          "version": "1.0.0",
+          "text": "## Code Synchronicity\n\nIn the previous section on the Call Stack, we used the terms:\n\n* run-to-completion\n* single-threaded\n\nAnother term for this is **synchronous**. By definition, \"synchronous\" means:\n\n> existing or occurring at the same time\n\nAll of the code we've been looking at runs in order, at the same time. Functions are added to the call stack, and then removed from the call stack when they've completed. However, there is some code that is _not_ synchronous - meaning that the code is written just like any other code, but it is executed at some later point in time. Does this sound familiar at all? You've just been working with it:\n\n```js\nconst links = document.querySelectorAll('input');\nconst thirdField = links[2];\n\nthirdField.addEventListener('keypress', function handleKeyPresses(event) {\n    console.log('a key was pressed');\n});\n```\n\n...event listeners! _Most_ of this code is synchronous like you're used to. But the event listener's function `handleKeyPresses` is _not_ invoked immediately, it's invoked at some later point in time. \n\nHave you ever wondered about that? Where does the code go? What about the \"call stack\" that we learned about? Is it hidden in the call stack somewhere?\n\nLet's look at this code snippet:\n\n```js\nconsole.log('howdy');\ndocument.addEventListener('click', function numbers() {\n    console.log('123');\n});\nconsole.log('ice cream is tasty');\n```\n\nThe code will run in this order:\n\n1. `'howdy'` will be logged to the console\n* `'ice cream is tasty'` will be logged to the console\n\nThe string `'123'` will only be logged if there's a click. If the page is never clicked, then this code might not ever run! But where is it? Where did the `numbers` function holding the `console.log('123');` code go?\n\n## Running Code Later\n\nBut the same questions exist for this code as it does for the `.addEventListener()` code:\n\n* where does the function go to wait?\n* how does the function get run when it needs to?\n\nThis happens because of the JavaScript Event Loop! \n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476049,
+          "is_public": true,
+          "key": "27be938f-7907-4f9a-b286-ad0b1f4e50f1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:20.347Z",
+          "version": "1.0.0",
+          "text": "## The JavaScript Event Loop\n\nThe simplest explanation of JavaScript's _concurrency model_ uses two rules:\nIf some JavaScript is running, let it run until it is finished (\"run-to-completion\").\nIf no JavaScript is running, run any pending event handlers.\n\nSince most JavaScript is run in response to an event, this is known as an _event loop_: Pick up the next event, run its handler, and repeat.\n\nThere are three parts you have to think about around the event loop:\n\n* the Call Stack \n* Web APIs/the browser\n* an Event Queue\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478579,
+          "is_public": true,
+          "key": "d5ec11f1-83fa-4cef-b20c-056bbe41aabd",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ImageAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:21.050Z",
+          "version": "1.0.0",
+          "url": "https://video.udacity-data.com/topher/2017/December/5a31c70d_l4-performance-js-the-dom/l4-performance-js-the-dom.jpg",
+          "width": 800,
+          "height": 600,
+          "alt": "",
+          "caption": "",
+          "resources": null,
+          "instructor_notes": null
+        },
+        {
+          "content_source": null,
+          "id": 476051,
+          "is_public": true,
+          "key": "54e5e3b5-cdfb-4422-8f17-276bf15af076",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:21.792Z",
+          "version": "1.0.0",
+          "text": "Not all of the code that we write is 100% _JavaScript_ code. Some of the code is interacting with the Web APIs (also known as \"browser APIs\"). There are many more examples, but both `.addEventListener()` and `setTimeout()` are Web APIs. \n\nLet's look back at this code:\n\n```js\nconsole.log('howdy'); // 1\ndocument.addEventListener('click', // 2\n  function numbers() {\n    console.log('123');\n});\nconsole.log('ice cream is tasty'); // 3\n```\n\nFirst, the browser runs this block of code to completion -- that is, steps 1, 2, and 3. Step 2 passes an event handler (`numbers`) to the browser for future use: the browser will hold this function until there's a click event. \n\n\nWhat happens if someone clicks before this block of code is done? When there is a click event and there is code already running, the `numbers` function can't just be added directly to the Call Stack because of JavaScript's run-to-completion nature; we can't interrupt any code that might currently be happening. So the function is placed in the Queue. When all of the functions in the Call Stack have finished (also known as _idle time_), then the Queue is checked to see if anything is waiting. If something is in the Queue, then it's run, creating an entry on the call stack.\n\nIMPORTANT: The key things to remember here are 1) current synchronous code runs to completion, and 2) events are processed when the browser isn't busy. Asynchronous code (such as loading an image) runs outside of this loop and sends an event when it is done.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 478456,
+          "is_public": true,
+          "key": "3d14ba6d-2255-41e9-a876-d9a42dbeaefc",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "L4 - 34 - Event Loop V1",
+          "updated_at": "2019-10-08T12:34:22.716Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69635",
+            "youtube_id": "uBdemYBG-ek",
+            "topher_id": "84f23ffa-d4a2-11e9-b285-e78fb052ad6c",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d82_l4-34-event-loop-v1/l4-34-event-loop-v1_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d82_l4-34-event-loop-v1/l4-34-event-loop-v1_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a316d82_l4-34-event-loop-v1/l4-34-event-loop-v1_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a316d82_l4-34-event-loop-v1/l4-34-event-loop-v1_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a316d82_l4-34-event-loop-v1/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476067,
+          "is_public": true,
+          "key": "87ca26fb-ae8e-473f-8e76-8ca2fb158cdf",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "MatchingQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:34:23.395Z",
+          "version": "1.0.0",
+          "question": {
+            "complex_prompt": {
+              "text": "What is the order that the `iceCream` function goes through if the `<footer>` is clicked?\n\n```js\nconst pageFooter = document.querySelector('#page-footer');\n\npageFooter.addEventListener('click', function iceCream () {\n    const footerDetails = document.querySelector('#details');\n    \n    footerDetails.textContent = 'Everyone should eat ice cream!';\n});\n```\n"
+            },
+            "default_feedback": "Remember that a function is in the Call Stack only if it is executing. Where does a function go to wait until it's needed?",
+            "correct_feedback": "When this code is run, the `iceCream` function is given to the browser. When the `<footer>` is clicked, the code moves to the Queue. Then, when the Call Stack is empty, `iceCream` is moved over to the Call Stack and invoked.",
+            "video_feedback": null,
+            "concepts_label": "Order",
+            "answers_label": "Event Loop Location",
+            "concepts": [
+              {
+                "text": "First",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513027171111",
+                  "text": "Browser"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "Second",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513028350896",
+                  "text": "the Queue"
+                },
+                "incorrect_feedbacks": []
+              },
+              {
+                "text": "Third",
+                "default_concept_feedback": null,
+                "correct_answer": {
+                  "id": "a1513028351514",
+                  "text": "the Call Stack"
+                },
+                "incorrect_feedbacks": []
+              }
+            ],
+            "answers": [
+              {
+                "id": "a1513028351514",
+                "text": "the Call Stack"
+              },
+              {
+                "id": "a1513027171111",
+                "text": "Browser"
+              },
+              {
+                "id": "a1513028350896",
+                "text": "the Queue"
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476069,
+          "is_public": true,
+          "key": "6dc0f22f-1436-4f29-88d1-a92d84630f98",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:24.148Z",
+          "version": "1.0.0",
+          "text": "## Recap\n\nThis section uncovered how JavaScript works under the hood; We looked at how JavaScript, the DOM, and Web APIs all fit together.\n\nSpecifically, we looked at how JavaScript is a single-threaded programming language, which means it can only execute one thing at a time. We looked at how JavaScript keeps track of what functions are running by using the Call Stack. We also looked at how asynchronous code is handled.\n\nAsynchronous code makes use of the JavaScript Event Loop. Any asynchronous code (like `setTimeout` or the function passed to `.addEventListener()`) is handled by the browser. When this asynchronous code is ready to be executed, it's moved to the queue where it waits until the Call Stack is empty. Whenever the Call Stack is empty, code moves from the Queue over to the Call Stack and gets executed.\n\nKnowing how JavaScript and the Event Loop work can help us write code that is more efficient.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476070,
+          "is_public": true,
+          "key": "1aafa7f7-1599-4c6b-bccd-4cdd3478befb",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:24.929Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)\n* [Events and Handlers Overview](https://developer.mozilla.org/en-US/docs/Web/Guide/Events/Overview_of_Events_and_Handlers)\n* [What the heck is the event loop anyway? by Philip Roberts on YouTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ)\n",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 476047,
+      "is_public": true,
+      "key": "625f661e-b478-4844-bd15-59f752379373",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "setTimeout",
+      "updated_at": "2019-10-08T12:34:31.600Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        476071,
+        476072,
+        476073,
+        476074,
+        476075
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 476071,
+          "is_public": true,
+          "key": "32005f44-356d-4130-8503-2d28b57df9b1",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:27.436Z",
+          "version": "1.0.0",
+          "text": "## Running Code Later\n\nSimilarly to `.addEventListener()` code being run at some later point, there is the `setTimeout()` function that will run code at a point later in time. The `setTimeout()` function takes:\n\n* a function to run at some later time\n* the number of milliseconds the code should wait before running the function\n\nLet's check out an example:\n\n\n```js\nsetTimeout(function sayHi() {\n    console.log('Howdy');\n}, 1000);\n```\n\nIf we ran this code, the string `'Howdy'` would appear in the console in about 1,000 milliseconds or in just about 1 second.\n\nSince `setTimeout()` is an API provided by the browser, the call to `setTimeout()` gives the `sayHi()` function over to the browser which it starts a timer. After the timer is finished, the `sayHi()` function moves to the Queue. If the Call Stack is empty, then the `sayHi()` function is moved to the Call Stack and executed.",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476072,
+          "is_public": true,
+          "key": "0fa682dc-d8f7-4873-b249-950cbda255b6",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:28.108Z",
+          "version": "1.0.0",
+          "text": "## `setTimeout()` with Delay of 0\n\nAn interesting aspect to `setTimeout()` is that we can pass it a delay of `0` milliseconds.\n\n```js\nsetTimeout(function sayHi() {\n    console.log('Howdy');\n}, 0);  // ← 0 milliseconds!\n```\n\nYou might think that since it has a delay of 0 milliseconds, that the `sayHi` function would run immediately. However, it still goes through the JavaScript Event Loop. So the function is handed off to the browser where the browser starts a timer for 0 milliseconds. Since the timer ends immediately, the `sayHi` function will move to the Queue, and then to the Call Stack once the Call Stack has finished executing any currently-running tasks.\n\nSo why is this helpful? Well, this technique can help us to convert potentially long-running code to one that's broken up to allow for the browser to handle user interactions!\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476073,
+          "is_public": true,
+          "key": "d32e0237-d44c-472c-8508-ce0d6ccfeba9",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:28.967Z",
+          "version": "1.0.0",
+          "text": "### Break Up Long-Running Code\n\nDo you remember back to a previous section when we wrote JavaScript code to add two hundred paragraphs to the page? Now, instead of adding two _hundred_ paragraphs to the page, what if we added _twenty thousand_? That's a lot of elements to create, append, and insert into the page!\n\nNow keep in mind how reflow and repaint affect an app's performance. We want to write our JavaScript code to take into consideration reflow and repaint and to cause the fewest number of these.\n\nHowever, we also want to make sure our app is responsive to user interaction. While JavaScript is running, the page is \"busy\" and the user won't be able to interact with the page (e.g. clicking a button, filling out a form). Remember that this is because JavaScript runs _synchronously_. So it will run to completion (creating, appending, and inserting all twenty thousand elements), and it does this _before_ it is able to respond to any actions the user has taken. The function creates all of these elements and adds the to the page will be in the Call Stack until it's completely finished.\n\nOne way to give the user a chance to interact with the page is to break up the adding of the content into chunks. Let's do this with `setTimeout()`:\n\n```js\nlet count = 1\n\nfunction generateParagraphs() {\n    const fragment = document.createDocumentFragment();\n\n    for (let i = 1; i <= 500; i++) {\n        const newElement = document.createElement('p');\n        newElement.textContent = 'This is paragraph number ' + count;\n        count = count + 1;\n\n        fragment.appendChild(newElement);\n    }\n\n    document.body.appendChild(fragment);\n\n    if (count < 20000) {\n        setTimeout(generateParagraphs, 0);\n    }\n}\n\ngenerateParagraphs();\n```\n\nThis code starts off by setting a `count` variable to `1`. This will keep track of the number of paragraphs that have been added. The `generateParagraphs()` function will add 500 paragraphs to the page each time it's invoked. The interesting thing is that there's a `setTimeout()` call at the end of the `generateParagraphs()` function. If there less than twenty thousand elements, then it `setTimeout()` will be used to call the `generateParagraphs()` function.\n\nIf you try running this code on a page, you can still interact with the page while the code is running. It doesn't lock up or freeze the page. And it doesn't lock up or freeze because of the `setTimeout()` calls.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476074,
+          "is_public": true,
+          "key": "aa0b308c-5f7b-4a21-9a78-112649861e85",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:30.092Z",
+          "version": "1.0.0",
+          "text": "## `setTimeout()` Recap\n\nThe browser-provided `setTimeout()` function takes another function and a delay, and invokes the function after the delay has passed.\n\nKnowing how the JavaScript Event Loop works, we can use the `setTimeout()` method to help us write code that allows the browser to handle user interactions.\n",
+          "instructor_notes": "",
+          "resources": null
+        },
+        {
+          "content_source": null,
+          "id": 476075,
+          "is_public": true,
+          "key": "cbe3230b-87dd-4cba-af67-765d9847d2ee",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:30.856Z",
+          "version": "1.0.0",
+          "text": "### Further Research\n\n* [setTimeout docs on MDN](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)\n* [Concurrency model and Event Loop](https://developer.mozilla.org/en-US/docs/Web/JavaScript/EventLoop)\n* [What the heck is the event loop anyway? by Philip Roberts on YouTube](https://www.youtube.com/watch?v=8aGhZQkoFbQ)\n* [Scheduling: setTimeout and setInterval](https://javascript.info/settimeout-setinterval)\n",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467415,
+      "is_public": true,
+      "key": "aa90b94f-715a-4531-a953-9a13bb34f466",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Lesson summary",
+      "updated_at": "2019-10-08T12:34:33.912Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478547,
+        476076
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478547,
+          "is_public": true,
+          "key": "976cbf17-25d8-4042-8d44-87e896e21773",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "Performance - Lesson Summary",
+          "updated_at": "2019-10-08T12:34:32.021Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69726",
+            "youtube_id": "7J_-rLV0Lp0",
+            "topher_id": "84f2b160-d4a2-11e9-b3d8-fbf73986bef3",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b17b_l4-30-hs-lesson-summary/l4-30-hs-lesson-summary_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b17b_l4-30-hs-lesson-summary/l4-30-hs-lesson-summary_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b17b_l4-30-hs-lesson-summary/l4-30-hs-lesson-summary_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b17b_l4-30-hs-lesson-summary/l4-30-hs-lesson-summary_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b17b_l4-30-hs-lesson-summary/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476076,
+          "is_public": true,
+          "key": "3af294d6-c6e5-465c-89c9-9c6860397a66",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "TextAtom",
+          "title": null,
+          "updated_at": "2019-10-08T12:34:33.276Z",
+          "version": "1.0.0",
+          "text": "If you'd like to learn more about how to make performance improvements to your sites, check out our course [Browser Rendering Optimization](https://www.udacity.com/course/browser-rendering-optimization--ud860) made in partnership with Google.",
+          "instructor_notes": "",
+          "resources": null
+        }
+      ]
+    },
+    {
+      "content_source": null,
+      "id": 467416,
+      "is_public": true,
+      "key": "9df84e00-6a39-451d-bc1f-33a2c5a1fc7c",
+      "locale": "en-us",
+      "root_owner_id": null,
+      "semantic_type": "Concept",
+      "title": "Course summary",
+      "updated_at": "2019-10-08T12:34:38.201Z",
+      "version": "1.0.0",
+      "resources": null,
+      "_atoms_ids": [
+        478548,
+        476077,
+        476078
+      ],
+      "atoms": [
+        {
+          "content_source": null,
+          "id": 478548,
+          "is_public": true,
+          "key": "b615d73b-a5ce-41cf-82f4-849eacaa25ac",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "VideoAtom",
+          "title": "JavaScript and the DOM - Course Summary",
+          "updated_at": "2019-10-08T12:34:34.968Z",
+          "version": "1.0.0",
+          "tags": [],
+          "instructor_notes": "",
+          "resources": null,
+          "video": {
+            "id": "69728",
+            "youtube_id": "eu7R-VGewKY",
+            "topher_id": "84f2b11a-d4a2-11e9-b3d7-f35b13291610",
+            "subtitles": [],
+            "transcodings": {
+              "uri_480p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1a0_l4-32-hs-course-summary/l4-32-hs-course-summary_480p.mp4",
+              "uri_480p_1000kbps_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1a0_l4-32-hs-course-summary/l4-32-hs-course-summary_480p_1000kbps.mp4",
+              "uri_480p_ogg": "https://video.udacity-data.com/topher/2017/December/5a31b1a0_l4-32-hs-course-summary/l4-32-hs-course-summary_480p.ogg",
+              "uri_720p_mp4": "https://video.udacity-data.com/topher/2017/December/5a31b1a0_l4-32-hs-course-summary/l4-32-hs-course-summary_720p.mp4",
+              "uri_hls": "https://video.udacity-data.com/topher/2017/December/5a31b1a0_l4-32-hs-course-summary/hls/playlist.m3u8"
+            }
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476077,
+          "is_public": true,
+          "key": "3a6ebd71-3de7-41ab-bb57-e6246604d805",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "RadioQuizAtom",
+          "title": "",
+          "updated_at": "2019-10-08T12:34:36.089Z",
+          "version": "1.0.0",
+          "question": {
+            "prompt": "Please take moment to rate the quality of this course.",
+            "correct_feedback": "Thanks for your response.",
+            "video_feedback": null,
+            "default_feedback": null,
+            "answers": [
+              {
+                "id": "a1513028579442",
+                "text": "Course content was too in-depth.",
+                "is_correct": true,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513028587832",
+                "text": "Course content was too easy.",
+                "is_correct": false,
+                "incorrect_feedback": null
+              },
+              {
+                "id": "a1513028588383",
+                "text": "Course content was just right.",
+                "is_correct": false,
+                "incorrect_feedback": null
+              }
+            ]
+          }
+        },
+        {
+          "content_source": null,
+          "id": 476078,
+          "is_public": true,
+          "key": "2a09f731-c8cd-4215-8e90-dc2db6e4eddc",
+          "locale": "en-us",
+          "root_owner_id": null,
+          "semantic_type": "ReflectAtom",
+          "title": "Reflect",
+          "updated_at": "2019-10-08T12:34:37.309Z",
+          "version": "1.0.0",
+          "instructor_notes": null,
+          "resources": null,
+          "question": {
+            "title": null,
+            "semantic_type": "TextQuestion",
+            "evaluation_id": null,
+            "text": "I would love to hear your thoughts about this course! Feel free to write anything about your experience taking this course in the space below. Some things you could address are:\n\n* the number and/or quality of the headshot videos\n* the number and/or quality of the screencast videos\n* the number and/or quality of quizzes\n* the amount of text\n* the level of detail\n"
+          },
+          "answer": {
+            "text": "Thanks for your feedback!",
+            "video": null
+          }
+        }
+      ]
+    }
+  ]
+}
