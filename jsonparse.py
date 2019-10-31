@@ -56,7 +56,7 @@ def main():
     files = getFilePaths(dir)
 
     for i, file in enumerate(files, 1):
-        parseJSON(file, f'{output} {i}')
+        parseJSON(file, f'{output} {i}.txt')
 
 
 if __name__ == '__main__':
