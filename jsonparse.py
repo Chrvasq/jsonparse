@@ -9,7 +9,7 @@ def input_args():
         prog='jsonparse.py',
         formatter_class=argparse.ArgumentDefaultsHelpFormatter)
     parser.add_argument('--dir', type=str, help='set directory of json file', default='./json_files')
-    parser.add_argument('--output', type=str, help='set output directory', default='./text_files/text_file')
+    # parser.add_argument('--output', type=str, help='set output directory', default='./text_files/text_file')
 
     return parser.parse_args()
 
@@ -21,9 +21,12 @@ def parseJSON(file, outputfile):
     concept_list = json_data['concepts']
     # new list to contain all atoms
     atoms_list = []
+    concept_count = 1
     for concept in concept_list:
+        atoms_list.append({'concept': concept_count})
         for atom in concept['atoms']:
             atoms_list.append(atom)
+        concept_count += 1
 
     # check for text key in atom
     # if text key, print out value otherwise continue
@@ -32,6 +35,12 @@ def parseJSON(file, outputfile):
         for key, value in atom.items():
             if key == 'text':
                 textcontent = value
+                text_list.append(textcontent)
+            elif key == 'concept' and value == 1:
+                textcontent = 'Concept ' + str(value)
+                text_list.append(textcontent)
+            elif key == 'concept':
+                textcontent = '\nConcept ' + str(value)
                 text_list.append(textcontent)
             else:
                 continue
@@ -52,10 +61,10 @@ def getFilePaths(directory):
 def main():
     args = input_args()
     dir = args.dir
-    output = args.output
     files = getFilePaths(dir)
 
     for i, file in enumerate(files, 1):
+        output = './text_files/' + os.path.basename(file)
         parseJSON(file, f'{output} {i}.txt')
 
 
