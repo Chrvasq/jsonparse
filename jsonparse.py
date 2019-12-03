@@ -63,9 +63,11 @@ def main():
     dir = args.dir
     files = getFilePaths(dir)
 
-    for i, file in enumerate(files, 1):
-        output = './text_files/' + os.path.basename(file)
-        parseJSON(file, f'{output} {i}.txt')
+    for file in files:
+        file_name = os.path.basename(file)
+        # output below contains filename without .json extension
+        output = './text_files/' + os.path.splitext(file_name)[0]
+        parseJSON(file, f'{output}.txt')
 
 
 if __name__ == '__main__':
